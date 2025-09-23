@@ -14968,17 +14968,17 @@ body.home-eleven #menu-btn:hover {
 }
 .mainmenu li.has-droupdown .submenu.menu-link {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 800px;
-  left: -320px;
+  justify-content: flex-start;
+  align-items:flex-start;
+  /* width: 800px; */
+  /* left: -320px;  */
 }
 .mainmenu li.has-droupdown .submenu.menu-link::after {
   display: none;
 }
 .mainmenu li.has-droupdown .submenu.menu-link .menu-item {
-  width: 33.333%;
-  margin-right: 20px;
+  /* width: 33.333%; */
+  /* margin-right: 20px; */
 }
 .mainmenu li.has-droupdown .submenu.menu-link .menu-item:not(:first-child) {
   border-left: 1px solid rgba(196, 196, 196, 0.1490196078);

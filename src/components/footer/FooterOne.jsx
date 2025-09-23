@@ -116,25 +116,35 @@ function FooterOne() {
                     alt="finbiz_footer"
                   />
                 </div>
-                <div className="contact-info">
-                  <p>
-                    <i className="fas fa-map-marker-alt me-2"></i> Unit no. 889,
-                    Vegas Mall, Plot no. 6, Dwarka Sec-14, New Delhi - 110075
-                  </p>
-                  <p>
-                    <i className="fas fa-phone me-2"></i>{" "}
-                    <a href="tel:+919999653855">+91 9999653855</a>
-                  </p>
-                  <p>
-                    <i className="fas fa-phone me-2"></i>{" "}
-                    <a href="tel:+918376070809">+91 8376070809</a>
-                  </p>
-                  <p>
-                    <i className="fas fa-envelope me-2"></i>{" "}
-                    <a href="mailto:Info.pinnacleinc@gmail.com">
-                      Info.pinnacleinc@gmail.com
-                    </a>
-                  </p>
+                <div className="quick-link-inner">
+                  <ul className="links">
+                    <li>
+                      <Link
+                        href="https://maps.app.goo.gl/DVYvrv2v5Er8rSxC9"
+                        target="_blank"
+                      >
+                        <i className="fas fa-map-marker-alt" /> Unit no. 889,
+                        Vegas Mall, Plot no. 6, Dwarka Sec-14, New Delhi -
+                        110075
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="tel:+919999653855">
+                        <i className="fas fa-phone" /> +91 9999653855
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="tel:+918376070809">
+                        <i className="fas fa-phone" /> +91 8376070809
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="mailto:Info.pinnacleinc@gmail.com">
+                        <i className="fas fa-envelope" />{" "}
+                        Info.pinnacleinc@gmail.com
+                      </Link>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
