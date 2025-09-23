@@ -14,11 +14,13 @@ import ContactForm from "@/components/contactform/ContactForm";
 import MapOne from "@/components/map/MapOne";
 import FooterOne from "@/components/footer/FooterOne";
 import BackToTop from "@/components/BackToTop";
+import Preloader from "@/components/preloader/Preloader";
 
 export default function Home() {
   return (
     <div className="#">
 
+      <Preloader />
       <HeaderOne />
       <BannerOne />
       <AboutOne />
