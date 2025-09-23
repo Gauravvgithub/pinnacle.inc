@@ -71,21 +71,21 @@ function Nav() {
             </ul>
           </li>
 
-          <li className="has-droupdown">
-            <Link className="nav-link" href={"#"}>
+          <li>
+            <Link href={"/blog-grid"}>
               Blog
             </Link>
-            <ul className="submenu">
-              <li>
+            {/* <ul className="submenu"> */}
+              {/* <li>
                 <Link href={"/blog-list"}>Blog List</Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link href={"/blog-grid"}>Blog Grid</Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link href={"/blog-details-default"}>Blog Details</Link>
-              </li>
-            </ul>
+              </li> */}
+            {/* </ul> */}
           </li>
 
           {/* <li>

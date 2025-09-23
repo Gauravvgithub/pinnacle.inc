@@ -122,13 +122,13 @@ function HeaderOne() {
                 <div className="main-header">
                   <Nav />
                   <div className="button-area">
-                    <button
+                    {/* <button
                       id="search"
                       className="rts-btn btn-primary-alta"
                       onClick={handleSearchClick}
                     >
                       <i className="far fa-search" />
-                    </button>
+                    </button> */}
                     <Link
                       href={"#"}
                       className="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn"
