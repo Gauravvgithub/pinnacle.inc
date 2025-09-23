@@ -101,8 +101,8 @@ function HeaderTen() {
                                 </div>
                                 <div className="number-area">
                                     <span>Call us anytime</span>
-                                    <Link href="tel:123-456-7890">
-                                        <h6 className="call">+256 21458.2146</h6>
+                                    <Link href="tel:+919999653855">
+                                        <h6 className="call">+91 9999653855</h6>
                                     </Link>
                                 </div>
                             </div>

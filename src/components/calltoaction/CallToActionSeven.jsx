@@ -35,8 +35,8 @@ function CallToActionSeven() {
                                         </div>
                                         <div className="number-area">
                                             <span>Need Help?</span>
-                                            <a href="tel:123-456-7890">
-                                                <h6 className="call">+256 21458.2146</h6>
+                                            <a href="tel:+919999653855">
+                                                <h6 className="call">+91 9999653855</h6>
                                             </a>
                                         </div>
                                     </div>

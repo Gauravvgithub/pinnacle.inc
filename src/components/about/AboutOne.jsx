@@ -89,8 +89,8 @@ function AboutOne() {
                                             />
                                             <div className="call-details">
                                                 <span>Call us anytime</span>
-                                                <a href="tel:+18475555555">
-                                                    <h6 className="title">+256 21458.2146</h6>
+                                                <a href="tel:+919999653855">
+                                                    <h6 className="title">+91 9999653855</h6>
                                                 </a>
                                             </div>
                                         </div>

@@ -88,11 +88,11 @@ function Nav() {
             </ul>
           </li>
 
-          <li>
+          {/* <li>
             <Link className="nav-item" href={"/pricing-plane"}>
               Pricing Plan
             </Link>
-          </li>
+          </li> */}
 
           <li>
             <Link className="nav-item" href={"/contactus"}>
