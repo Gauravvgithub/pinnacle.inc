@@ -94,11 +94,11 @@ function Nav() {
             </Link>
           </li> */}
 
-          <li>
+          {/* <li>
             <Link className="nav-item" href={"/contactus"}>
               Contact
             </Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>

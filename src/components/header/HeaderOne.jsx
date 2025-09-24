@@ -130,8 +130,8 @@ function HeaderOne() {
                       <i className="far fa-search" />
                     </button> */}
                     <Link
-                      href={"#"}
-                      className="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn"
+                      href={"/contactus"}
+                      className="rts-btn btn-primary ml_sm--5 header-one-btn quote-btn"
                     >
                       Get Quote
                     </Link>
