@@ -14,6 +14,35 @@ export default function Home() {
 
       <Breadcrumb title="Contact Us" breadcrumbs={breadcrumbs} />
 
+      <section className="pinnacle-intro py-5 bg-light">
+        <div className="container">
+          <h2 className="mb-4" >
+            Get in Touch with Pinnacle
+          </h2>
+          <p className="mb-3">
+            When someone is making plans for their dream home, or maybe a tall
+            office building, the first thing that comes to mind is finding a
+            builder you can trust. That's when we come in. If you ever wondered
+            who to trust, contact Pinnacle Construction Company. It's easy to
+            get in touch with us, and we're always willing to listen.
+          </p>
+          <p>
+            Small talks are the first step toward big projects. A short talk. A
+            simple question. Then, little by little, it turns into something
+            real. We at Pinnacle think that every question is important. You can
+            always contact Pinnacle if you need help with a project, want to
+            know how much something will cost, or need expert advice.
+          </p>
+          <p>
+            There are more than just engineers and managers on our team. We
+            listen. We know that sometimes you need more than just numbers; you
+            need clarity. That's why we make it easy to talk to each other.
+            Call. Send an email. You can also just come into our office. We're
+            here. Always.
+          </p>
+        </div>
+      </section>
+
       {/* contact single area start */}
       <div className="rts-contact-area rts-section-gap">
         <div className="container">
@@ -114,15 +143,14 @@ export default function Home() {
           <div className="row">
             <div className="col-12">
               <div className="contact-map-area-fluid">
-                {/* <iframe
+                <iframe
                   className="contact-map"
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14602.288851207937!2d90.47855065!3d23.798243149999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1663151706353!5m2!1sen!2sbd"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.9676462340926!2d77.029572!3d28.6007474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1dd61eb460af%3A0xe89377d97456bc5e!2sVegas%20Mall!5e0!3m2!1sen!2sin!4v1758606822347!5m2!1sen!2sin"
                   style={{ border: 0 }}
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                /> */}
-                <iframe className="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.9676462340926!2d77.029572!3d28.6007474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1dd61eb460af%3A0xe89377d97456bc5e!2sVegas%20Mall!5e0!3m2!1sen!2sin!4v1758606822347!5m2!1sen!2sin" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                ></iframe>
                 <img
                   className="location"
                   src="assets/images/contact/shape/location.svg"
