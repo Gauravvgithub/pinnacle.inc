@@ -203,7 +203,7 @@ function FooterOne() {
                 <div className="footer-logo mb-4">
                   <Link href="/">
                     <img
-                      src="/assets/images/logo-light.png"
+                      src="/assets/images/logo/logo-2.svg"
                       alt="Company Logo"
                       style={{ maxWidth: "180px", height: "auto" }}
                     />
@@ -213,7 +213,7 @@ function FooterOne() {
                   We are Pinnacle Inc – delivering excellence in construction,
                   innovation, and customer satisfaction.
                 </p>
-                <div className="social mt-3">
+                <div className="social mt-3 gap-3 d-flex">
                   <Link
                     href="https://www.facebook.com"
                     target="_blank"
@@ -222,11 +222,11 @@ function FooterOne() {
                     <i className="fab fa-facebook-f"></i>
                   </Link>
                   <Link
-                    href="https://www.twitter.com"
+                    href="https://wa.me/919999653855?text=Hello%20I%20want%20to%20know%20more%20about%20your%20services"
                     target="_blank"
                     className="me-3 text-light"
                   >
-                    <i className="fab fa-twitter"></i>
+                    <i className="fab fa-whatsapp"></i>
                   </Link>
                   <Link
                     href="https://www.linkedin.com"
@@ -236,7 +236,7 @@ function FooterOne() {
                     <i className="fab fa-linkedin-in"></i>
                   </Link>
                   <Link
-                    href="https://www.instagram.com"
+                    href="https://www.instagram.com/pinnaclesellerservices/?igsh=dXIwMDl4d2ZucWRk#"
                     target="_blank"
                     className="text-light"
                   >
