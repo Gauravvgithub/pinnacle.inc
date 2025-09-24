@@ -27,7 +27,7 @@ export default function Preloader() {
         <div className="dot-spinner__dot" />
         <div className="dot-spinner__dot" />
       </div>
-      <p className="loading-text">Please wait...</p>
+      {/* <p className="loading-text">Please wait...</p> */}
     </StyledWrapper>
   );
 }
