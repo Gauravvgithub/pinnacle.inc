@@ -197,7 +197,7 @@ function ServiceOne() {
                                         </h3>
                                     </div>
                                     <div className="cta-right">
-                                        <Link className="rts-btn btn-white" href="appoinment.html">
+                                        <Link className="rts-btn btn-white" href="/contactus">
                                             Lets Work Together
                                         </Link>
                                     </div>
