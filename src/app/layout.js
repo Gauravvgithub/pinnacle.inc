@@ -20,9 +20,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <title>Finbiz Business Consulting NextJs Template</title>
-        <meta name="author" content="themewant" />
-        <meta name="description" content="Finbiz Business Consulting NextJs Template" />
+        <title>Pinnacle Inc</title>
+        <meta name="author" content="Pinnacle Inc" />
+        <meta name="description" content="Pinnacle Inc" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/assets/images/fav.png" />
       </Head>
