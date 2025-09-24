@@ -369,9 +369,9 @@ function FooterOne() {
                       href="https://nationalmarketingprojects.com/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="font-semibold text-primary hover:underline color-white"
+                      className="font-semibold hover:underline color-white"
                     >
-                      NMPI
+                      National Marketing Projects
                     </a>
                   </p>
                 </div>
