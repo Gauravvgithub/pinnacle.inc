@@ -72,7 +72,7 @@ function AboutOne() {
                                             </a>
                                             <div className="founder-details">
                                                 <a href="team-details.html">
-                                                    <h6 className="title">Adrew David</h6>
+                                                    <h6 className="title" style={{fontSize:"12px"}}>Mr. Shivanand Pandey</h6>
                                                 </a>
                                                 <span>CEO &amp; Founder</span>
                                             </div>

@@ -16623,7 +16623,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
 .banner-one-inner {
   width: 50%;
   margin-left: auto;
-  padding: 160px 0 190px 0;
+  padding: 160px 20px 190px 20px;
   position: relative;
 }
 @media only screen and (max-width: 1199px) {
