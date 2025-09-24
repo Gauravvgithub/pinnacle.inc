@@ -85,12 +85,12 @@ function HeaderOne() {
                       </Link>
                     </li>
                     <li>
-                      <Link href={"#"}>
-                        <i className="fab fa-twitter" />
+                      <Link href={"https://wa.me/919999653855?text=Hello%20I%20want%20to%20know%20more%20about%20your%20services"} target="_blank">
+                        <i className="fab fa-whatsapp" />
                       </Link>
                     </li>
                     <li>
-                      <Link href={"#"}>
+                      <Link href={"https://www.instagram.com/pinnaclesellerservices?igsh=dXIwMDl4d2ZucWRk"} target="_blank">
                         <i className="fab fa-instagram" />
                       </Link>
                     </li>
