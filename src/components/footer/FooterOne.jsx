@@ -101,6 +101,11 @@ function FooterOne() {
                         <i className="far fa-arrow-right" /> Blogs
                       </Link>
                     </li>
+                    <li>
+                      <Link href="/project">
+                        <i className="far fa-arrow-right" /> Projects
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>

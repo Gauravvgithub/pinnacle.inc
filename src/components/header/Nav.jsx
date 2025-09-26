@@ -14,28 +14,30 @@ function Nav() {
           </li>
 
           <li className="has-droupdown">
-  <Link className="nav-link" href="/our-service">
-    Services
-  </Link>
-  <ul className="submenu menu-link3">
-    <li>
-      <Link href="/park-development">Park Development</Link>
-    </li>
-    <li>
-      <Link href="/infrastructure-development">Infrastructure Development</Link>
-    </li>
-    <li>
-      <Link href="/general-contracting-services">General Contracting</Link>
-    </li>
-    <li>
-      <Link href="/design-build-renovation-remodeling">
-        Design-Build Renovation & Remodeling
-      </Link>
-    </li>
-  </ul>
-</li>
-
-
+            <Link className="nav-link" href="/our-service">
+              Services
+            </Link>
+            <ul className="submenu menu-link3">
+              <li>
+                <Link href="/park-development">Park Development</Link>
+              </li>
+              <li>
+                <Link href="/infrastructure-development">
+                  Infrastructure Development
+                </Link>
+              </li>
+              <li>
+                <Link href="/general-contracting-services">
+                  General Contracting
+                </Link>
+              </li>
+              <li>
+                <Link href="/design-build-renovation-remodeling">
+                  Design-Build Renovation & Remodeling
+                </Link>
+              </li>
+            </ul>
+          </li>
           <li className="has-droupdown">
             <Link className="nav-link" href={"#"}>
               Pages
@@ -58,23 +60,24 @@ function Nav() {
                   <li>
                     <Link href={"/team"}>Teams</Link>
                   </li>
+                  <li>
+                    <Link href={"/project"}>Projects</Link>
+                  </li>
                 </ul>
               </li>
             </ul>
           </li>
 
           <li>
-            <Link href={"/blog-grid"}>
-              Blog
-            </Link>
+            <Link href={"/blog-grid"}>Blog</Link>
             {/* <ul className="submenu"> */}
-              {/* <li>
+            {/* <li>
                 <Link href={"/blog-list"}>Blog List</Link>
               </li> */}
-              {/* <li>
+            {/* <li>
                 <Link href={"/blog-grid"}>Blog Grid</Link>
               </li> */}
-              {/* <li>
+            {/* <li>
                 <Link href={"/blog-details-default"}>Blog Details</Link>
               </li> */}
             {/* </ul> */}
