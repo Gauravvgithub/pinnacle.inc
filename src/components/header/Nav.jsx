@@ -14,35 +14,27 @@ function Nav() {
           </li>
 
           <li className="has-droupdown">
-            <Link className="nav-link" href={"/our-service"}>
-              Services
-            </Link>
-            <ul className="submenu menu-link3">
-              <li className="sub-droupdown">
-                <Link className="sub-menu-link" href={"#"}>
-                  Our Service
-                </Link>
-                <ul className="submenu third-lvl">
-                  <li>
-                    <Link href={"/service-details"}>Park Development</Link>
-                  </li>
-                  <li>
-                    <Link href={"/service-details"}>
-                      Infrastructure Development
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={"/service-details"}>General Contracting</Link>
-                  </li>
-                  <li>
-                    <Link href={"/service-details"}>
-                      Design-Build Renovation & Remodeling
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
+  <Link className="nav-link" href="/our-service">
+    Services
+  </Link>
+  <ul className="submenu menu-link3">
+    <li>
+      <Link href="/park-development">Park Development</Link>
+    </li>
+    <li>
+      <Link href="/infrastructure-development">Infrastructure Development</Link>
+    </li>
+    <li>
+      <Link href="/general-contracting-services">General Contracting</Link>
+    </li>
+    <li>
+      <Link href="/design-build-renovation-remodeling">
+        Design-Build Renovation & Remodeling
+      </Link>
+    </li>
+  </ul>
+</li>
+
 
           <li className="has-droupdown">
             <Link className="nav-link" href={"#"}>

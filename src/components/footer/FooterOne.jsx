@@ -14,11 +14,14 @@ function FooterOne() {
               <div className="footer-one-single-wized">
                 <div className="footer-logo mb-4">
                   <Link href="/">
-                    <img
+                    {/* <img
                       src="/assets/images/logo/logo-2.svg"
                       alt="Company Logo"
                       style={{ maxWidth: "180px", height: "auto" }}
-                    />
+                    /> */}
+                    <span>Logo here</span>
+                    <br />
+                    <span>Pinnacle Inc</span>
                   </Link>
                 </div>
                 <p className="text-light small">
@@ -71,40 +74,31 @@ function FooterOne() {
                 <div className="quick-link-inner">
                   <ul className="links">
                     <li>
-                      <Link href="#">
-                        <i className="far fa-arrow-right" /> Forum Support
+                      <Link href="/about-us">
+                        <i className="far fa-arrow-right" /> About Us
                       </Link>
                     </li>
+
                     <li>
-                      <Link href="#">
-                        <i className="far fa-arrow-right" /> Help &amp; FAQ
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#">
+                      <Link href="/contactus">
                         <i className="far fa-arrow-right" /> Contact Us
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
-                        <i className="far fa-arrow-right" /> Services
+                      <Link href="/our-service">
+                        <i className="far fa-arrow-right" /> Our Services
                       </Link>
                     </li>
                   </ul>
                   <ul className="links margin-left-70">
                     <li>
-                      <Link href="#">
-                        <i className="far fa-arrow-right" /> About Us
+                      <Link href="/team">
+                        <i className="far fa-arrow-right" /> Our Team
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
-                        <i className="far fa-arrow-right" /> My Account
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#">
-                        <i className="far fa-arrow-right" /> Our Company
+                      <Link href="/blog-grid">
+                        <i className="far fa-arrow-right" /> Blogs
                       </Link>
                     </li>
                   </ul>
@@ -176,10 +170,16 @@ function FooterOne() {
                 </p>
               </div>
               <div className="col-md-6 col-12 text-center">
-                <Link href="/terms-and-conditions" className="me-3 text-sm hover:underline">
+                <Link
+                  href="/terms-and-conditions"
+                  className="me-3 text-sm hover:underline"
+                >
                   Terms & Conditions
                 </Link>
-                <Link href="/privacy-policy" className="text-sm hover:underline">
+                <Link
+                  href="/privacy-policy"
+                  className="text-sm hover:underline"
+                >
                   Privacy Policy
                 </Link>
               </div>
