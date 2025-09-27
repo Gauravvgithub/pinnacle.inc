@@ -114,6 +114,7 @@ function HeaderOne() {
                     <img
                       src="/assets/images/logo/logo.png"
                       alt="finbiz-logo"
+                      style={{ maxWidth: "180px", height: "40px" }}
                     />
                   </Link>
                 </div>
