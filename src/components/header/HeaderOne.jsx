@@ -112,7 +112,7 @@ function HeaderOne() {
                 <div className="thumbnail">
                   <Link href={"/"}>
                     <img
-                      src="/assets/images/logo/logo-1.svg"
+                      src="/assets/images/logo/logo.png"
                       alt="finbiz-logo"
                     />
                   </Link>

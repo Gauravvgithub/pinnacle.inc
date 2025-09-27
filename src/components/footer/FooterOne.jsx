@@ -14,14 +14,14 @@ function FooterOne() {
               <div className="footer-one-single-wized">
                 <div className="footer-logo mb-4">
                   <Link href="/">
-                    {/* <img
-                      src="/assets/images/logo/logo-2.svg"
+                    <img
+                      src="/assets/images/logo/logo-light.png"
                       alt="Company Logo"
-                      style={{ maxWidth: "180px", height: "auto" }}
-                    /> */}
-                    <span>Logo here</span>
+                      style={{ maxWidth: "180px", height: "auto", borderRadius: "10px" }}
+                    />
+                    {/* <span>Logo here</span>
                     <br />
-                    <span>Pinnacle Inc</span>
+                    <span>Pinnacle Inc</span> */}
                   </Link>
                 </div>
                 <p className="text-light small">
