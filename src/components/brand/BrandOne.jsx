@@ -15,7 +15,7 @@ function BrandOne() {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="client-wrapper-one">
+                        <div className="client-wrapper-one gap-5">
                             <a href="#">
                                 <img src="assets/images/client/01.png" alt="business_finbiz" />
                             </a>
@@ -33,6 +33,15 @@ function BrandOne() {
                             </a>
                             <a href="#">
                                 <img src="assets/images/client/06.png" alt="business_finbiz" />
+                            </a>
+                            <a href="#">
+                                <img src="assets/images/client/07.png" alt="business_finbiz" />
+                            </a>
+                            <a href="#">
+                                <img src="assets/images/client/08.png" alt="business_finbiz" />
+                            </a>
+                            <a href="#">
+                                <img src="assets/images/client/09.png" alt="business_finbiz" />
                             </a>
                         </div>
                     </div>
