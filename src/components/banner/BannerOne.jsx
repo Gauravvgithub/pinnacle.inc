@@ -49,28 +49,33 @@ function BannerOne() {
                   style={{ paddingLeft: "20px" }}
                 >
                   <p className="pre-title">
-                    <span>Welcome!</span> Start Growing Your Business Today
+                    <span>Welcome to Pinnacle</span>
                   </p>
                   <h1 className="title ">
-                    Make <span>Business Unique </span> <br />
-                    With Great Ideas
+                    Trusted <span>Multi-Services</span> <br /> For Every
+                    Industry
                   </h1>
                   <p className="disc banner-para">
-                    Porttitor ornare fermentum aliquam pharetra facilisis
-                    gravida risus suscipit <br /> Dui feugiat fusce conubia
-                    ridiculus tristique parturient
+                    We specialize in construction, RO & water cooler
+                    installations, AC chiller plant servicing, security &
+                    manpower solutions, and open gym equipment supply—delivering
+                    quality and reliability.
                   </p>
-                  <a href="#" className="rts-btn btn-primary color-h-black">
-                    Get Consultant
+                  <a
+                    href="/contactus"
+                    className="rts-btn btn-primary color-h-black"
+                  >
+                    Get In Touch
                   </a>
                   <img
                     className="shape-img one"
                     src="assets/images/banner/shape/01.png"
-                    alt="banner_business"
+                    alt="pinnacle_banner"
                   />
                 </div>
                 {/* banner single content end */}
               </SwiperSlide>
+
               <SwiperSlide>
                 {/* banner single content */}
                 <div
@@ -78,27 +83,33 @@ function BannerOne() {
                   style={{ paddingLeft: "20px" }}
                 >
                   <p className="pre-title">
-                    <span>Welcome!</span> Start Growing Your Business Today
+                    <span>Our Expertise</span>
                   </p>
                   <h1 className="title ">
-                    Launch <span>Ultra Modern</span> <br /> Effective Business
+                    End-to-End <span>Reliable Services</span> <br /> Delivered
+                    On Time
                   </h1>
                   <p className="disc banner-para">
-                    Porttitor ornare fermentum aliquam pharetra facilisis
-                    gravida risus suscipit <br /> Dui feugiat fusce conubia
-                    ridiculus tristique parturient
+                    From large-scale projects to daily operational support, our
+                    team ensures timely execution, safety compliance, and
+                    long-term partnerships with leading organizations across
+                    industries.
                   </p>
-                  <a href="#" className="rts-btn btn-primary color-h-black">
-                    Get Consultant
+                  <a
+                    href="/our-service"
+                    className="rts-btn btn-primary color-h-black"
+                  >
+                    Explore Services
                   </a>
                   <img
                     className="shape-img one"
                     src="assets/images/banner/shape/01.png"
-                    alt="banner_business"
+                    alt="pinnacle_services"
                   />
                 </div>
                 {/* banner single content end */}
               </SwiperSlide>
+
               <SwiperSlide>
                 {/* banner single content */}
                 <div
@@ -106,23 +117,26 @@ function BannerOne() {
                   style={{ paddingLeft: "20px" }}
                 >
                   <p className="pre-title">
-                    <span>Welcome!</span> Start Growing Your Business Today
+                    <span>Why Choose Us</span>
                   </p>
                   <h1 className="title ">
-                    Make <span>Business Growth</span> <br /> With Next Level
+                    Quality <span>Execution</span> <br /> With Integrity
                   </h1>
                   <p className="disc banner-para">
-                    Porttitor ornare fermentum aliquam pharetra facilisis
-                    gravida risus suscipit <br /> Dui feugiat fusce conubia
-                    ridiculus tristique parturient
+                    Backed by successful projects for government and corporate
+                    clients, we deliver services with technical expertise,
+                    professionalism, and a strong commitment to excellence.
                   </p>
-                  <a href="#" className="rts-btn btn-primary color-h-black">
-                    Get Consultant
+                  <a
+                    href="/about-us"
+                    className="rts-btn btn-primary color-h-black"
+                  >
+                    Learn More
                   </a>
                   <img
                     className="shape-img one"
                     src="assets/images/banner/shape/01.png"
-                    alt="banner_business"
+                    alt="pinnacle_quality"
                   />
                 </div>
                 {/* banner single content end */}

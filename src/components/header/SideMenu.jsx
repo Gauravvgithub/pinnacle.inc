@@ -24,7 +24,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
           <a className="logo-1" href="/">
             <img
               className="logo"
-              src="/assets/images/logo/logo-1.svg"
+              src="/assets/images/logo/logo.png"
               alt="finbiz_logo"
             />
           </a>
@@ -51,8 +51,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
           </a>
           <div className="body d-none d-xl-block">
             <p className="disc">
-              We must explain to you how all seds this mistakens idea denouncing
-              pleasures and praising account.
+              Pinnacle offers multi-services including construction, security & manpower, water & RO cooler installations, gym setups, and AC chiller plant solutions.
             </p>
             <div className="get-in-touch">
               {/* title */}

@@ -16,25 +16,21 @@ function AboutOne() {
             <div className="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-md-2 order-sm-2 order-2 mt_md--50 mt_sm--50">
               <div className="rts-title-area">
                 <p className="pre-title">More About Us</p>
-                <h2 className="title">
-                  Who We Are
-                </h2>
+                <h2 className="title">Who We Are</h2>
               </div>
               <div className="about-inner">
                 <p className="disc">
-                  People are what Pinnacle is all about. Not just steel and
-                  cement. We trust each other, have a vision, and work together.
+                  Pinnacle is a trusted multi-services provider offering
+                  construction solutions, RO & water cooler installations, AC
+                  chiller plant services, security and manpower support, and
+                  open gym equipment supply.
                   <br />
+                  With successful projects delivered
+                  for leading government and corporate organizations, we combine
+                  technical expertise, professionalism, and timely execution.
                   <br />
-                  We are one of the best Pinnacle developers in Delhi, India,
-                  and work on government contracts, commercial hubs, and
-                  residential projects. Because we care about every detail, from
-                  the first design sketch to the last brick, our clients call us
-                  trusted contractors.
-                  <br />
-                  <br />
-                  We don't just build. We build Urban cities that make life
-                  better.
+                  Our commitment to quality, safety, and long-term partnerships
+                  makes us a reliable choice for clients across industries.
                 </p>
                 {/* start about success area */}
                 <div className="row about-success-wrapper">
