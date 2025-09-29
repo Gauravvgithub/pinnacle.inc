@@ -22,18 +22,18 @@ function Nav() {
                 <Link href="/park-development">Park Development</Link>
               </li>
               <li>
-                <Link href="/infrastructure-development">
-                  Infrastructure Development
+                <Link href="/water-cooler-installation-services">
+                  Water Cooler Installation Services
                 </Link>
               </li>
               <li>
-                <Link href="/general-contracting-services">
-                  General Contracting
+                <Link href="/security-manpower-services">
+                  Security & Manpower Services
                 </Link>
               </li>
               <li>
-                <Link href="/design-build-renovation-remodeling">
-                  Design-Build Renovation & Remodeling
+                <Link href="/ac-chiller-plants-services">
+                  AC Chiller Plants Services
                 </Link>
               </li>
             </ul>

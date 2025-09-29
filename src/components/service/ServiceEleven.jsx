@@ -1,173 +1,183 @@
 "use client";
 import React from "react";
 import Link from "next/link";
+import { CgGym } from "react-icons/cg";
+import { GiWaterTank } from "react-icons/gi";
+import { GiGuards } from "react-icons/gi";
+import { TbAirConditioning } from "react-icons/tb";
 
 function ServiceEleven() {
   return (
-    <div>
-      {/* rts service post area  Start*/}
-      <div className="rts-service-area rts-section-gap">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div className="rts-title-area service text-center">
-                <p className="pre-title">Our Services</p>
-                <h3 className="title">
-                  Pinnacle Construction &amp; Development Services
-                </h3>
+    <>
+      <div>
+        {/* rts service post area Start*/}
+        <div className="rts-service-area rts-section-gap">
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <div className="rts-title-area service text-center">
+                  <p className="pre-title">Our Services</p>
+                  <h3 className="title">Pinnacle Multi-Services Solutions</h3>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="container-fluid service-main plr--120-service mt--50 plr_md--0 pl_sm--0 pr_sm--0">
-          <div className="background-service row">
-            {/* start single Service */}
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-              <div className="service-one-inner one">
-                <div className="thumbnail">
-                  <img
+
+          <div className="container-fluid service-main plr--120-service mt--50 plr_md--0 pl_sm--0 pr_sm--0">
+            <div className="background-service row">
+              {/* start single Service */}
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="service-one-inner one">
+                  <div className="thumbnail">
+                    {/* <img
                     src="assets/images/service/icon/01.svg"
-                    alt="finbiz_service"
-                  />
-                </div>
-                <div className="service-details">
-                  <Link href={"/park-development"}>
-                    <h5 className="title">Park Development</h5>
-                  </Link>
-                  <p className="disc">
-                    Picture a piece of land. Empty. Dusty. Nobody goes there.
-                    Now picture the same space with our team in it: green lawns,
-                    tall trees, walking paths, soft lights, kids laughing, and
-                    neighbors getting together.
-                  </p>
-                  <Link
-                    className="rts-read-more btn-primary"
-                    href={"/park-development"}
-                  >
-                    <i className="far fa-arrow-right" />
-                    Read More
-                  </Link>
+                    alt="construction_service"
+                  /> */}
+                    <CgGym style={{ fontSize: "6rem", color: "#E33434" }} />
+                  </div>
+                  <div className="service-details">
+                    <Link href={"/park-development"}>
+                      <h5 className="title">Park Development</h5>
+                    </Link>
+                    <p className="disc">
+                      Our work includes everything from site preparation and
+                      equipment setup to final landscaping. We create
+                      functional, durable, and aesthetically pleasing fitness
+                      spaces that promote community wellness and fit seamlessly
+                      into your park's design.
+                    </p>
+                    <Link
+                      className="rts-read-more btn-primary"
+                      href={"/park-development"}
+                    >
+                      <i className="far fa-arrow-right" />
+                      Read More
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
-            {/* end single Service */}
+              {/* end single Service */}
 
-            {/* start single Service */}
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-              <div className="service-one-inner two">
-                <div className="thumbnail">
-                  <img
+              {/* start single Service */}
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="service-one-inner two">
+                  <div className="thumbnail">
+                    {/* <img
                     src="assets/images/service/icon/02.svg"
-                    alt="finbiz_service"
-                  />
-                </div>
-                <div className="service-details">
-                  <Link href={"/infrastructure-development"}>
-                    <h5 className="title">Infrastructure Development</h5>
-                  </Link>
-                  <p className="disc">
-                    Paths, bridges, and roads. Places that are open to the
-                    public. These are the city's quiet backbones. We know how
-                    important they are because they connect people and help
-                    businesses grow.
-                  </p>
-                  <Link
-                    className="rts-read-more btn-primary"
-                    href={"/infrastructure-development"}
-                  >
-                    <i className="far fa-arrow-right" />
-                    Read More
-                  </Link>
+                    alt="water_cooler_service"
+                  /> */}
+                    <GiWaterTank
+                      style={{ fontSize: "6rem", color: "#E33434" }}
+                    />
+                  </div>
+                  <div className="service-details">
+                    <Link href={"/water-cooler-installation-services"}>
+                      <h5 className="title">Water & RO Cooler Installation</h5>
+                    </Link>
+                    <p className="disc">
+                      Supply, installation, and maintenance of high-quality
+                      water coolers and RO systems to provide safe, clean, and
+                      chilled drinking water for organizations and communities.
+                    </p>
+                    <Link
+                      className="rts-read-more btn-primary"
+                      href={"/water-cooler-installation-services"}
+                    >
+                      <i className="far fa-arrow-right" />
+                      Read More
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
-            {/* end single Service */}
+              {/* end single Service */}
 
-            {/* start single Service */}
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-              <div className="service-one-inner three">
-                <div className="thumbnail">
-                  <img
+              {/* start single Service */}
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="service-one-inner three">
+                  <div className="thumbnail">
+                    {/* <img
                     src="assets/images/service/icon/03.svg"
-                    alt="finbiz_service"
-                  />
-                </div>
-                <div className="service-details">
-                  <Link href={"/general-contracting-services"}>
-                    <h5 className="title">General Contracting Services</h5>
-                  </Link>
-                  <p className="disc">
-                    Some clients just want everything taken care of, from the
-                    paperwork to the final touch. That's exactly what our
-                    general contracting services are for. We take care of
-                    every..
-                  </p>
-                  <Link
-                    className="rts-read-more btn-primary"
-                    href={"/general-contracting-services"}
-                  >
-                    <i className="far fa-arrow-right" />
-                    Read More
-                  </Link>
+                    alt="security_service"
+                  /> */}
+                    <GiGuards style={{ fontSize: "6rem", color: "#E33434" }} />
+                  </div>
+                  <div className="service-details">
+                    <Link href={"/security-manpower-services"}>
+                      <h5 className="title">Security & Manpower Services</h5>
+                    </Link>
+                    <p className="disc">
+                      Professional security personnel and skilled manpower
+                      supply tailored to ensure safety, operational efficiency,
+                      and compliance for corporate, residential, and industrial
+                      clients.
+                    </p>
+                    <Link
+                      className="rts-read-more btn-primary"
+                      href={"/security-manpower-services"}
+                    >
+                      <i className="far fa-arrow-right" />
+                      Read More
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
-            {/* end single Service */}
+              {/* end single Service */}
 
-            {/* start single Service */}
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-              <div className="service-one-inner four">
-                <div className="thumbnail">
-                  <img
+              {/* start single Service */}
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="service-one-inner four">
+                  <div className="thumbnail">
+                    {/* <img
                     src="assets/images/service/icon/04.svg"
-                    alt="finbiz_service"
-                  />
-                </div>
-                <div className="service-details">
-                  <Link href={"/design-build-renovation-remodeling"}>
-                    <h5 className="title">
-                      Design - Build Renovation & Remodeling
-                    </h5>
-                  </Link>
-                  <p className="disc">
-                    Pinnacle is a design and build company, which means we plan
-                    and build everything in one place. That means things will
-                    get done faster, work together better, and have fewer
-                    delays.
-                  </p>
-                  <Link
-                    className="rts-read-more btn-primary"
-                    href={"/design-build-renovation-remodeling"}
-                  >
-                    <i className="far fa-arrow-right" />
-                    Read More
-                  </Link>
+                    alt="ac_chiller_service"
+                  /> */}
+                    <TbAirConditioning
+                      style={{ fontSize: "6rem", color: "#E33434" }}
+                    />
+                  </div>
+                  <div className="service-details">
+                    <Link href={"/ac-chiller-plants-services"}>
+                      <h5 className="title">AC Chiller Plant Services</h5>
+                    </Link>
+                    <p className="disc">
+                      Complete AC chiller plant services including installation,
+                      maintenance, descaling, and energy-efficient optimization
+                      for commercial, industrial, and institutional facilities.
+                    </p>
+                    <Link
+                      className="rts-read-more btn-primary"
+                      href={"/ac-chiller-plants-services"}
+                    >
+                      <i className="far fa-arrow-right" />
+                      Read More
+                    </Link>
+                  </div>
                 </div>
               </div>
+              {/* end single Service */}
             </div>
-            {/* end single Service */}
-          </div>
 
-          <div className="row">
-            <div className="cta-one-bg col-12">
-              <div className="cta-one-inner">
-                <div className="cta-left">
-                  <h4 className="title">
-                   Let’s discuss how Pinnacle can support your growth.
-                  </h4>
-                </div>
-                <div className="cta-right">
-                  <Link className="rts-btn btn-white" href={"/contactus"}>
-                    Lets Work Together
-                  </Link>
+            <div className="row">
+              <div className="cta-one-bg col-12">
+                <div className="cta-one-inner">
+                  <div className="cta-left">
+                    <h4 className="title">
+                      Let’s discuss how Pinnacle can support your growth.
+                    </h4>
+                  </div>
+                  <div className="cta-right">
+                    <Link className="rts-btn btn-white" href={"/contactus"}>
+                      Lets Work Together
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        {/* rts service post area End */}
       </div>
-      {/* rts service post area ENd */}
-    </div>
+    </>
   );
 }
 

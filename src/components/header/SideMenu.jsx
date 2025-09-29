@@ -51,7 +51,9 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
           </a>
           <div className="body d-none d-xl-block">
             <p className="disc">
-              Pinnacle offers multi-services including construction, security & manpower, water & RO cooler installations, gym setups, and AC chiller plant solutions.
+              Pinnacle offers multi-services including construction, security &
+              manpower, water & RO cooler installations, gym setups, and AC
+              chiller plant solutions.
             </p>
             <div className="get-in-touch">
               {/* title */}
@@ -181,17 +183,23 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                     }`}
                   >
                     <li>
-                      <Link href={"/our-service"}>Service 1</Link>
+                      <Link href={"/our-service"}>All Services</Link>
                     </li>
                     <li>
-                      <Link href={"/service-2"}>Service 2</Link>
+                      <Link href={"/park-development"}>Park Development</Link>
                     </li>
                     <li>
-                      <Link href={"/service-3"}>Service 3</Link>
+                      <Link href={"/water-cooler-installation-services"}>Water Cooler Installation Services</Link>
                     </li>
-                    <li className="mobile-menu-link">
+                    <li>
+                      <Link href={"/security-manpower-services"}>Security & Manpower Services</Link>
+                    </li>
+                    <li>
+                      <Link href={"/ac-chiller-plants-services"}>AC Chiller Plants Services</Link>
+                    </li>
+                    {/* <li className="mobile-menu-link">
                       <Link href={"/service-details"}>Service Details</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
                 <li className="has-droupdown menu-item">
@@ -210,24 +218,24 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                     <li className="mobile-menu-link">
                       <Link href={"/project"}>Project</Link>
                     </li>
-                    <li className="mobile-menu-link">
+                    {/* <li className="mobile-menu-link">
                       <Link href={"/project-details"}>Project Details</Link>
-                    </li>
+                    </li> */}
                     <li className="mobile-menu-link">
                       <Link href={"/team"}>Team</Link>
                     </li>
-                    <li className="mobile-menu-link">
+                    {/* <li className="mobile-menu-link">
                       <Link href={"/team-details"}>Team Details</Link>
-                    </li>
-                    <li className="mobile-menu-link">
+                    </li> */}
+                    {/* <li className="mobile-menu-link">
                       <Link href={"/appoinment"}>appoinment</Link>
-                    </li>
-                    <li className="mobile-menu-link">
+                    </li> */}
+                    {/* <li className="mobile-menu-link">
                       <Link href={"/pricing-plane"}>Price Plan</Link>
-                    </li>
-                    <li className="mobile-menu-link">
+                    </li> */}
+                    {/* <li className="mobile-menu-link">
                       <Link href={"/404"}>404 Page</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
                 <li className="has-droupdown menu-item">
@@ -243,15 +251,15 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                       openMenu === 4 ? "mm-collapse mm-show" : "mm-collapse"
                     }`}
                   >
-                    <li className="mobile-menu-link">
+                    {/* <li className="mobile-menu-link">
                       <Link href={"/blog-list"}>Blog List</Link>
-                    </li>
+                    </li> */}
                     <li className="mobile-menu-link">
                       <Link href={"/blog-grid"}>Blog Grid</Link>
                     </li>
-                    <li className="mobile-menu-link">
+                    {/* <li className="mobile-menu-link">
                       <Link href={"/blog-details-default"}>Blog Details</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
                 <li className="menu-item menu-item">
