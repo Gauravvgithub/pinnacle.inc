@@ -1,7 +1,7 @@
 import AboutOne from "@/components/about/AboutOne";
 import BannerOne from "@/components/banner/BannerOne";
 import HeaderOne from "@/components/header/HeaderOne";
-import ServiceOne from "@/components/service/ServiceOne";
+// import ServiceOne from "@/components/service/ServiceOne";
 import BusinessGoalOne from "@/components/businessgoal/BusinessGoalOne";
 import Counterup from "@/components/counterup/Counterup";
 import GalleryOne from "@/components/gallery/GalleryOne";
@@ -14,6 +14,7 @@ import ContactForm from "@/components/contactform/ContactForm";
 import MapOne from "@/components/map/MapOne";
 import FooterOne from "@/components/footer/FooterOne";
 import BackToTop from "@/components/BackToTop";
+import ServiceEleven from "@/components/service/ServiceEleven";
 // import Preloader from "@/components/preloader/Preloader";
 
 export default function Home() {
@@ -24,7 +25,8 @@ export default function Home() {
       <HeaderOne />
       <BannerOne />
       <AboutOne />
-      <ServiceOne />
+      {/* <ServiceOne /> */}
+      <ServiceEleven />
       <BusinessGoalOne />
       <Counterup />
       <GalleryOne />
