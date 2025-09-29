@@ -13,6 +13,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 import ErrorBoundary from "@/components/ErrorBoundary";
+import Link from "next/link";
 
 function BannerOne() {
   return (
@@ -61,12 +62,12 @@ function BannerOne() {
                     manpower solutions, and open gym equipment supply—delivering
                     quality and reliability.
                   </p>
-                  <a
+                  <Link
                     href="/contactus"
                     className="rts-btn btn-primary color-h-black"
                   >
                     Get In Touch
-                  </a>
+                  </Link>
                   <img
                     className="shape-img one"
                     src="assets/images/banner/shape/01.png"
@@ -95,12 +96,12 @@ function BannerOne() {
                     long-term partnerships with leading organizations across
                     industries.
                   </p>
-                  <a
+                  <Link
                     href="/our-service"
                     className="rts-btn btn-primary color-h-black"
                   >
                     Explore Services
-                  </a>
+                  </Link>
                   <img
                     className="shape-img one"
                     src="assets/images/banner/shape/01.png"
@@ -127,12 +128,12 @@ function BannerOne() {
                     clients, we deliver services with technical expertise,
                     professionalism, and a strong commitment to excellence.
                   </p>
-                  <a
+                  <Link
                     href="/about-us"
                     className="rts-btn btn-primary color-h-black"
                   >
                     Learn More
-                  </a>
+                  </Link>
                   <img
                     className="shape-img one"
                     src="assets/images/banner/shape/01.png"
