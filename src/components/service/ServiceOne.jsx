@@ -151,10 +151,9 @@ function ServiceOne() {
             <div className="cta-one-bg col-12">
               <div className="cta-one-inner">
                 <div className="cta-left">
-                  <h3 className="title">
-                    Let’s discuss about how we can help make your business
-                    better
-                  </h3>
+                  <h4 className="title" style={{ fontSize: "22px" }}>
+                    Let’s discuss how Pinnacle can support your growth.
+                  </h4>
                 </div>
                 <div className="cta-right">
                   <Link className="rts-btn btn-white" href={"/contactus"}>

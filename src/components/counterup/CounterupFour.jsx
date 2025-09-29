@@ -11,10 +11,9 @@ function CounterupFour() {
                             <div className="col-12">
                                 <div className="cta-two-wrapper">
                                     <div className="title-area">
-                                        <h3 className="title animated fadeIn">
-                                            Let’s discuss about how we can help <br />
-                                            make your insurance better
-                                        </h3>
+                                        <h4 className="title animated fadeIn">
+                                           Let’s discuss how Pinnacle can support your growth.
+                                        </h4>
                                     </div>
                                     <a className="rts-btn btn-primary-5 six" href="contactus.html">
                                         Lets Work Together

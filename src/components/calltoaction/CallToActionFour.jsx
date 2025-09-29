@@ -11,10 +11,9 @@ function CallToActionFour() {
                         <div className="col-12">
                             <div className="cta-two-wrapper">
                                 <div className="title-area">
-                                    <h3 className="title">
-                                        Let’s discuss about how we can help <br />
-                                        make your insurance better
-                                    </h3>
+                                    <h4 className="title">
+                                        Let’s discuss how Pinnacle can support your growth.
+                                    </h4>
                                 </div>
                                 <Link className="rts-btn btn-secondary-3" href={'/contactus'}>
                                     Lets Work Together

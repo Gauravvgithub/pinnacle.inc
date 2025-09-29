@@ -25,9 +25,9 @@ function AboutOne() {
                   chiller plant services, security and manpower support, and
                   open gym equipment supply.
                   <br />
-                  With successful projects delivered
-                  for leading government and corporate organizations, we combine
-                  technical expertise, professionalism, and timely execution.
+                  With successful projects delivered for leading government and
+                  corporate organizations, we combine technical expertise,
+                  professionalism, and timely execution.
                   <br />
                   Our commitment to quality, safety, and long-term partnerships
                   makes us a reliable choice for clients across industries.
@@ -38,33 +38,44 @@ function AboutOne() {
                   <div className="col-lg-6 col-md-6">
                     <div className="single">
                       <i className="far fa-check" />
-                      <p className="details">24/7 Call Services Avilable</p>
+                      <p className="details">
+                        24/7 Support & Reliable Services
+                      </p>
                     </div>
                     <div className="single">
                       <i className="far fa-check" />
-                      <p className="details">Great Skilled Consultant</p>
+                      <p className="details">
+                        Skilled Security & Manpower Supply
+                      </p>
                     </div>
                     <div className="single">
                       <i className="far fa-check" />
-                      <p className="details">Expert Team Members</p>
+                      <p className="details">
+                        Expert Team for Installation & Maintenance
+                      </p>
                     </div>
                   </div>
                   {/* left wrapper end */}
                   <div className="col-lg-6 col-md-6">
                     <div className="single">
                       <i className="far fa-check" />
-                      <p className="details">How to improve business</p>
+                      <p className="details">
+                        Construction & Infrastructure Solutions
+                      </p>
                     </div>
                     <div className="single">
                       <i className="far fa-check" />
-                      <p className="details">Business is the best plan</p>
+                      <p className="details">RO & Water Cooler Installations</p>
                     </div>
                     <div className="single">
                       <i className="far fa-check" />
-                      <p className="details">Services we provide</p>
+                      <p className="details">
+                        AC Chiller Plant & Gym Equipment Services
+                      </p>
                     </div>
                   </div>
                 </div>
+
                 {/* start about success area */}
                 {/* about founder & get in touch start */}
                 <div className="row about-founder-wrapper align-items-center mt--40">

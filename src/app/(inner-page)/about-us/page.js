@@ -283,14 +283,13 @@ export default function Home() {
             <div className="cta-one-bg col-12">
               <div className="cta-one-inner">
                 <div className="cta-left">
-                  <h3 className="title animated fadeIn">
-                    Let’s discuss about how we can help make your business
-                    better
-                  </h3>
+                  <h4 className="title animated fadeIn">
+                    Let’s discuss how Pinnacle can support your growth.
+                  </h4>
                 </div>
                 <div className="cta-right">
                   <Link className="rts-btn btn-white" href={"#"}>
-                    Lets Work Togather
+                    Lets Work Together
                   </Link>
                 </div>
               </div>

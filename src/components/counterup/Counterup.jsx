@@ -30,7 +30,7 @@ function Counterup() {
 
                                     )}
 
-                                    <p className="disc">Media Activities</p>
+                                    <p className="disc">Projects Completed</p>
                                 </div>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ function Counterup() {
 
                                     )}
 
-                                    <p className="disc">Media Activities</p>
+                                    <p className="disc">Satisfied Clients</p>
                                 </div>
                             </div>
                         </div>
@@ -70,7 +70,7 @@ function Counterup() {
 
                                     )}
 
-                                    <p className="disc">Media Activities</p>
+                                    <p className="disc">Skilled Professionals</p>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +89,7 @@ function Counterup() {
                                         </h2>
 
                                     )}
-                                    <p className="disc">Serv Activities</p>
+                                    <p className="disc">Years of Experience</p>
                                 </div>
                             </div>
                         </div>
