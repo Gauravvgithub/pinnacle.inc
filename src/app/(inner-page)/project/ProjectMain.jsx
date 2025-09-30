@@ -33,7 +33,11 @@ const BlogGridMain = (props) => {
           <Link href={`/project/${Slug}`}>
             <h5 className="title">{blogTitle ? blogTitle : blogCategory}</h5>
           </Link>
-          <p className="disc">{descripTion}</p>
+          <p className="disc">
+            {descripTion.length > 50
+              ? descripTion.slice(0, 50) + "..."
+              : descripTion}
+          </p>
           <span>{blogLocation}</span>
           <a
             href={blogPDF}

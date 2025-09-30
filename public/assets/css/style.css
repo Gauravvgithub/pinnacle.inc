@@ -24175,7 +24175,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
   position: relative;
 }
 .big-bg-porduct-details img {
-  width: 100%;
+  /* width: 100%; */
   border-radius: 16px;
 }
 .big-bg-porduct-details .project-info {
