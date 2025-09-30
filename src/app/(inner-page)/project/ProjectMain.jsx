@@ -18,7 +18,7 @@ const BlogGridMain = (props) => {
       <div className="rts-product-one">
         <div className="thumbnail-area">
           <img
-            src={`assets/images/product/${blogImage}`}
+            src={`assets/images/project/${blogImage}`}
             alt="Business_Finbiz"
           />
           <Link

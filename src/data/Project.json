@@ -1,8 +1,8 @@
 [
   {
     "slug": "park-gym-001",
-    "image": "assets/images/project/gym1.jpg",
-    "bannerImg": "01.jpg",
+    "image": "01.png",
+    "bannerImg": "01.png",
     "author": "Admin",
     "publishedDate": "2025-08-12",
     "category": "Park Development",
@@ -13,8 +13,8 @@
   },
   {
     "slug": "park-gym-002",
-    "image": "assets/images/project/gym2.jpg",
-    "bannerImg": "02.jpg",
+    "image": "02.png",
+    "bannerImg": "02.png",
     "author": "Admin",
     "publishedDate": "2025-08-12",
     "category": "Park Development",
@@ -25,8 +25,8 @@
   },
   {
     "slug": "park-gym-003",
-    "image": "assets/images/project/gym3.jpg",
-    "bannerImg": "03.jpg",
+    "image": "03.png",
+    "bannerImg": "03.png",
     "author": "Admin",
     "publishedDate": "2025-08-12",
     "category": "Park Development",
@@ -37,8 +37,8 @@
   },
   {
     "slug": "park-gym-004",
-    "image": "assets/images/project/gym4.jpg",
-    "bannerImg": "04.jpg",
+    "image": "04.png",
+    "bannerImg": "04.png",
     "author": "Admin",
     "publishedDate": "2025-08-12",
     "category": "Park Development",
@@ -49,8 +49,8 @@
   },
   {
     "slug": "park-gym-005",
-    "image": "assets/images/project/gym5.jpg",
-    "bannerImg": "05.jpg",
+    "image": "05.png",
+    "bannerImg": "05.png",
     "author": "Admin",
     "publishedDate": "2025-08-12",
     "category": "Park Development",
@@ -61,8 +61,8 @@
   },
   {
     "slug": "park-gym-006",
-    "image": "assets/images/project/gym6.jpg",
-    "bannerImg": "06.jpg",
+    "image": "06.png",
+    "bannerImg": "06.png",
     "author": "Admin",
     "publishedDate": "2025-08-12",
     "category": "Park Development",
@@ -73,8 +73,8 @@
   },
   {
     "slug": "park-gym-007",
-    "image": "assets/images/project/gym7.jpg",
-    "bannerImg": "07.jpg",
+    "image": "07.png",
+    "bannerImg": "07.png",
     "author": "Admin",
     "publishedDate": "2025-08-12",
     "category": "Park Development",
@@ -85,8 +85,8 @@
   },
   {
     "slug": "water-cooler-001",
-    "image": "assets/images/project/water1.jpg",
-    "bannerImg": "02.jpg",
+    "image": "08.png",
+    "bannerImg": "08.png",
     "author": "Admin",
     "publishedDate": "2025-09-01",
     "category": "Water Cooler Installation",
