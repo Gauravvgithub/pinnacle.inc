@@ -1,135 +1,98 @@
 [
-    {
-        "id": 1,
-        "slug": "business-solution",
-        "image": "06.jpg",
-        "bannerImg": "06.jpg",
-        "category": "Business Solution",
-        "title": "Digital Startup Agency",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },
-    {
-        "id": 2,
-        "slug": "business-growth-check",
-        "image": "02.jpg",
-        "bannerImg": "02.jpg",
-        "category": "Marketing",
-        "title": "Business Growth Check",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },
-    {
-        "id": 3,
-        "slug": "digital-business-pat",
-        "image": "03.jpg",
-        "bannerImg": "03.jpg",
-        "category": "Business Growth",
-        "title": "Digital Business Path",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },
-    {
-        "id": 4,
-        "slug": "business-growth-model",
-        "image": "04.jpg",
-        "bannerImg": "04.jpg",
-        "category": "Marketing",
-        "title": "Business Growth Model",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },
-    {
-        "id": 5,
-        "slug": "strategy-growth-check",
-        "image": "05.jpg",
-        "bannerImg": "05.jpg",
-        "category": "Business Growth",
-        "title": "Strategy Growth Check",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },
-    {
-        "id": 6,
-        "slug": "marketing-solution",
-        "image": "06.jpg",
-        "bannerImg": "06.jpg",
-        "category": "Business",
-        "title": "Marketing Solution",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },   
-    {
-        "id": 7,
-        "slug": "busines-growth-check",
-        "image": "01.jpg",
-        "bannerImg": "01.jpg",
-        "category": "Business",
-        "title": "Business Growth Check",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },   
-    {
-        "id": 8,
-        "slug": "Business-solution",
-        "image": "02.jpg",
-        "bannerImg": "02.jpg",
-        "category": "Business",
-        "title": "Business Solution",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },    
-    {
-        "id": 9,
-        "slug": "Invent-Workd",
-        "image": "03.jpg",
-        "bannerImg": "03.jpg",
-        "category": "Business",
-        "title": "Invent Workd",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },    
-    {
-        "id": 10,
-        "slug": "top-rated-solution",
-        "image": "04.jpg",
-        "bannerImg": "04.jpg",
-        "category": "Business",
-        "title": "Top Rated Solution",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },   
-    {
-        "id": 11,
-        "slug": "more-work-solution",
-        "image": "05.jpg",
-        "bannerImg": "05.jpg",
-        "category": "Business",
-        "title": "More-Work Solution",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },
-    {
-        "id": 12,
-        "slug": "Modern-Solution-technology",
-        "image": "06.jpg",
-        "bannerImg": "06.jpg",
-        "category": "Business",
-        "title": "Modern Solution Technology",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    }
-
+  {
+    "slug": "park-gym-001",
+    "image": "assets/images/project/gym1.jpg",
+    "bannerImg": "01.jpg",
+    "author": "Admin",
+    "publishedDate": "2025-08-12",
+    "category": "Park Development",
+    "title": "Ganesh Shankar Vidhayarthi Park Field House",
+    "descripTion": "Installed multiple outdoor gym machines for public use.",
+    "location": "General Ganj, Kanpur, Uttar Pradesh, India",
+    "pdf": "/assets/pdfs/ganesh-park.pdf"
+  },
+  {
+    "slug": "park-gym-002",
+    "image": "assets/images/project/gym2.jpg",
+    "bannerImg": "02.jpg",
+    "author": "Admin",
+    "publishedDate": "2025-08-12",
+    "category": "Park Development",
+    "title": "Radha Madhav Mandir Park",
+    "descripTion": "Installed multiple outdoor gym machines for public use.",
+    "location": "Kidwai Nagar, Kanpur, Uttar Pradesh, India",
+    "pdf": "/assets/pdfs/radha-park.pdf"
+  },
+  {
+    "slug": "park-gym-003",
+    "image": "assets/images/project/gym3.jpg",
+    "bannerImg": "03.jpg",
+    "author": "Admin",
+    "publishedDate": "2025-08-12",
+    "category": "Park Development",
+    "title": "Darshanpura Central Park",
+    "descripTion": "Installed multiple outdoor gym machines for public use.",
+    "location": "Gumti, Kanpur, Uttar Pradesh, India",
+    "pdf": "/assets/pdfs/darshanpurwa-park.pdf"
+  },
+  {
+    "slug": "park-gym-004",
+    "image": "assets/images/project/gym4.jpg",
+    "bannerImg": "04.jpg",
+    "author": "Admin",
+    "publishedDate": "2025-08-12",
+    "category": "Park Development",
+    "title": "Gayatri Park, Barra 3",
+    "descripTion": "Installed multiple outdoor gym machines for public use.",
+    "location": "Janta Nagar, Kanpur, Uttar Pradesh, India",
+    "pdf": "/assets/pdfs/gayatri-park.pdf"
+  },
+  {
+    "slug": "park-gym-005",
+    "image": "assets/images/project/gym5.jpg",
+    "bannerImg": "05.jpg",
+    "author": "Admin",
+    "publishedDate": "2025-08-12",
+    "category": "Park Development",
+    "title": "Omar Vaish Vidyapeeth",
+    "descripTion": "Installed multiple outdoor gym machines for public use.",
+    "location": "Shyam Nagar, Sarvottam Enclave, Kanpur, Uttar Pradesh, India",
+    "pdf": "/assets/pdfs/omar-park.pdf"
+  },
+  {
+    "slug": "park-gym-006",
+    "image": "assets/images/project/gym6.jpg",
+    "bannerImg": "06.jpg",
+    "author": "Admin",
+    "publishedDate": "2025-08-12",
+    "category": "Park Development",
+    "title": "Maa Durga Park",
+    "descripTion": "Installed multiple outdoor gym machines for public use.",
+    "location": "Sutar Ganj, Gwaltoli, Kanpur, Uttar Pradesh, India",
+    "pdf": "/assets/pdfs/maa-durga-park.pdf"
+  },
+  {
+    "slug": "park-gym-007",
+    "image": "assets/images/project/gym7.jpg",
+    "bannerImg": "07.jpg",
+    "author": "Admin",
+    "publishedDate": "2025-08-12",
+    "category": "Park Development",
+    "title": "Gopal Park",
+    "descripTion": "Installed multiple outdoor gym machines for public use.",
+    "location": "Gwaltoli, Kanpur, Uttar Pradesh, India",
+    "pdf": "/assets/pdfs/gopal-park.pdf"
+  },
+  {
+    "slug": "water-cooler-001",
+    "image": "assets/images/project/water1.jpg",
+    "bannerImg": "02.jpg",
+    "author": "Admin",
+    "publishedDate": "2025-09-01",
+    "category": "Water Cooler Installation",
+    "title": "School Water Cooler Project",
+    "descripTion": "Installed water cooler systems for a government school.",
+    "location": "Kanpur, Uttar Pradesh, India",
+    "pdf": "#"
+  }
 ]
