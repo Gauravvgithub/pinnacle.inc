@@ -35,12 +35,12 @@ export default function Home() {
   const breadcrumbs = [
     { label: "Home", link: "/" },
     { label: "Our Service", link: "/our-service" },
-    { label: "Park Development" },
+    { label: "AC Chiller Plants Services" },
   ];
   return (
     <div className="">
       <HeaderOne />
-      <Breadcrumb title="Park Development" breadcrumbs={breadcrumbs} />
+      <Breadcrumb title="AC Chiller Plants Services" breadcrumbs={breadcrumbs} />
       {/* start service details area */}
       <div className="rts-service-details-area rts-section-gap">
         <div className="container">
@@ -52,66 +52,35 @@ export default function Home() {
                   <img src="assets/images/service/01.jpg" alt="business-area" />
                 </div>
                 <h4 className="title">
-                  Park Development Services in Delhi, India
+                  AC Chiller Plant Services
                 </h4>
                 <p className="disc">
-                  Picture this. A dull, empty plot. Dust. Heat. Nothing alive.
-                  Then slowly, a vision takes shape — trees, walking paths,
-                  laughter. That’s what parks do. They change how people feel
-                  about a place.
+                  We provide specialized AC chiller plant services designed to ensure optimum performance, efficiency, and longevity of large-scale cooling systems. Our expert team is equipped with the technical know-how and modern tools required to manage installation, descaling, preventive maintenance, and comprehensive servicing of chiller plants across industrial, commercial, and institutional facilities.
                 </p>
-                <p className="disc">
-                  We at Pinnacle — a park development company in Delhi, India —
-                  help turn bare land into living spaces. Places where people
-                  breathe, meet, and feel good. We don’t just plant trees; we
-                  build community corners under the sky.
-                </p>
+            
 
-                <h4 className="title">
-                  Designing Parks That Inspire Communities
+               <div>
+                 <h4 className="title">
+                    Our Expertise Covers
                 </h4>
-                <p className="disc">
-                  Every park tells a story. Some become jogging spots at
-                  sunrise. Some turn into lazy picnic zones on Sundays. Some are
-                  where kids play cricket until the lights come on.
-                </p>
-                <p className="disc">
-                  That’s why our designs aren’t copy-paste. We walk the land. We
-                  imagine. Then we create thoughtful spaces — open lawns, shaded
-                  sitting, safe walking loops, little gardens. Our landscape
-                  development isn’t just about plants; it’s about life happening
-                  there.
-                </p>
+                <ul style={{ listStyleType: "disc", paddingLeft: "20px", margin: "10px 0" }}>
+                    <li  style={{listStyle:"disc"}} >Complete descaling and chemical cleaning of chiller systems</li>
+                    <li  style={{listStyle:"disc"}} >Preventive and corrective maintenance programs</li>
+                    <li  style={{listStyle:"disc"}} >Performance optimization for maximum energy efficiency</li>
+                    <li  style={{listStyle:"disc"}} >Repair, replacement, and servicing of chiller plant components</li>
+                    <li  style={{listStyle:"disc"}} >Annual Maintenance Contracts (AMC) for uninterrupted operations</li>
+                    
+                  </ul>
+               </div>
 
-                <h4 className="title">Urban & Smart City Park Development</h4>
-                <p className="disc">
-                  Cities like Delhi are moving fast. They want parks that match
-                  the times — safe, smart, welcoming. So we build urban park
-                  development projects with small but smart touches.
-                </p>
-                <p className="disc">
-                  Think solar-powered lamps, Wi-Fi corners, jogging tracks that
-                  feel safe even late, water systems that save every drop. This
-                  is part of green infrastructure — parks that work for today
-                  and tomorrow.
-                </p>
-
-                <h4 className="title">
-                  Eco-Friendly & Sustainable Park Solutions
+               <div>
+                   <h4 className="title">
+                  Recent Project Highlight
                 </h4>
-                <p className="disc">
-                  Green isn’t just a color. It’s care. Our team builds with the
-                  planet in mind — native trees that don’t waste water, benches
-                  made from recycled wood, solar lights, and rainwater
-                  harvesting.
+                <p>
+                  We successfully executed a complete AC chiller plant service at Shri Kashi Vishwanath Mandir, Varanasi. The project included thorough descaling and critical servicing to ensure seamless cooling operations at this prestigious site.
                 </p>
-                <p className="disc">
-                  As eco-friendly park contractors, we know that parks should
-                  heal, not harm. We design sustainable landscaping so the park
-                  keeps thriving without heavy upkeep. Simple, smart, and
-                  future-proof.
-                </p>
-
+               </div>
                 <div className="row g-5 mt--30 mb--40">
                   <div className="col-lg-6">
                     {/* single service details card */}
@@ -126,8 +95,7 @@ export default function Home() {
                       <div className="details">
                         <h6 className="title">Instant Business Growth</h6>
                         <p className="disc">
-                          Maintain wireless scerios after sure quality vectors
-                          future
+                        Proven expertise in handling large-scale chiller plant projects.
                         </p>
                       </div>
                     </div>
@@ -146,8 +114,7 @@ export default function Home() {
                       <div className="details">
                         <h6 className="title">24/7 Quality Service</h6>
                         <p className="disc">
-                          Maintain wireless scerios after sure quality vectors
-                          future
+                        Advanced tools, skilled technicians, and reliable execution.
                         </p>
                       </div>
                     </div>
@@ -164,10 +131,9 @@ export default function Home() {
                         />
                       </div>
                       <div className="details">
-                        <h6 className="title">Easy Customer Service</h6>
+                        <h6 className="title">Customer Support</h6>
                         <p className="disc">
-                          Maintain wireless scerios after sure quality vectors
-                          future
+                         Dedicated servicing with quick response for client satisfaction.
                         </p>
                       </div>
                     </div>
@@ -184,10 +150,9 @@ export default function Home() {
                         />
                       </div>
                       <div className="details">
-                        <h6 className="title">Quality Cost Service</h6>
+                        <h6 className="title">Cost-Effective</h6>
                         <p className="disc">
-                          Maintain wireless scerios after sure quality vectors
-                          future
+                        Optimized solutions to ensure long-term  efficiency and reduced downtime.
                         </p>
                       </div>
                     </div>
@@ -210,137 +175,97 @@ export default function Home() {
                   </div>
                   <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 mb_md--20 mb_sm--20">
                     <h4 className="title">Customer Benefits</h4>
-                    <p className="disc">
-                      Catalysts for change before fully tested markets are
-                      maintain wireless scenarios after intermandated
-                      applications predominate revolutionary.
-                    </p>
+                  
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>We use the latest diagnostic equipment</span>
+                      <span>Improved efficiency and longer lifespan of chiller</span>
                     </div>
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>We are a member of Professional Service</span>
+                      <span>Reduced operational downtime with maintenance</span>
                     </div>
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>Automotive service our clients receive</span>
+                      <span>Cost savings through optimized energy performance</span>
+                    </div>
+                     <div className="single-banifits">
+                      <i className="far fa-check-circle" />
+                      <span>Trusted service  ensuring uninterrupted operations</span>
+                    </div>
+                     <div className="single-banifits">
+                      <i className="far fa-check-circle" />
+                      <span>Trusted expertise in critical projects across industries</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            {/*rts blog wizered area */}
+                 {/* Sidebar */}
             <div className="col-xl-4 col-md-12 col-sm-12 col-12 mt_lg--60 pl--50 pl_md--0 pl-lg-controler pl_sm--0">
-              {/* single wizered start */}
               <div className="rts-single-wized Categories service">
                 <div className="wized-header">
                   <h5 className="title">Other Services</h5>
                 </div>
                 <div className="wized-body">
-                  {/* single categoris */}
+                  <ul className="single-categories">
+                    <li>
+                      <Link href={"/our-service"}>
+                        All Services <i className="far fa-long-arrow-right" />
+                      </Link>
+                    </li>
+                  </ul>
                   <ul className="single-categories">
                     <li>
                       <Link href={"/park-development"}>
-                        Park Development{" "}
+                        Park Gym Installation{" "}
                         <i className="far fa-long-arrow-right" />
                       </Link>
                     </li>
                   </ul>
-                  {/* single categoris End */}
-                  {/* single categoris */}
                   <ul className="single-categories">
                     <li>
-                      <Link href={"/infrastructure-development"}>
-                        Infrastructure Development{" "}
+                      <Link href={"/water-cooler-installation-services"}>
+                        Water Cooler Installation Services{" "}
                         <i className="far fa-long-arrow-right" />
                       </Link>
                     </li>
                   </ul>
-                  {/* single categoris End */}
-                  {/* single categoris */}
                   <ul className="single-categories">
                     <li>
-                      <Link href={"/general-contracting-services"}>
-                        General Contracting Services{" "}
+                      <Link href={"/security-manpower-services"}>
+                        Security & Manpower Services{" "}
                         <i className="far fa-long-arrow-right" />
                       </Link>
                     </li>
                   </ul>
-                  {/* single categoris End */}
-                  {/* single categoris */}
                   <ul className="single-categories">
                     <li>
-                      <Link href={"/design-build-renovation-remodeling"}>
-                        Design - Build Renovation & Remodeling{" "}
+                      <Link href={"/ac-chiller-plants-services"}>
+                        AC Chiller Plants Services{" "}
                         <i className="far fa-long-arrow-right" />
                       </Link>
                     </li>
                   </ul>
-                  {/* single categoris End */}
                 </div>
               </div>
-              {/* single wizered End */}
-              {/* single wizered start */}
-              <div className="rts-single-wized download service">
-                <div className="wized-header">
-                  <h5 className="title">Download</h5>
-                </div>
-                <div className="wized-body">
-                  {/* single downlaod area start */}
-                  <div className="single-download-area">
-                    <img
-                      src="assets/images/service/icon/07.svg"
-                      alt="Business_downlaod"
-                    />
-                    <div className="mid">
-                      <h6 className="title">Our Brochures</h6>
-                      <span>Downlaod</span>
-                    </div>
-                    <Link className=" rts-btn btn-primary" href={"#"}>
-                      <i className="fal fa-arrow-right" />
-                    </Link>
-                  </div>
-                  {/* single downlaod area End */}
-                  {/* single downlaod area start */}
-                  <div className="single-download-area">
-                    <img
-                      src="assets/images/service/icon/08.svg"
-                      alt="Business_downlaod"
-                    />
-                    <div className="mid">
-                      <h6 className="title">Company Details</h6>
-                      <span>Downlaod</span>
-                    </div>
-                    <Link className=" rts-btn btn-primary" href={"#"}>
-                      <i className="fal fa-arrow-right" />
-                    </Link>
-                  </div>
-                  {/* single downlaod area End */}
-                </div>
-              </div>
-              {/* single wizered End */}
-              {/* single wizered start */}
+
               <div className="rts-single-wized contact service">
                 <div className="wized-header">
                   <Link href={"#"}>
                     <img
-                      src="assets/images/logo/logo-2.svg"
-                      alt="Business_logo"
+                      src="assets/images/logo/logo.png"
+                      alt="Pinnacle Logo"
                     />
                   </Link>
                 </div>
                 <div className="wized-body">
-                  <h5 className="title">Need Help? We Are Here To Help You</h5>
-                  <Link className="rts-btn btn-primary" href={"#"}>
+                  <h5 className="title">Need Help? We Are Here To Assist</h5>
+                  <Link className="rts-btn btn-primary" href={"/contactus"}>
                     Contact Us
                   </Link>
                 </div>
               </div>
-              {/* single wizered End */}
             </div>
-            {/* rts- blog wizered end area */}
           </div>
         </div>
       </div>
