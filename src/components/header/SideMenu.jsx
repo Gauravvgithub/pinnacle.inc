@@ -255,7 +255,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                       <Link href={"/blog-list"}>Blog List</Link>
                     </li> */}
                     <li className="mobile-menu-link">
-                      <Link href={"/blog-grid"}>Blog Grid</Link>
+                      <Link href={"/blogs"}>Blog Grid</Link>
                     </li>
                     {/* <li className="mobile-menu-link">
                       <Link href={"/blog-details-default"}>Blog Details</Link>

@@ -69,13 +69,13 @@ function Nav() {
           </li>
 
           <li>
-            <Link href={"/blog-grid"}>Blog</Link>
+            <Link href={"/blogs"}>Blog</Link>
             {/* <ul className="submenu"> */}
             {/* <li>
                 <Link href={"/blog-list"}>Blog List</Link>
               </li> */}
             {/* <li>
-                <Link href={"/blog-grid"}>Blog Grid</Link>
+                <Link href={"/blogs"}>Blog Grid</Link>
               </li> */}
             {/* <li>
                 <Link href={"/blog-details-default"}>Blog Details</Link>

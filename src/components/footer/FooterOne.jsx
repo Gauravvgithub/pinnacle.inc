@@ -97,7 +97,7 @@ function FooterOne() {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/blog-grid">
+                      <Link href="/blogs">
                         <i className="far fa-arrow-right" /> Blogs
                       </Link>
                     </li>

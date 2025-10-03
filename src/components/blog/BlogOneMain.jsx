@@ -16,14 +16,14 @@ const BlogGridMain = (props) => {
                     <p>
                         <span>Business Solution </span>/ by David Dolean
                     </p>
-                    <Link href={`/blog-grid/${blogID}`}>
+                    <Link href={`/blogs/${blogID}`}>
                         <h5 className="title">
                             {blogTitle ? blogTitle : 'How to growing your business'}
                         </h5>
                     </Link>
                     <Link
                         className="rts-read-more btn-primary"
-                        href={`/blog-grid/${blogID}`}
+                        href={`/blogs/${blogID}`}
                     >
                         <i className="far fa-arrow-right" />
                         Read More

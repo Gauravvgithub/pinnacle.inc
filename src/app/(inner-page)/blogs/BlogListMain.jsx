@@ -8,13 +8,13 @@ const BlogGridMain = (props) => {
     return (
         <>
             <div className="blog-header">
-                <Link className="thumbnail" href={`/blog-grid/${Slug}`}>
+                <Link className="thumbnail" href={`/blogs/${Slug}`}>
                     <img
-                        src={`assets/images/blog/${blogImage}`}
+                        src={`${process.env.NEXT_PUBLIC_API_URL}${blogImage}`}
                         alt="Business_Blog"
                     />
                 </Link>
-                <div className="blog-info">
+                {/* <div className="blog-info">
                     <div className="user">
                         <i className="fal fa-user-circle" />
                         <span>by Smith</span>
@@ -27,10 +27,10 @@ const BlogGridMain = (props) => {
                 <div className="date">
                     <h6 className="title">15</h6>
                     <span>Jan</span>
-                </div>
+                </div> */}
             </div>
             <div className="blog-body">
-                <Link href={`/blog-grid/${Slug}`}>
+                <Link href={`/blogs/${Slug}`}>
                     <h5 className="title">
                         {blogTitle ? blogTitle : 'How to growing your business'}
                     </h5>
