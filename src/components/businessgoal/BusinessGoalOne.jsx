@@ -131,10 +131,10 @@ function BusinessGoalOne() {
                     </div>
                     <div className="goal-button-wrapper mt--70">
                       <Link
-                        href={"/contactus"}
+                        href={"/our-service"}
                         className="rts-btn btn-primary color-h-black"
                       >
-                        Contact Us
+                        All Services
                       </Link>
                       
                     </div>

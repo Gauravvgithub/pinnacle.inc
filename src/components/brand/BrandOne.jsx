@@ -5,7 +5,7 @@ function BrandOne() {
     return (
         <div>
             {/* start trusted client section */}
-            <div className="rts-trusted-client rts-section-gapBottom">
+            <div className="rts-trusted-client rts-section-gapBottom" >
                 <div className="container">
                     <div className="row">
                         <div className="col-12">

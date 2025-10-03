@@ -42,12 +42,7 @@ function TestimonialOne() {
                                             <SwiperSlide>
                                                 <div className="testimonial-inner">
                                                     <p className="disc text-start">
-                                                        “Consectetur adipiscing elit velit porta sapien purus erat
-                                                        nec, a ornare laoreet sem gravida accumsan in commodo
-                                                        aliquet nascetur maecenas. Sem tempus hendrerit diam
-                                                        mauris leo magna sociosqu viverra, accumsan massa
-                                                        tristique egestas cum sodales hac lacinia feugiat
-                                                        scelerisque porttitor”
+                                                        “The service was excellent and exceeded my expectations. The team was professional and very responsive throughout the project.”
                                                     </p>
                                                     <div className="testimonial-bottom-one">
                                                         <div className="thumbnail">
@@ -58,9 +53,9 @@ function TestimonialOne() {
                                                         </div>
                                                         <div className="details">
                                                             <a href="#">
-                                                                <h5 className="title">David Smith</h5>
+                                                                <h5 className="title">Vikram Pal Singh</h5>
                                                             </a>
-                                                            <span>JHKL Owner</span>
+                                                            <span>JWT Owner</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -68,12 +63,7 @@ function TestimonialOne() {
                                             <SwiperSlide>
                                                 <div className="testimonial-inner">
                                                     <p className="disc text-start">
-                                                        “Consectetur adipiscing elit velit porta sapien purus erat
-                                                        nec, a ornare laoreet sem gravida accumsan in commodo
-                                                        aliquet nascetur maecenas. Sem tempus hendrerit diam
-                                                        mauris leo magna sociosqu viverra, accumsan massa
-                                                        tristique egestas cum sodales hac lacinia feugiat
-                                                        scelerisque porttitor”
+                                                        “Amazing experience! They delivered everything on time and with top-notch quality. Highly recommend their services.”
                                                     </p>
                                                     <div className="testimonial-bottom-one">
                                                         <div className="thumbnail">
@@ -84,9 +74,9 @@ function TestimonialOne() {
                                                         </div>
                                                         <div className="details">
                                                             <a href="#">
-                                                                <h5 className="title">David Smith</h5>
+                                                                <h5 className="title">Rishi Singh Rathore</h5>
                                                             </a>
-                                                            <span>JHKL Owner</span>
+                                                            <span> Owner</span>
                                                         </div>
                                                     </div>
                                                 </div>

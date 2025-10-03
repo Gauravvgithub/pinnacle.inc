@@ -9,6 +9,7 @@ function AboutOne() {
       <div
         className="rts-about-area rts-section-gap bg-about-sm-shape"
         id="about"
+        style={{paddingBottom:"0px"}}
       >
         <div className="container">
           <div className="row g-5 align-items-center">

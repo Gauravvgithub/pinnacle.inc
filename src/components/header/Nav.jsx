@@ -54,9 +54,9 @@ function Nav() {
                   <li>
                     <Link href={"/our-service"}>Our Services</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href={"/testimonial-style-1"}>Testimonial</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href={"/team"}>Teams</Link>
                   </li>
