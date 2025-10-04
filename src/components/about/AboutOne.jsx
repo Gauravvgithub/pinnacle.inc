@@ -87,6 +87,7 @@ function AboutOne() {
                         <img
                           src="assets/images/team/tm/01.jpeg"
                           alt="finbiz_founder"
+                          style={{width: "80px"}}
                         />
                       </a>
                       <div className="founder-details">
