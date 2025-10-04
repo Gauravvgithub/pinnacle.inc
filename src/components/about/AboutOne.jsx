@@ -85,7 +85,7 @@ function AboutOne() {
                     <div className="author-inner">
                       <a className="thumbnail" href="#">
                         <img
-                          src="assets/images/about/sm-01.png"
+                          src="assets/images/team/tm/01.jpeg"
                           alt="finbiz_founder"
                         />
                       </a>
