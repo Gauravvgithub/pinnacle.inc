@@ -1,0 +1,79 @@
+/* Main Section */
+.trusted-client-section {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.client-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 50px !important;
+}
+
+/* Slider Container */
+.logo-slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Track Animation */
+.logo-track {
+  display: flex;
+  width: calc(200px * 10); /* adjust based on logos * 2 */
+  animation: scroll 25s linear infinite;
+}
+
+.logo-item {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 120px;
+  margin: 0 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-item img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  /* filter: grayscale(100%); */
+  transition: all 0.3s ease-in-out;
+}
+
+.logo-item img:hover {
+  /* filter: grayscale(0%); */
+  transform: scale(1.08);
+}
+
+/* Infinite Scroll Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-200px * 5)); /* half the total logos */
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .logo-item {
+    width: 150px;
+    height: 100px;
+    margin: 0 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo-item {
+    width: 120px;
+    height: 80px;
+    margin: 0 10px;
+  }
+}

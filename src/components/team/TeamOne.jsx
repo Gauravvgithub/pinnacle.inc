@@ -1,198 +1,103 @@
-"use client"
-import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.css'; // Core Swiper styles
-import { Navigation, Scrollbar, A11y, EffectFade, Autoplay } from 'swiper/modules';
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/scrollbar';
-import Link from 'next/link';
+"use client";
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Scrollbar, A11y, Autoplay } from "swiper/modules";
+import "swiper/swiper-bundle.css";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/scrollbar";
 
 function TeamOne() {
-    return (
-        <div>
-            {/* start team section */}
-            <div className="rts-team-area rts-section-gap bg-team">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="rts-title-area team text-center">
-                                <p className="pre-title">Professionals Team</p>
-                                <h2 className="title">Professionals Team</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row g-5 mt--0">
-                        <Swiper
-                            // install Swiper modules
-                            modules={[Navigation, Scrollbar, A11y, Autoplay]}
-                            className="mySwiperh1_team"
-                            speed={1500}
-                            slidesPerView={4}
-                            spaceBetween={30}
-                            loop={true}
-                            autoplay={true}
-                            navigation={{
-                                nextEl: '.rts-next',
-                                prevEl: '.rts-prev',
-                            }}
-                            breakpoints={{
-                                1200: { slidesPerView: 4 },
-                                900: { slidesPerView: 3 },
-                                768: { slidesPerView: 2 },
-                                580: { slidesPerView: 2 },
-                                450: { slidesPerView: 1 },
-                                0: { slidesPerView: 1 },
-                            }}
-                        >
-                            <SwiperSlide>
-                                <div className="team-single-one-start">
-                                    <div className="team-image-area">
-                                        <Link href={'/team-details'}>
-                                            <img
-                                                src="assets/images/team/tm/01.jpg"
-                                                alt="Business_Team_single"
-                                            />
-                                            <div className="team-social">
-                                                <div className="main">
-                                                    <i className="fal fa-plus" />
-                                                </div>
-                                                <div className="team-social-one">
-                                                    <i className="fab fa-youtube" />
-                                                    <i className="fab fa-twitter" />
-                                                    <i className="fab fa-instagram" />
-                                                </div>
-                                            </div>
-                                        </Link>
-                                    </div>
-                                    <div className="single-details">
-                                        <Link href={'/team-details'}>
-                                            <h5 className="title">Archer Graham</h5>
-                                        </Link>
-                                        <p>Founder</p>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="team-single-one-start">
-                                    <div className="team-image-area">
-                                        <Link href={'/team-details'}>
-                                            <img
-                                                src="assets/images/team/tm/02.jpg"
-                                                alt="Business_Team_single"
-                                            />
-                                            <div className="team-social">
-                                                <div className="main">
-                                                    <i className="fal fa-plus" />
-                                                </div>
-                                                <div className="team-social-one">
-                                                    <i className="fab fa-youtube" />
-                                                    <i className="fab fa-twitter" />
-                                                    <i className="fab fa-instagram" />
-                                                </div>
-                                            </div>
-                                        </Link>
-                                    </div>
-                                    <div className="single-details">
-                                        <Link href={'/team-details'}>
-                                            <h5 className="title">Amelia Clover</h5>
-                                        </Link>
-                                        <p>Co-Founder</p>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="team-single-one-start">
-                                    <div className="team-image-area">
-                                        <Link href={'/team-details'}>
-                                            <img
-                                                src="assets/images/team/tm/03.jpg"
-                                                alt="Business_Team_single"
-                                            />
-                                            <div className="team-social">
-                                                <div className="main">
-                                                    <i className="fal fa-plus" />
-                                                </div>
-                                                <div className="team-social-one">
-                                                    <i className="fab fa-youtube" />
-                                                    <i className="fab fa-twitter" />
-                                                    <i className="fab fa-instagram" />
-                                                </div>
-                                            </div>
-                                        </Link>
-                                    </div>
-                                    <div className="single-details">
-                                        <Link href={'/team-details'}>
-                                            <h5 className="title">Beckett Hayden</h5>
-                                        </Link>
-                                        <p>Deputy Manager</p>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="team-single-one-start">
-                                    <div className="team-image-area">
-                                        <Link href={'/team-details'}>
-                                            <img
-                                                src="assets/images/team/tm/04.jpg"
-                                                alt="Business_Team_single"
-                                            />
-                                            <div className="team-social">
-                                                <div className="main">
-                                                    <i className="fal fa-plus" />
-                                                </div>
-                                                <div className="team-social-one">
-                                                    <i className="fab fa-youtube" />
-                                                    <i className="fab fa-twitter" />
-                                                    <i className="fab fa-instagram" />
-                                                </div>
-                                            </div>
-                                        </Link>
-                                    </div>
-                                    <div className="single-details">
-                                        <Link href={'/team-details'}>
-                                            <h5 className="title">Julian Wyat</h5>
-                                        </Link>
-                                        <p>Finance Manager</p>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="team-single-one-start">
-                                    <div className="team-image-area">
-                                        <Link href={'/team-details'}>
-                                            <img
-                                                src="assets/images/team/tm/04.jpg"
-                                                alt="Business_Team_single"
-                                            />
-                                            <div className="team-social">
-                                                <div className="main">
-                                                    <i className="fal fa-plus" />
-                                                </div>
-                                                <div className="team-social-one">
-                                                    <i className="fab fa-youtube" />
-                                                    <i className="fab fa-twitter" />
-                                                    <i className="fab fa-instagram" />
-                                                </div>
-                                            </div>
-                                        </Link>
-                                    </div>
-                                    <div className="single-details">
-                                        <Link href={'/team-details'}>
-                                            <h5 className="title">Julian Wyat</h5>
-                                        </Link>
-                                        <p>Finance Manager</p>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                        </Swiper>
-                    </div>
-                </div>
-            </div>
-            {/* end team section */}
+  // Team Data Array
+  const teamMembers = [
+    {
+      id: 1,
+      name: "Mr. Shivanand Pandey",
+      position: "Founder & President",
+      image: "assets/images/team/tm/01.jpeg",
+    },
+    {
+      id: 2,
+      name: "Ms. Saloni Ahuja",
+      position: "Vice President",
+      image: "assets/images/team/tm/02.jpeg",
+    },
+    {
+      id: 3,
+      name: "Mr. Chhotelal Gupta",
+      position: "Manager",
+      image: "assets/images/team/tm/03.jpeg",
+    },
+    {
+      id: 4,
+      name: "Mr. Vikas Singh",
+      position: "Supervison Head",
+      image: "assets/images/team/tm/04.jpeg",
+    },
+    {
+      id: 5,
+      name: "Mr. Anurag Singh",
+      position: "Supervisor",
+      image: "assets/images/team/tm/05.jpeg",
+    },
+  ];
+
+  return (
+    <div className="rts-team-area rts-section-gap bg-team">
+      <div className="container">
+        <div className="rts-title-area team text-center">
+          <h2 className="title">Professionals Team</h2>
         </div>
-    )
+
+        <div className="row g-5 mt--0">
+          <Swiper
+            modules={[Navigation, Scrollbar, A11y, Autoplay]}
+            className="mySwiperh1_team"
+            speed={1500}
+            slidesPerView={4}
+            spaceBetween={30}
+            loop={true}
+            autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+            }}
+            navigation={{
+              nextEl: ".rts-next",
+              prevEl: ".rts-prev",
+            }}
+            breakpoints={{
+              1200: { slidesPerView: 4 },
+              900: { slidesPerView: 3 },
+              768: { slidesPerView: 2 },
+              580: { slidesPerView: 2 },
+              450: { slidesPerView: 1 },
+              0: { slidesPerView: 1 },
+            }}
+          >
+            {teamMembers.map((member) => (
+              <SwiperSlide key={member.id}>
+                <div className="team-single-one-start">
+                  <div className="team-image-area">
+                      <img
+                        src={member.image}
+                        alt={member.name}
+                        className="img-fluid"
+                      />
+                  </div>
+                  <div className="single-details" style={{height:"150px"}}>
+                    {/* <Link href="/team-details"> */}
+                      <h5 className="title">{member.name}</h5>
+                    {/* </Link> */}
+                    <p>{member.position}</p>
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default TeamOne
+export default TeamOne;

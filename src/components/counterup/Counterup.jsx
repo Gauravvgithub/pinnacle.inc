@@ -5,7 +5,7 @@ export default function Counterup() {
   const [counts, setCounts] = useState([0, 0, 0, 0]);
 
   // Final values for counters
-  const finalCounts = [80, 40, 20, 60]; 
+  const finalCounts = [80, 40, 25, 60]; 
 
   // Labels for each counter
   const labels = ["Projects", "Clients", "Years of Experience", "Manpower"];

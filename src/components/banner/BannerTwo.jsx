@@ -42,7 +42,7 @@ function BannerTwo() {
                                             <div className="col-12">
                                                 <div className="banner-two-content text-center">
                                                     <div className="wrapper">
-                                                        <span className="sub">20+ Years In Business</span>
+                                                        <span className="sub">25+ Years In Business</span>
                                                         <h1 className="title">
                                                             <span>Solving</span> Your Vision Is <br />
                                                             <span>Our</span> Dedication
@@ -64,7 +64,7 @@ function BannerTwo() {
                                             <div className="col-12">
                                                 <div className="banner-two-content text-center">
                                                     <div className="wrapper">
-                                                        <span className="sub">20+ Years In Business</span>
+                                                        <span className="sub">25+ Years In Business</span>
                                                         <h1 className="title">
                                                             <span>Boosting</span> Your Business <br /> Is
                                                             <span>Our</span> Dedication
@@ -86,7 +86,7 @@ function BannerTwo() {
                                             <div className="col-12">
                                                 <div className="banner-two-content text-center">
                                                     <div className="wrapper">
-                                                        <span className="sub">20+ Years In Business</span>
+                                                        <span className="sub">25+ Years In Business</span>
                                                         <h1 className="title">
                                                             <span>Making</span> Business Growth Is Our{" "}
                                                             <span>Dedication</span>

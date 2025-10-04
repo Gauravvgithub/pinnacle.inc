@@ -1,56 +1,34 @@
-"use client"
-import React from 'react'
+"use client";
+import React from "react";
+import "./BrandOne.css";
 
 function BrandOne() {
-    return (
-        <div>
-            {/* start trusted client section */}
-            <div className="rts-trusted-client rts-section-gapBottom" >
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="title-area-client text-center">
-                                <p className="client-title">Our Trusted Clients</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="client-wrapper-one gap-5">
-                            <a href="#">
-                                <img src="assets/images/client/01.png" alt="business_finbiz" />
-                            </a>
-                            <a href="#">
-                                <img src="assets/images/client/02.png" alt="business_finbiz" />
-                            </a>
-                            <a href="#">
-                                <img src="assets/images/client/03.png" alt="business_finbiz" />
-                            </a>
-                            <a href="#">
-                                <img src="assets/images/client/04.png" alt="business_finbiz" />
-                            </a>
-                            <a href="#">
-                                <img src="assets/images/client/05.png" alt="business_finbiz" />
-                            </a>
-                            <a href="#">
-                                <img src="assets/images/client/06.png" alt="business_finbiz" />
-                            </a>
-                            <a href="#">
-                                <img src="assets/images/client/07.png" alt="business_finbiz" />
-                            </a>
-                            <a href="#">
-                                <img src="assets/images/client/08.png" alt="business_finbiz" />
-                            </a>
-                            <a href="#">
-                                <img src="assets/images/client/09.png" alt="business_finbiz" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* end trusted client section */}
+  const clients = [
+    "assets/images/client/01.png",
+    "assets/images/client/02.png",
+    "assets/images/client/03.png",
+    "assets/images/client/04.png",
+    "assets/images/client/05.png",
+    "assets/images/client/06.png",
+  ];
 
+  return (
+    <div className="trusted-client-section">
+      <div className="container">
+        <h2 className="client-title text-center mb-4">Our Trusted Clients</h2>
+
+        <div className="logo-slider">
+          <div className="logo-track">
+            {[...clients, ...clients].map((img, i) => (
+              <div className="logo-item" key={i}>
+                <img src={img} alt={`client-${i}`} loading="lazy" />
+              </div>
+            ))}
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
-export default BrandOne
+export default BrandOne;
