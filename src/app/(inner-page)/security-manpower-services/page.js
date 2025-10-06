@@ -49,7 +49,7 @@ export default function Home() {
               {/* service details left area start */}
               <div className="service-detials-step-1">
                 <div className="thumbnail">
-                  <img src="assets/images/service/01.jpg" alt="business-area" />
+                  <img src="assets/images/service/03.jpeg" alt="business-area" />
                 </div>
                 <h4 className="title">
                   Security & Manpower Supply Services

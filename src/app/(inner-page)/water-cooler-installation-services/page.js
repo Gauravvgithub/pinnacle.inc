@@ -24,7 +24,7 @@ export default function WaterCoolerInstallation() {
               <div className="service-detials-step-1">
                 <div className="thumbnail">
                   <img
-                    src="assets/images/service/water-cooler.jpg"
+                    src="assets/images/service/02.png"
                     alt="water-cooler-service"
                   />
                 </div>

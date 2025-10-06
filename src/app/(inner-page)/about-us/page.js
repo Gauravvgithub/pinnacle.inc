@@ -173,7 +173,7 @@ export default function Home() {
                   <div className="big-thumbnail-area">
                     <Link href={"#"} className="thumbnail">
                       <img
-                        src="assets/images/service/07.jpg"
+                        src="assets/images/service/park.jpg"
                         alt="Business-service"
                       />
                     </Link>
@@ -184,10 +184,10 @@ export default function Home() {
                       />
                       <h5 className="title">Park Development</h5>
                     </div>
-                    <Link href="service-details.html" className="over_link" />
+                    <Link href="/park-development" className="over_link" />
                   </div>
                   <Link
-                    href="service-details.html"
+                    href="/park-development"
                     className="rts-btn btn-primary"
                   >
                     Read More <i className="fal fa-arrow-right" />
@@ -200,7 +200,7 @@ export default function Home() {
                   <div className="big-thumbnail-area">
                     <Link href={"#"} className="thumbnail">
                       <img
-                        src="assets/images/service/08.jpg"
+                        src="assets/images/service/water.jpg"
                         alt="Business-service"
                       />
                     </Link>
@@ -209,12 +209,17 @@ export default function Home() {
                         src="assets/images/service/icon/14.svg"
                         alt="Business-icon"
                       />
-                      <h5 className="title">Infrastructure Development</h5>
+                      <h5 className="title">
+                        Water Cooler Installation Services
+                      </h5>
                     </div>
-                    <Link href="service-details.html" className="over_link" />
+                    <Link
+                      href="/water-cooler-installation-services"
+                      className="over_link"
+                    />
                   </div>
                   <Link
-                    href="service-details.html"
+                    href="/water-cooler-installation-services"
                     className="rts-btn btn-primary"
                   >
                     Read More <i className="fal fa-arrow-right" />
@@ -228,7 +233,7 @@ export default function Home() {
                   <div className="big-thumbnail-area">
                     <Link href={"#"} className="thumbnail">
                       <img
-                        src="assets/images/service/09.jpg"
+                        src="assets/images/service/security.jpg"
                         alt="Business-service"
                       />
                     </Link>
@@ -237,12 +242,12 @@ export default function Home() {
                         src="assets/images/service/icon/15.svg"
                         alt="Business-icon"
                       />
-                      <h5 className="title">General Contracting</h5>
+                      <h5 className="title">Security & Manpower Supply Services</h5>
                     </div>
-                    <Link href="service-details.html" className="over_link" />
+                    <Link href="/security-manpower-services" className="over_link" />
                   </div>
                   <Link
-                    href="service-details.html"
+                    href="/security-manpower-services"
                     className="rts-btn btn-primary"
                   >
                     Read More <i className="fal fa-arrow-right" />
@@ -255,7 +260,7 @@ export default function Home() {
                   <div className="big-thumbnail-area">
                     <Link href={"#"} className="thumbnail">
                       <img
-                        src="assets/images/service/09.jpg"
+                        src="assets/images/service/ac.jpg"
                         alt="Business-service"
                       />
                     </Link>
@@ -265,13 +270,13 @@ export default function Home() {
                         alt="Business-icon"
                       />
                       <h5 className="title">
-                        Design - Build Renovation and Remodeling
+                        AC Chiller Plant Services
                       </h5>
                     </div>
-                    <Link href="service-details.html" className="over_link" />
+                    <Link href="/ac-chiller-plants-services" className="over_link" />
                   </div>
                   <Link
-                    href="service-details.html"
+                    href="/ac-chiller-plants-services"
                     className="rts-btn btn-primary"
                   >
                     Read More <i className="fal fa-arrow-right" />
@@ -289,7 +294,7 @@ export default function Home() {
                   </h4>
                 </div>
                 <div className="cta-right">
-                  <Link className="rts-btn btn-white" href={"#"}>
+                  <Link className="rts-btn btn-white" href={"/contactus"}>
                     Lets Work Together
                   </Link>
                 </div>
@@ -300,7 +305,7 @@ export default function Home() {
       </div>
       {/* rts services area End */}
 
-      <TeamOne/>
+      <TeamOne />
 
       {/* rts faq section area */}
       <div className="rts-faq-section rts-section-gap rts-faq-bg bg_image">

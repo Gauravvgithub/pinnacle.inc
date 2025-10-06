@@ -7,10 +7,7 @@ import FooterOne from "@/components/footer/FooterOne";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export default function ContactUs() {
-  const breadcrumbs = [
-    { label: "Home", link: "/" },
-    { label: "Contact Us" },
-  ];
+  const breadcrumbs = [{ label: "Home", link: "/" }, { label: "Contact Us" }];
 
   // form state
   const [formData, setFormData] = useState({
@@ -83,29 +80,27 @@ export default function ContactUs() {
 
       <section className="pinnacle-intro py-5 bg-light">
         <div className="container">
-          <h2 className="mb-4" >
-            Get in Touch with Pinnacle
-          </h2>
+          <h2 className="mb-4">Get in Touch with Pinnacle</h2>
           <p className="mb-3">
-            When someone is making plans for their dream home, or maybe a tall
-            office building, the first thing that comes to mind is finding a
-            builder you can trust. That's when we come in. If you ever wondered
-            who to trust, contact Pinnacle Construction Company. It's easy to
-            get in touch with us, and we're always willing to listen.
+            At Pinnacle Construction Company, we turn visions into reality.
+            Whether it's a dream home, a commercial building, or a large-scale
+            infrastructure project, our experienced team is here to guide you
+            every step of the way. Trust, expertise, and quality are at the
+            heart of everything we do.
           </p>
           <p>
-            Small talks are the first step toward big projects. A short talk. A
-            simple question. Then, little by little, it turns into something
-            real. We at Pinnacle think that every question is important. You can
-            always contact Pinnacle if you need help with a project, want to
-            know how much something will cost, or need expert advice.
+            Every project begins with a conversation. A simple question, a short
+            discussion — and from there, we carefully plan, design, and execute
+            with precision. From park development and water cooler installations
+            to AC chiller plants and security services, Pinnacle provides a
+            complete range of construction and facility management solutions.
           </p>
           <p>
-            There are more than just engineers and managers on our team. We
-            listen. We know that sometimes you need more than just numbers; you
-            need clarity. That's why we make it easy to talk to each other.
-            Call. Send an email. You can also just come into our office. We're
-            here. Always.
+            Our team is more than engineers and managers — we are listeners,
+            problem-solvers, and partners in your projects. Need expert advice,
+            a cost estimate, or guidance on the best approach? Pinnacle is
+            always just a call, email, or visit away. We make it easy to
+            connect, discuss, and move forward together.
           </p>
         </div>
       </section>
@@ -191,8 +186,8 @@ export default function ContactUs() {
                   <div className="info">
                     <span>Our Services</span>
                     <h6>
-                      Park Development, Infrastructure Development, General
-                      Contracting, Design-Build Renovation & Remodeling.
+                      Park Development, Water Cooler Installation, Security &
+                      Manpower Supply, AC Chiller Plant Services
                     </h6>
                   </div>
                 </div>
