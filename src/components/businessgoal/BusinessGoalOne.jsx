@@ -2,6 +2,11 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import ErrorBoundary from "@/components/ErrorBoundary";
+import { CgGym } from "react-icons/cg";
+import { FaGlassWaterDroplet } from "react-icons/fa6";
+import { MdOutlineSecurity } from "react-icons/md";
+import { FaTrowelBricks } from "react-icons/fa6";
+
 function BusinessGoalOne() {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
 
@@ -70,10 +75,17 @@ function BusinessGoalOne() {
                   </div>
                   <div className="rts-business-goal pl--30">
                     <div className="single-goal">
-                      <img
+                      {/* <img
                         src="assets/images/business-goal/icon/01.svg"
                         alt="business_Icone"
                         className="thumb"
+                      /> */}
+                      <FaTrowelBricks 
+                        style={{
+                          color: "red",
+                          fontSize: "6rem",
+                          marginRight: "24px",
+                        }}
                       />
                       <div className="goal-wrapper">
                         <h6 className="title">Construction & Infrastructure</h6>
@@ -85,10 +97,17 @@ function BusinessGoalOne() {
                       </div>
                     </div>
                     <div className="single-goal">
-                      <img
+                      {/* <img
                         src="assets/images/business-goal/icon/02.svg"
                         alt="business_Icone"
                         className="thumb"
+                      /> */}
+                      <FaGlassWaterDroplet
+                        style={{
+                          color: "red",
+                          fontSize: "6rem",
+                          marginRight: "24px",
+                        }}
                       />
                       <div className="goal-wrapper">
                         <h6 className="title">Water, RO & AC Solutions</h6>
@@ -100,11 +119,16 @@ function BusinessGoalOne() {
                       </div>
                     </div>
                     <div className="single-goal">
-                      <img
+                      {/* <img
                         src="assets/images/business-goal/icon/03.svg"
                         alt="business_Icone"
                         className="thumb"
-                      />
+                      /> */}
+                      <MdOutlineSecurity style={{
+                          color: "red",
+                          fontSize: "6rem",
+                          marginRight: "24px",
+                        }}/>
                       <div className="goal-wrapper">
                         <h6 className="title">Security & Manpower Services</h6>
                         <p className="disc">
@@ -115,10 +139,17 @@ function BusinessGoalOne() {
                       </div>
                     </div>
                     <div className="single-goal">
-                      <img
+                      {/* <img
                         src="assets/images/business-goal/icon/04.svg"
                         alt="business_Icone"
                         className="thumb"
+                      /> */}
+                      <CgGym
+                        style={{
+                          color: "red",
+                          fontSize: "6rem",
+                          marginRight: "24px",
+                        }}
                       />
                       <div className="goal-wrapper">
                         <h6 className="title">Open Gym Equipment Supply</h6>
@@ -136,7 +167,6 @@ function BusinessGoalOne() {
                       >
                         All Services
                       </Link>
-                      
                     </div>
                   </div>
                 </div>

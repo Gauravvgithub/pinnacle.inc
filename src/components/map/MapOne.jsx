@@ -22,7 +22,7 @@ function MapOne() {
                     </Link>
                     <p className="time-header">Assistance hours:</p>
                     <p className="time">
-                      Monday – Friday <br /> 6 am to 8 pm IST
+                      Monday – Saturday <br /> 9 am to 6 pm IST
                     </p>
                   </div>
                 </div>

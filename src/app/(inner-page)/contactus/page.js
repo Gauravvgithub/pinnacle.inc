@@ -1,13 +1,80 @@
 "use client";
 import Link from "next/link";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import HeaderOne from "@/components/header/HeaderOne";
 import BackToTop from "@/components/BackToTop";
 import FooterOne from "@/components/footer/FooterOne";
 import Breadcrumb from "@/components/Breadcrumb";
 
-export default function Home() {
-  const breadcrumbs = [{ label: "Home", link: "/" }, { label: "Contact Us" }];
+export default function ContactUs() {
+  const breadcrumbs = [
+    { label: "Home", link: "/" },
+    { label: "Contact Us" },
+  ];
+
+  // form state
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
+  });
+
+  const [loading, setLoading] = useState(false);
+  const [statusMessage, setStatusMessage] = useState("");
+
+  // handle input change
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  // handle submit
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    setStatusMessage("");
+
+    // we can send phone as empty if not included
+    const payload = {
+      name: formData.name,
+      email: formData.email,
+      phone: formData.phone || "N/A",
+      message: `Subject: ${formData.subject}\n\n${formData.message}`,
+    };
+
+    try {
+      const res = await fetch(
+        `${process.env.NEXT_PUBLIC_API_URL}/api/enquiry`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        }
+      );
+
+      const data = await res.json();
+
+      if (data.success) {
+        setStatusMessage("✅ Your message has been sent successfully!");
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          subject: "",
+          message: "",
+        });
+      } else {
+        setStatusMessage("❌ Failed to send message. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error submitting enquiry:", error);
+      setStatusMessage("❌ Something went wrong. Please try again later.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div className="">
       <HeaderOne />
@@ -163,6 +230,7 @@ export default function Home() {
       </div>
       {/* bizup map area end */}
       {/* conact us form fluid start */}
+      {/* Contact Us Form */}
       <div className="rts-contact-form-area">
         <div className="container">
           <div className="row">
@@ -173,36 +241,60 @@ export default function Home() {
                   <h2 className="title">Needs Help? Let’s Get in Touch</h2>
                 </div>
                 <div className="form-wrapper">
-                  <div id="form-messages" />
-                  <form id="contact-form">
+                  <form id="contact-form" onSubmit={handleSubmit}>
                     <div className="name-email">
                       <input
                         type="text"
                         name="name"
                         placeholder="Your Name"
-                        required=""
+                        value={formData.name}
+                        onChange={handleChange}
+                        required
                       />
                       <input
                         type="email"
                         name="email"
                         placeholder="Email Address"
-                        required=""
+                        value={formData.email}
+                        onChange={handleChange}
+                        required
                       />
                     </div>
                     <input
                       type="text"
+                      name="phone"
+                      placeholder="Phone Number"
+                      value={formData.phone}
+                      onChange={handleChange}
+                    />
+                    <input
+                      type="text"
                       name="subject"
                       placeholder="Your Subject"
+                      value={formData.subject}
+                      onChange={handleChange}
                     />
                     <textarea
-                      placeholder="Type Your Message"
                       name="message"
-                      defaultValue={""}
+                      placeholder="Type Your Message"
+                      value={formData.message}
+                      onChange={handleChange}
+                      required
                     />
-                    <button type="submit" className="rts-btn btn-primary">
-                      Send Message
+                    <button
+                      type="submit"
+                      className="rts-btn btn-primary"
+                      disabled={loading}
+                    >
+                      {loading ? "Sending..." : "Send Message"}
                     </button>
                   </form>
+
+                  {statusMessage && (
+                    <p style={{ marginTop: "10px", color: "#333" }}>
+                      {statusMessage}
+                    </p>
+                  )}
                 </div>
               </div>
             </div>

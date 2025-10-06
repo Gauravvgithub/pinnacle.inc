@@ -58,7 +58,7 @@ function HeaderOneOnepage() {
                                     </div>
                                     <div className="working-time">
                                         <p>
-                                            <i className="fal fa-clock" /> Working: 8.00am - 5.00pm
+                                            <i className="fal fa-clock" /> Working: 9.00am - 6.00pm
                                         </p>
                                     </div>
                                 </div>

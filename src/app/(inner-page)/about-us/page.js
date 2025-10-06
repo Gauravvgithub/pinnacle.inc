@@ -4,9 +4,10 @@ import Link from "next/link";
 import HeaderOne from "@/components/header/HeaderOne";
 import BackToTop from "@/components/BackToTop";
 import Breadcrumb from "@/components/Breadcrumb";
-import TeamTwo from "@/components/team/TeamTwo";
+// import TeamTwo from "@/components/team/TeamTwo";
 import FooterOne from "@/components/footer/FooterOne";
 import Accordion from "react-bootstrap/Accordion";
+import TeamOne from "@/components/team/TeamOne";
 export default function Home() {
   const breadcrumbs = [{ label: "Home", link: "/" }, { label: "About Us" }];
   const [isVideoOpen, setIsVideoOpen] = useState(false);
@@ -299,7 +300,7 @@ export default function Home() {
       </div>
       {/* rts services area End */}
 
-      <TeamTwo />
+      <TeamOne/>
 
       {/* rts faq section area */}
       <div className="rts-faq-section rts-section-gap rts-faq-bg bg_image">
