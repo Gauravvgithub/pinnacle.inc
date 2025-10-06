@@ -427,7 +427,7 @@ export default function Home() {
                 <div className="test-header">
                   <div className="thumbnail">
                     <img
-                      src="assets/images/testimonials/02.png"
+                      src="assets/images/testimonials/06.png"
                       alt="Vikram Seth"
                     />
                   </div>
@@ -453,12 +453,12 @@ export default function Home() {
                 <div className="test-header">
                   <div className="thumbnail">
                     <img
-                      src="assets/images/testimonials/03.png"
+                      src="assets/images/testimonials/07.png"
                       alt="Aditya Sharma"
                     />
                   </div>
                   <div className="name-desig">
-                    <h5 className="title">Aditya Sharma</h5>
+                    <h5 className="title">Joshep Elia</h5>
                     <span className="designation">
                       Architect & Interior Consultant
                     </span>

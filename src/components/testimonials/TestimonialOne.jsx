@@ -82,7 +82,7 @@ function TestimonialOne() {
                           <div className="testimonial-bottom-one">
                             <div className="thumbnail">
                               <img
-                                src="assets/images/testimonials/02.png"
+                                src="assets/images/testimonials/03.png"
                                 alt="business-testimonials"
                               />
                             </div>
@@ -108,7 +108,7 @@ function TestimonialOne() {
                           <div className="testimonial-bottom-one">
                             <div className="thumbnail">
                               <img
-                                src="assets/images/testimonials/02.png"
+                                src="assets/images/testimonials/04.png"
                                 alt="business-testimonials"
                               />
                             </div>
