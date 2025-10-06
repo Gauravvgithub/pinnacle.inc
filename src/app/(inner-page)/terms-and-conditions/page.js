@@ -52,7 +52,7 @@ export default function Home() {
               <div className="terms-content">
                 <h2 className="title mb-4">Terms and Conditions</h2>
                 <p>
-                  Welcome to [Your Company Name]. By accessing or using our
+                  Welcome to [Pinnacle.Inc]. By accessing or using our
                   website, you agree to comply with and be bound by the
                   following terms and conditions. Please read them carefully.
                 </p>
@@ -67,7 +67,7 @@ export default function Home() {
                 <h3 className="mt-4">2. Intellectual Property</h3>
                 <p>
                   All content, graphics, logos, images, and software on this
-                  website are the property of [Your Company Name] or its
+                  website are the property of [Pinnacle.Inc] or its
                   licensors and are protected by intellectual property laws.
                 </p>
 
@@ -80,7 +80,7 @@ export default function Home() {
 
                 <h3 className="mt-4">4. Limitation of Liability</h3>
                 <p>
-                  [Your Company Name] shall not be liable for any direct,
+                  [Pinnacle.Inc] shall not be liable for any direct,
                   indirect, incidental, or consequential damages arising out of
                   the use or inability to use this website.
                 </p>
@@ -101,9 +101,9 @@ export default function Home() {
                 <h3 className="mt-4">7. Governing Law</h3>
                 <p>
                   These terms are governed by and construed in accordance with
-                  the laws of [Your Country]. Any disputes arising under these
+                  the laws of [India]. Any disputes arising under these
                   terms shall be subject to the exclusive jurisdiction of the
-                  courts in [Your City].
+                  courts in [Delhi].
                 </p>
 
                 <h3 className="mt-4">8. Contact Us</h3>
@@ -111,7 +111,7 @@ export default function Home() {
                   If you have any questions regarding these terms and
                   conditions, please contact us at:
                   <br />
-                  <strong>Email:</strong> support@example.com
+                  <strong>Email:</strong> Info.pinnacleinc@gmail.com
                 </p>
               </div>
             </div>

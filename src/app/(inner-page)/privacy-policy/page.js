@@ -94,7 +94,7 @@ export default function Home() {
             <h3 className="mt-4">6. Your Rights</h3>
             <p>
               You have the right to access, update, or delete your personal data. 
-              To exercise these rights, please contact us at [your email/contact info].
+              To exercise these rights, please contact us at [Info.pinnacleinc@gmail.com].
             </p>
 
             <h3 className="mt-4">7. Updates to This Policy</h3>
@@ -107,7 +107,7 @@ export default function Home() {
             <p>
               If you have any questions about this Privacy Policy, please contact us at:
               <br />
-              <strong>Email:</strong> support@example.com
+              <strong>Email:</strong> Info.pinnacleinc@gmail.com
             </p>
           </div>
         </div>
