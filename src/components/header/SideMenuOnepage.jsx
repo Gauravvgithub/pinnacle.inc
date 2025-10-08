@@ -32,28 +32,28 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
             <img
               className="logo"
               src="/assets/images/logo/logo.png"
-              alt="finbiz_logo"
+              alt="pinnacle_logo"
             />
           </a>
           <a className="logo-2" href="/">
             <img
               className="logo"
               src="/assets/images/logo/logo-4.svg"
-              alt="finbiz_logo"
+              alt="pinnacle_logo"
             />
           </a>
           <a className="logo-3" href="/">
             <img
               className="logo"
               src="/assets/images/logo/logo-3.svg"
-              alt="finbiz_logo"
+              alt="pinnacle_logo"
             />
           </a>
           <a className="logo-4" href="/">
             <img
               className="logo"
               src="/assets/images/logo/logo-5.svg"
-              alt="finbiz_logo"
+              alt="pinnacle_logo"
             />
           </a>
 

@@ -10,7 +10,7 @@ const BlogGridMain = (props) => {
                     <div className="img-fluid">
                     <img
                         src={`assets/images/product/${blogImage}`}
-                        alt="Business_Finbiz"
+                        alt="Business_pinnacle"
                     />
                     </div>
                     <div className="single-portfolio">

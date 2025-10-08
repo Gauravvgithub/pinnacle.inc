@@ -86,7 +86,7 @@ function AboutOne() {
                       <a className="thumbnail" href="#">
                         <img
                           src="assets/images/team/tm/01.jpeg"
-                          alt="finbiz_founder"
+                          alt="pinnacle_founder"
                           style={{width: "80px"}}
                         />
                       </a>

@@ -24,7 +24,7 @@ function ServiceEight() {
                                 <div className="thumbnail">
                                     <img
                                         src="assets/images/service/icon/service-logo11.svg"
-                                        alt="finbiz_service"
+                                        alt="pinnacle_service"
                                     />
                                 </div>
                                 <div className="service-details">
@@ -52,7 +52,7 @@ function ServiceEight() {
                                 <div className="thumbnail">
                                     <img
                                         src="assets/images/service/icon/service-logo4.svg"
-                                        alt="finbiz_service"
+                                        alt="pinnacle_service"
                                     />
                                 </div>
                                 <div className="service-details">
@@ -80,7 +80,7 @@ function ServiceEight() {
                                 <div className="thumbnail">
                                     <img
                                         src="assets/images/service/icon/service-logo5.svg"
-                                        alt="finbiz_service"
+                                        alt="pinnacle_service"
                                     />
                                 </div>
                                 <div className="service-details">
@@ -108,7 +108,7 @@ function ServiceEight() {
                                 <div className="thumbnail">
                                     <img
                                         src="assets/images/service/icon/service-logo6.svg"
-                                        alt="finbiz_service"
+                                        alt="pinnacle_service"
                                     />
                                 </div>
                                 <div className="service-details">
@@ -136,7 +136,7 @@ function ServiceEight() {
                                 <div className="thumbnail">
                                     <img
                                         src="assets/images/service/icon/service-logo22.svg"
-                                        alt="finbiz_service"
+                                        alt="pinnacle_service"
                                     />
                                 </div>
                                 <div className="service-details">
@@ -164,7 +164,7 @@ function ServiceEight() {
                                 <div className="thumbnail">
                                     <img
                                         src="assets/images/service/icon/service-logo33.svg"
-                                        alt="finbiz_service"
+                                        alt="pinnacle_service"
                                     />
                                 </div>
                                 <div className="service-details">

@@ -9,7 +9,7 @@ const BlogGridMain = (props) => {
                 <div className="img-fluid">
                     <img
                         src={`assets/images/product/${blogImage}`}
-                        alt="Business_Finbiz"
+                        alt="Business_pinnacle"
                     />
                     <div className="portfolio-content">
                         <Link className="fw-bold text-white" href={`/project/${Slug}`}>

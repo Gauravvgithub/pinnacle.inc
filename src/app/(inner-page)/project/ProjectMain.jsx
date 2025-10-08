@@ -19,7 +19,7 @@ const BlogGridMain = (props) => {
         <div className="thumbnail-area">
           <img
             src={`assets/images/project/${blogImage}`}
-            alt="Business_Finbiz"
+            alt="Business_pinnacle"
           />
           <Link
             className="rts-btn btn-primary rounded"

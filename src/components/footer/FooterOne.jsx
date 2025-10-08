@@ -68,7 +68,7 @@ function FooterOne() {
                   <h5 className="title">Quick Links</h5>
                   <img
                     src="/assets/images/footer/under-title.png"
-                    alt="finbiz_footer"
+                    alt="pinnacle_footer"
                   />
                 </div>
                 <div className="quick-link-inner">
@@ -118,7 +118,7 @@ function FooterOne() {
                   <h5 className="title">Get In Touch</h5>
                   <img
                     src="/assets/images/footer/under-title.png"
-                    alt="finbiz_footer"
+                    alt="pinnacle_footer"
                   />
                 </div>
                 <div className="quick-link-inner">

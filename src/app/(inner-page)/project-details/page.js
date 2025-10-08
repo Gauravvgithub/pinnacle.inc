@@ -26,7 +26,7 @@ export default function Home() {
                             <div className="big-bg-porduct-details">
                                 <img
                                     src="assets/images/product/bg-lg-01.jpg"
-                                    alt="Business_Finbiz"
+                                    alt="Business_pinnacle"
                                 />
                                 <div className="project-info">
                                     <div className="info-head">

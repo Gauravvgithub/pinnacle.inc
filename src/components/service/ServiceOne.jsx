@@ -26,7 +26,7 @@ function ServiceOne() {
                 <div className="thumbnail">
                   <img
                     src="assets/images/service/icon/01.svg"
-                    alt="finbiz_service"
+                    alt="pinnacle_service"
                   />
                 </div>
                 <div className="service-details">
@@ -57,7 +57,7 @@ function ServiceOne() {
                 <div className="thumbnail">
                   <img
                     src="assets/images/service/icon/02.svg"
-                    alt="finbiz_service"
+                    alt="pinnacle_service"
                   />
                 </div>
                 <div className="service-details">
@@ -88,7 +88,7 @@ function ServiceOne() {
                 <div className="thumbnail">
                   <img
                     src="assets/images/service/icon/03.svg"
-                    alt="finbiz_service"
+                    alt="pinnacle_service"
                   />
                 </div>
                 <div className="service-details">
@@ -119,7 +119,7 @@ function ServiceOne() {
                 <div className="thumbnail">
                   <img
                     src="assets/images/service/icon/04.svg"
-                    alt="finbiz_service"
+                    alt="pinnacle_service"
                   />
                 </div>
                 <div className="service-details">

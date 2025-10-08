@@ -106,7 +106,7 @@ function BlogGrid() {
                                             <div className="thumbnail details">
                                                 <img
                                                     src="/assets/images/blog/details/01.jpg"
-                                                    alt="finbiz_buseness"
+                                                    alt="pinnacle_buseness"
                                                 />
                                             </div>
                                         </div>
@@ -114,7 +114,7 @@ function BlogGrid() {
                                             <div className="thumbnail details">
                                                 <img
                                                     src="/assets/images/blog/details/02.jpg"
-                                                    alt="finbiz_buseness"
+                                                    alt="pinnacle_buseness"
                                                 />
                                             </div>
                                         </div>
@@ -134,7 +134,7 @@ function BlogGrid() {
                                             <div className="thumbnail details mb_sm--15">
                                                 <img
                                                     src="/assets/images/blog/details/03.jpg"
-                                                    alt="finbiz_buseness"
+                                                    alt="pinnacle_buseness"
                                                 />
                                             </div>
                                         </div>
@@ -214,7 +214,7 @@ function BlogGrid() {
                                         <div className="thumbnail details mb_sm--15">
                                             <img
                                                 src="/assets/images/blog/details/author.jpg"
-                                                alt="finbiz_buseness"
+                                                alt="pinnacle_buseness"
                                             />
                                         </div>
                                         <div className="author-details team">

@@ -31,7 +31,7 @@ function FooterTwo() {
                                         <h5 className="wized-title">Our Services</h5>
                                         <img
                                             src="assets/images/footer/under-title-2.png"
-                                            alt="finbiz_footer"
+                                            alt="pinnacle_footer"
                                         />
                                     </div>
                                     <div className="wized-2-body">
@@ -77,7 +77,7 @@ function FooterTwo() {
                                         <h5 className="wized-title">Contact Us</h5>
                                         <img
                                             src="assets/images/footer/under-title-2.png"
-                                            alt="finbiz_footer"
+                                            alt="pinnacle_footer"
                                         />
                                     </div>
                                     <div className="wized-2-body">
