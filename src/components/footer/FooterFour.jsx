@@ -74,7 +74,7 @@ function FooterFour() {
                                                     </ul>
                                                     <div className="info">
                                                         <span>Work with us</span>
-                                                        <a href="#">info@finbiz.com</a>
+                                                        <a href="#">info@pinnacle.com</a>
                                                     </div>
                                                 </div>
                                                 <div className="single">
@@ -181,7 +181,7 @@ function FooterFour() {
                         <div className="row">
                             <div className="col-12">
                                 <p className="disc text-center ptb--25">
-                                    FINBIZ - Copyright 2024. All rights reserved.
+                                    pinnacle - Copyright 2024. All rights reserved.
                                 </p>
                             </div>
                         </div>

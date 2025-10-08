@@ -128,12 +128,12 @@ function AboutOne() {
               <div className="about-one-thumbnail">
                 <img
                   src=" assets/images/about/main/about-01.png"
-                  alt="about-finbiz"
+                  alt="about-pinnacle"
                 />
                 <img
                   className="small-img"
                   src="assets/images/about/main/about-02.png"
-                  alt="finbiz-small"
+                  alt="pinnacle-small"
                 />
                 <div className="experience">
                   <div className="left single">

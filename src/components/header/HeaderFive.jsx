@@ -67,7 +67,7 @@ function HeaderFive() {
                             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-6">
                                 <div className="thumbnail">
                                     <Link href={'/'}>
-                                        <img src="assets/images/logo/logo-4.svg" alt="finbiz-logo" />
+                                        <img src="assets/images/logo/logo-4.svg" alt="pinnacle-logo" />
                                     </Link>
                                 </div>
                             </div>

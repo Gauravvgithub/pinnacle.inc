@@ -113,7 +113,7 @@ function HeaderOne() {
                   <Link href={"/"}>
                     <img
                       src="/assets/images/logo/logo.png"
-                      alt="finbiz-logo"
+                      alt="pinnacle-logo"
                       style={{ maxWidth: "180px", height: "40px" }}
                     />
                   </Link>

@@ -96,7 +96,7 @@ function GalleryOne() {
                                                         />
                                                     </div>
                                                     <Link href={'#'}>
-                                                        <h4 className="title">Finbiz Pro Business</h4>
+                                                        <h4 className="title">pinnacle Pro Business</h4>
                                                     </Link>
                                                     <span>Case Study, Growth</span>
                                                     <p className="disc">

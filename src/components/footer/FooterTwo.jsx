@@ -96,7 +96,7 @@ function FooterTwo() {
                                             </div>
                                             <div className="disc">
                                                 <span>Work with us</span>
-                                                <Link href={'#'}>info@finbiz.com</Link>
+                                                <Link href={'#'}>info@pinnacle.com</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -134,7 +134,7 @@ function FooterTwo() {
                             <div className="col-lg-12">
                                 <div className="copyright-h-2-wrapper">
                                     <p className="disc">
-                                        FINBIZ - Copyright 2024. All rights reserved.
+                                        pinnacle - Copyright 2024. All rights reserved.
                                     </p>
                                     <div className="right">
                                         <ul>

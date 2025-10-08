@@ -74,7 +74,7 @@ function FooterEight() {
                                                     </ul>
                                                     <div className="info">
                                                         <span>Work with us</span>
-                                                        <Link href={'#'}>info@finbiz.com</Link>
+                                                        <Link href={'#'}>info@pinnacle.com</Link>
                                                     </div>
                                                 </div>
                                                 <div className="single">
@@ -181,7 +181,7 @@ function FooterEight() {
                         <div className="row">
                             <div className="col-12">
                                 <p className="disc text-center">
-                                    FINBIZ - Copyright 2024. All rights reserved.
+                                    pinnacle - Copyright 2024. All rights reserved.
                                 </p>
                             </div>
                         </div>

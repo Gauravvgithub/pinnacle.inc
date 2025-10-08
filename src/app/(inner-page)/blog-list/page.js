@@ -123,7 +123,7 @@ export default function Home() {
                                     <ul className="single-categories">
                                         <li>
                                             <Link href="#">
-                                                Finbiz Solution <i className="far fa-long-arrow-right" />
+                                                pinnacle Solution <i className="far fa-long-arrow-right" />
                                             </Link>
                                         </li>
                                     </ul>

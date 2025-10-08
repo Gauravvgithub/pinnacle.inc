@@ -142,7 +142,7 @@ export default function Home() {
                                                    </div>
                                                    <h6 className="experience">Business Expert</h6>
                                                    <div className="date">
-                                                       2016 - Present <span>(Finbiz)</span>
+                                                       2016 - Present <span>(pinnacle)</span>
                                                    </div>
                                                </div>
                                                <div className="single-skill">
@@ -153,7 +153,7 @@ export default function Home() {
                                                    </div>
                                                    <h6 className="experience">Finance Manager</h6>
                                                    <div className="date">
-                                                       2016 - Present <span>(Finbiz)</span>
+                                                       2016 - Present <span>(pinnacle)</span>
                                                    </div>
                                                </div>
                                                <div className="single-skill">
@@ -164,7 +164,7 @@ export default function Home() {
                                                    </div>
                                                    <h6 className="experience">Junior Technician</h6>
                                                    <div className="date">
-                                                       2016 - Present <span>(Finbiz)</span>
+                                                       2016 - Present <span>(pinnacle)</span>
                                                    </div>
                                                </div>
                                                <div className="single-skill">
@@ -175,7 +175,7 @@ export default function Home() {
                                                    </div>
                                                    <h6 className="experience">Junior Architect</h6>
                                                    <div className="date">
-                                                       2016 - Present <span>(Finbiz)</span>
+                                                       2016 - Present <span>(pinnacle)</span>
                                                    </div>
                                                </div>
                                            </div>

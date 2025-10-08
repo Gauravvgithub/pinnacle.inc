@@ -141,7 +141,7 @@ function ServiceTen() {
                                 </Link>
                                 <div className="body-content">
                                     <div className="hidden-area">
-                                        <h5 className="title">Finbiz Solution</h5>
+                                        <h5 className="title">pinnacle Solution</h5>
                                         <p className="dsic">
                                             Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula
                                             torquent dis mattis nullam bibendum morbi laoreet lobortis id
