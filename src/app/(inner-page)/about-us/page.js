@@ -458,7 +458,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="name-desig">
-                    <h5 className="title">Joshep Elia</h5>
+                    <h5 className="title">Anup Sharma</h5>
                     <span className="designation">
                       Architect & Interior Consultant
                     </span>
