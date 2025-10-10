@@ -245,8 +245,8 @@ export default async function BlogDetails({ params: rawParams }) {
                   </ul>
                   <ul className="single-categories">
                     <li>
-                      <Link href={"/water-cooler-installation-services"}>
-                        Water Cooler Installation Services{" "}
+                      <Link href={"/water-cooler-supplier-services"}>
+                        Water Cooler Supplier Services{" "}
                         <i className="far fa-long-arrow-right" />
                       </Link>
                     </li>

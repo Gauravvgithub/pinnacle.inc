@@ -61,6 +61,7 @@ function TestimonialOne() {
                               <img
                                 src="assets/images/testimonials/02.png"
                                 alt="business-testimonials"
+                                style={{borderRadius: '50%'}}
                               />
                             </div>
                             <div className="details">
@@ -84,6 +85,7 @@ function TestimonialOne() {
                               <img
                                 src="assets/images/testimonials/03.png"
                                 alt="business-testimonials"
+                                style={{borderRadius: '50%'}}
                               />
                             </div>
                             <div className="details">
@@ -110,6 +112,8 @@ function TestimonialOne() {
                               <img
                                 src="assets/images/testimonials/04.png"
                                 alt="business-testimonials"
+                                style={{borderRadius: '50%'}}
+
                               />
                             </div>
                             <div className="details">

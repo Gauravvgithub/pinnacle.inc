@@ -189,7 +189,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                       <Link href={"/park-development"}>Park Development</Link>
                     </li>
                     <li>
-                      <Link href={"/water-cooler-installation-services"}>Water Cooler Installation Services</Link>
+                      <Link href={"/water-cooler-supplier-services"}>Water Cooler Supplier Services</Link>
                     </li>
                     <li>
                       <Link href={"/security-manpower-services"}>Security & Manpower Services</Link>

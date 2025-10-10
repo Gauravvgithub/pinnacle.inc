@@ -210,16 +210,16 @@ export default function Home() {
                         alt="Business-icon"
                       />
                       <h5 className="title">
-                        Water Cooler Installation Services
+                        Water Cooler Supplier Services
                       </h5>
                     </div>
                     <Link
-                      href="/water-cooler-installation-services"
+                      href="/water-cooler-supplier-services"
                       className="over_link"
                     />
                   </div>
                   <Link
-                    href="/water-cooler-installation-services"
+                    href="/water-cooler-supplier-services"
                     className="rts-btn btn-primary"
                   >
                     Read More <i className="fal fa-arrow-right" />

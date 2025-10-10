@@ -106,98 +106,82 @@ export default function ContactUs() {
       </section>
 
       {/* contact single area start */}
-      <div className="rts-contact-area rts-section-gap">
-        <div className="container">
-          <div className="row g-5">
-            {/* single contact area */}
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-              <div className="single-contact-one-inner">
-                <div className="thumbnail">
-                  <img src="assets/images/contact/01.png" alt="" />
-                </div>
-                <div className="content">
-                  <div className="icone">
-                    <img src="assets/images/contact/shape/01.svg" alt="" />
-                  </div>
-                  <div className="info">
-                    <span>Call Us 24/7</span>
-                    <Link href={"tel:+919999653855"}>
-                      <h6>
-                        +91 9999653855, <br />
-                        +91 8376070809
-                      </h6>
-                    </Link>
-                  </div>
-                </div>
-              </div>
+          <div className="container py-5">
+      <div className="row g-4">
+        {/* Call Us */}
+        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+          <div className="p-4 border rounded-3 shadow-sm h-100 d-flex align-items-center">
+            <div className="me-3 text-primary fs-2">
+              <i className="bi bi-telephone-fill"></i>
             </div>
-            {/* single contact area end */}
+            <div>
+              <h6 className="text-uppercase text-muted mb-1">Call Us 24/7</h6>
+              <Link
+                href="tel:+919999653855"
+                className="text-dark fw-semibold text-decoration-none"
+              >
+                +91 9999653855
+                <br />
+                +91 8376070809
+              </Link>
+            </div>
+          </div>
+        </div>
 
-            {/* single contact area */}
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-              <div className="single-contact-one-inner">
-                <div className="thumbnail">
-                  <img src="assets/images/contact/03.png" alt="" />
-                </div>
-                <div className="content">
-                  <div className="icone">
-                    <img src="assets/images/contact/shape/03.svg" alt="" />
-                  </div>
-                  <div className="info">
-                    <span>Service Station</span>
-                    <Link href={"https://maps.app.goo.gl/DVYvrv2v5Er8rSxC9"}>
-                      <h6>
-                        Unit no. 889, Vegas Mall, Plot no. 6, Dwarka Sec-14, New
-                        Delhi-110075
-                      </h6>
-                    </Link>
-                  </div>
-                </div>
-              </div>
+        {/* Service Station */}
+        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+          <div className="p-4 border rounded-3 shadow-sm h-100 d-flex align-items-center">
+            <div className="me-3 text-success fs-2">
+              <i className="bi bi-geo-alt-fill"></i>
             </div>
-            {/* single contact area end */}
-            {/* single contact area */}
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-              <div className="single-contact-one-inner">
-                <div className="thumbnail">
-                  <img src="assets/images/contact/02.png" alt="" />
-                </div>
-                <div className="content">
-                  <div className="icone">
-                    <img src="assets/images/contact/shape/02.svg" alt="" />
-                  </div>
-                  <div className="info">
-                    <span>Make A Quote</span>
-                    <Link href={"mailto:Info.pinnacleinc@gmail.com"}>
-                      <h6>Info.pinnacleinc@gmail.com</h6>
-                    </Link>
-                  </div>
-                </div>
-              </div>
+            <div>
+              <h6 className="text-uppercase text-muted mb-1">Service Station</h6>
+              <Link
+                href="https://maps.app.goo.gl/DVYvrv2v5Er8rSxC9"
+                target="_blank"
+                className="text-dark fw-semibold text-decoration-none"
+              >
+                Unit no. 889, Vegas Mall, Plot no. 6, Dwarka Sec-14, New Delhi-110075
+              </Link>
             </div>
-            {/* single contact area end */}
-            {/* single contact area */}
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-              <div className="single-contact-one-inner">
-                <div className="thumbnail">
-                  <img src="assets/images/contact/02.png" alt="" />
-                </div>
-                <div className="content">
-                  <div className="info">
-                    <span>Our Services</span>
-                    <h6>
-                      Park Development, Water Cooler Installation, Security &
-                      Manpower Supply, AC Chiller Plant Services
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            </div>
+          </div>
+        </div>
 
-            {/* single contact area end */}
+        {/* Email */}
+        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+          <div className="p-4 border rounded-3 shadow-sm h-100 d-flex align-items-center">
+            <div className="me-3 text-danger fs-2">
+              <i className="bi bi-envelope-fill"></i>
+            </div>
+            <div>
+              <h6 className="text-uppercase text-muted mb-1">Make A Quote</h6>
+              <Link
+                href="mailto:Info.pinnacleinc@gmail.com"
+                className="text-dark fw-semibold text-decoration-none"
+              >
+                Info.pinnacleinc@gmail.com
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/* Services */}
+        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+          <div className="p-4 border rounded-3 shadow-sm h-100 d-flex align-items-start">
+            <div className="me-3 text-warning fs-2">
+              <i className="bi bi-tools"></i>
+            </div>
+            <div>
+              <h6 className="text-uppercase text-muted mb-1">Our Services</h6>
+              <p className="mb-0 fw-semibold text-dark">
+                Park Development, Water Cooler Supplier, Security & Manpower
+                Supply, AC Chiller Plant Services, Roads & Sewer Lines Development
+              </p>
+            </div>
           </div>
         </div>
       </div>
+    </div>
       {/* conact single area end */}
       {/* bizup map area start */}
       <div className="rts-contact-map-area">

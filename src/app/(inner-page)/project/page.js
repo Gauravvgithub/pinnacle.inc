@@ -17,7 +17,7 @@ export default function Home() {
   const categories = {
     home: "All Projects",
     profile: "Park Development",
-    contact: "Water Cooler Installation",
+    contact: "Water Cooler Supplier",
     marketing: "Security & Manpower",
     business: "AC Chiller Plants",
   };
@@ -47,7 +47,7 @@ export default function Home() {
                 >
                   <Tab eventKey="home" title="All Projects" />
                   <Tab eventKey="profile" title="Open Gym Development" />
-                  <Tab eventKey="contact" title="Water Cooler Installation" />
+                  <Tab eventKey="contact" title="Water Cooler Supplier" />
                   <Tab eventKey="marketing" title="Security & Manpower" />
                   <Tab eventKey="business" title="AC Chiller Plants" />
                 </Tabs>

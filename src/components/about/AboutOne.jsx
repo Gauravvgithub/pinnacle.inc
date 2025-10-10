@@ -129,11 +129,13 @@ function AboutOne() {
                 <img
                   src=" assets/images/about/main/about-01.png"
                   alt="about-pinnacle"
+                  style={{borderRadius: "30px"}}
                 />
                 <img
                   className="small-img"
                   src="assets/images/about/main/about-02.png"
                   alt="pinnacle-small"
+                  style={{borderRadius: "30px"}}
                 />
                 <div className="experience">
                   <div className="left single">

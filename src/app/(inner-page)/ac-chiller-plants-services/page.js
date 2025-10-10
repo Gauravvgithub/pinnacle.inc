@@ -1,30 +1,3 @@
-// import HeaderOne from "@/components/header/HeaderOne";
-// import BackToTop from "@/components/BackToTop";
-// import Breadcrumb from "@/components/Breadcrumb";
-// import ServiceEleven from "@/components/service/ServiceEleven";
-// import FaqTwo from "@/components/faq/FaqTwo";
-// import FooterOne from "@/components/footer/FooterOne";
-// // import PricingThree from "@/components/pricing/PricingThree";
-
-// export default function Home() {
-//   const breadcrumbs = [
-//     { label: "Home", link: "/" },
-//     { label: "Our Service", link: "/our-service" },
-//     { label: "Park Development" },
-//   ];
-//   return (
-//     <div className="">
-//       <HeaderOne />
-//       <Breadcrumb title="Our Service" breadcrumbs={breadcrumbs} />
-//       <ServiceEleven />
-//       <FaqTwo />
-//       {/* <PricingThree /> */}
-//       <FooterOne />
-//       <BackToTop />
-//     </div>
-//   );
-// }
-
 import Link from "next/link";
 import HeaderOne from "@/components/header/HeaderOne";
 import BackToTop from "@/components/BackToTop";
@@ -224,8 +197,8 @@ export default function Home() {
                   </ul>
                   <ul className="single-categories">
                     <li>
-                      <Link href={"/water-cooler-installation-services"}>
-                        Water Cooler Installation Services{" "}
+                      <Link href={"/water-cooler-supplier-services"}>
+                        Water Cooler Supplier Services{" "}
                         <i className="far fa-long-arrow-right" />
                       </Link>
                     </li>
@@ -242,6 +215,14 @@ export default function Home() {
                     <li>
                       <Link href={"/ac-chiller-plants-services"}>
                         AC Chiller Plants Services{" "}
+                        <i className="far fa-long-arrow-right" />
+                      </Link>
+                    </li>
+                  </ul>
+                  <ul className="single-categories">
+                    <li>
+                      <Link href={"/roads-and-sewer-lines-services"}>
+                        Roads and Sewers Lines{" "}
                         <i className="far fa-long-arrow-right" />
                       </Link>
                     </li>

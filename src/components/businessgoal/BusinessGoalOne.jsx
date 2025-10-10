@@ -55,11 +55,13 @@ function BusinessGoalOne() {
                   <img
                     src="assets/images/business-goal/01.jpg"
                     alt="Business_Goal"
+                    style={{borderRadius: "30px"}}
                   />
                   <img
                     className="small"
                     src="assets/images/business-goal/sm-01.jpg"
                     alt="Business_Goal"
+                    style={{borderRadius: "30px"}}
                   />
                 </div>
               </div>

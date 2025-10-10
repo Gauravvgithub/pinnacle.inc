@@ -227,8 +227,8 @@ export default function ParkGymInstallation() {
                   </ul>
                   <ul className="single-categories">
                     <li>
-                      <Link href={"/water-cooler-installation-services"}>
-                        Water Cooler Installation Services{" "}
+                      <Link href={"/water-cooler-supplier-services"}>
+                        Water Cooler Supplier Services{" "}
                         <i className="far fa-long-arrow-right" />
                       </Link>
                     </li>
@@ -245,6 +245,14 @@ export default function ParkGymInstallation() {
                     <li>
                       <Link href={"/ac-chiller-plants-services"}>
                         AC Chiller Plants Services{" "}
+                        <i className="far fa-long-arrow-right" />
+                      </Link>
+                    </li>
+                  </ul>
+                  <ul className="single-categories">
+                    <li>
+                      <Link href={"/roads-and-sewer-lines-services"}>
+                        Roads and Sewers Lines{" "}
                         <i className="far fa-long-arrow-right" />
                       </Link>
                     </li>

@@ -50,16 +50,18 @@ function ContactForm() {
   };
 
   return (
-    <div>
+    <div style={{marginTop: "50px", marginBottom: "50px"}}>
       {/* contact area start */}
       <div className="rts-contact-area contact-one">
         <div className="container">
-          <div className="row align-items-center g-0">
-            <div className="col-lg-4 col-md-12 col-sm-12 col-12">
+          <div className="row align-items-center g-0" 
+            style={{ justifyContent: "center" } }
+          >
+            {/* <div className="col-lg-4 col-md-12 col-sm-12 col-12">
               <div className="contact-image-one">
                 <img src="assets/images/contact/01.jpg" alt="contact" />
               </div>
-            </div>
+            </div> */}
 
             <div className="col-lg-8 col-md-12 col-sm-12 col-12">
               <div className="contact-form-area-one">
