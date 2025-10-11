@@ -144,9 +144,9 @@ function FooterOne() {
                       </Link>
                     </li>
                     <li>
-                      <Link href="mailto:Info.pinnacleinc@gmail.com">
+                      <Link href="mailto:info@pinnacleinc.in">
                         <i className="fas fa-envelope" />{" "}
-                        Info.pinnacleinc@gmail.com
+                        info@pinnacleinc.in
                       </Link>
                     </li>
                   </ul>

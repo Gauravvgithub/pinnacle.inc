@@ -55,7 +55,7 @@ function HeaderOne() {
                   <div className="mail">
                     <Link href={"/about-us"}>
                       <i className="fal fa-envelope" />{" "}
-                      Info.pinnacleinc@gmail.com
+                      info@pinnacleinc.in
                     </Link>
                   </div>
                   <div className="working-time">

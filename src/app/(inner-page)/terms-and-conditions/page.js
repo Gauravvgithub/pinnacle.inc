@@ -111,7 +111,7 @@ export default function Home() {
                   If you have any questions regarding these terms and
                   conditions, please contact us at:
                   <br />
-                  <strong>Email:</strong> Info.pinnacleinc@gmail.com
+                  <strong>Email:</strong> info@pinnacleinc.in
                 </p>
               </div>
             </div>

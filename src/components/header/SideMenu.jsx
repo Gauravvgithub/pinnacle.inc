@@ -73,7 +73,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                 {/* single */}
                 <div className="single">
                   <i className="fas fa-envelope" />
-                  <Link href="#">Info.pinnacleinc@gmail.com</Link>
+                  <Link href="#">info@pinnacleinc.in</Link>
                 </div>
                 {/* single ENd */}
                 {/* single */}

@@ -53,13 +53,16 @@ export default function Home() {
                 <div className="image-area">
                   <img
                     className="mt--110 img-1"
-                    src="assets/images/about/main/about-03.jpg"
+                    src="assets/images/about/main/about-04.jpg"
                     alt="BUsiness_image"
+                    style={{borderRadius:"30px !important"}}
                   />
                   <img
                     className="img-over"
-                    src="assets/images/about/main/about-04.jpg"
+                    src="assets/images/about/main/about-03.jpg"
                     alt="BUsiness_image"
+                    style={{borderRadius:"30px !important"}}
+
                   />
                   {/* <div className="goal-button-wrapper">
                     <Link href={"#"} className="vedio-icone">
@@ -179,8 +182,9 @@ export default function Home() {
                     </Link>
                     <div className="content">
                       <img
-                        src="assets/images/service/icon/13.svg"
+                        src="assets/images/service/icon/park.png"
                         alt="Business-icon"
+                        style={{borderRadius:"25px", filter: 'invert(16%) sepia(98%) saturate(7458%) hue-rotate(1deg) brightness(95%) contrast(112%)'}}
                       />
                       <h5 className="title">Park Development</h5>
                     </div>
@@ -206,8 +210,9 @@ export default function Home() {
                     </Link>
                     <div className="content">
                       <img
-                        src="assets/images/service/icon/14.svg"
+                        src="assets/images/service/icon/water.png"
                         alt="Business-icon"
+                        style={{borderRadius:"25px", filter: 'invert(16%) sepia(98%) saturate(7458%) hue-rotate(1deg) brightness(95%) contrast(112%)'}}
                       />
                       <h5 className="title">
                         Water Cooler Supplier Services
@@ -239,8 +244,9 @@ export default function Home() {
                     </Link>
                     <div className="content">
                       <img
-                        src="assets/images/service/icon/15.svg"
+                        src="assets/images/service/icon/man.png"
                         alt="Business-icon"
+                        style={{borderRadius:"25px", filter: 'invert(16%) sepia(98%) saturate(7458%) hue-rotate(1deg) brightness(95%) contrast(112%)'}}
                       />
                       <h5 className="title">Security & Manpower Supply Services</h5>
                     </div>
@@ -266,8 +272,9 @@ export default function Home() {
                     </Link>
                     <div className="content">
                       <img
-                        src="assets/images/service/icon/15.svg"
+                        src="assets/images/service/icon/ac.png"
                         alt="Business-icon"
+                        style={{borderRadius:"25px", filter: 'invert(16%) sepia(98%) saturate(7458%) hue-rotate(1deg) brightness(95%) contrast(112%)'}}
                       />
                       <h5 className="title">
                         AC Chiller Plant Services
@@ -277,6 +284,36 @@ export default function Home() {
                   </div>
                   <Link
                     href="/ac-chiller-plants-services"
+                    className="rts-btn btn-primary"
+                  >
+                    Read More <i className="fal fa-arrow-right" />
+                  </Link>
+                </div>
+              </div>
+
+              <div className="pt--15 mb--40">
+                <div className="service-one-inner-four">
+                  <div className="big-thumbnail-area">
+                    <Link href={"#"} className="thumbnail">
+                      <img
+                        src="assets/images/service/road-sewer.jpg"
+                        alt="Business-service"
+                      />
+                    </Link>
+                    <div className="content">
+                      <img
+                        src="assets/images/service/icon/road.png"
+                        alt="Business-icon"
+                        style={{borderRadius:"25px", filter: 'invert(16%) sepia(98%) saturate(7458%) hue-rotate(1deg) brightness(95%) contrast(112%)'}}
+                      />
+                      <h5 className="title">
+                        Roads and Sewer Lines Construction Services
+                      </h5>
+                    </div>
+                    <Link href="/roads-and-sewer-lines-services" className="over_link" />
+                  </div>
+                  <Link
+                    href="/roads-and-sewer-lines-services"
                     className="rts-btn btn-primary"
                   >
                     Read More <i className="fal fa-arrow-right" />

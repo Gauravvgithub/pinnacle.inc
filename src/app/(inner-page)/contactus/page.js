@@ -156,10 +156,10 @@ export default function ContactUs() {
             <div>
               <h6 className="text-uppercase text-muted mb-1">Make A Quote</h6>
               <Link
-                href="mailto:Info.pinnacleinc@gmail.com"
+                href="mailto:info@pinnacleinc.in"
                 className="text-dark fw-semibold text-decoration-none"
               >
-                Info.pinnacleinc@gmail.com
+                info@pinnacleinc.in
               </Link>
             </div>
           </div>
