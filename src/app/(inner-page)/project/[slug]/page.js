@@ -45,23 +45,25 @@ export default function ProjectDetails() {
             <p><strong>Location:</strong> {ProjectPost.location}</p>
             {/* <p><strong>Client:</strong> {ProjectPost.clients}</p> */}
 
+          {/* Description */}
+          <div className="product-details-main-inner mt-5">
+            <p> <strong>Description:</strong> {ProjectPost.descripTion}</p>
+          </div>
+
+
             {/* Download PDF */}
+          </div>
             {ProjectPost.pdf && (
               <a
                 href={ProjectPost.pdf}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-danger rounded-pill mt-3"
+                className="btn btn-danger rounded-pill mt-5"
               >
                 Download PDF
               </a>
             )}
-          </div>
 
-          {/* Description */}
-          <div className="product-details-main-inner mt-5">
-            <p>{ProjectPost.descripTion}</p>
-          </div>
 
           {/* Gallery */}
           {ProjectPost.gallery?.length > 0 && (
