@@ -43,7 +43,7 @@ export default function ProjectDetails() {
             <p><strong>Category:</strong> {ProjectPost.category}</p>
             <p><strong>Date:</strong> {ProjectPost.publishedDate}</p>
             <p><strong>Location:</strong> {ProjectPost.location}</p>
-            <p><strong>Client:</strong> {ProjectPost.clients}</p>
+            {/* <p><strong>Client:</strong> {ProjectPost.clients}</p> */}
 
             {/* Download PDF */}
             {ProjectPost.pdf && (
