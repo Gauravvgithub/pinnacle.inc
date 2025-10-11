@@ -19,20 +19,15 @@ function BannerOne() {
   return (
     <ErrorBoundary>
       <div>
-        {/* banner blank space area */}
         <div className="rts-banner-area rts-banner-one" id="banner">
           <div className="swiper mySwiper banner-one">
             <Swiper
-              // install Swiper modules
               modules={[Navigation, EffectFade, Scrollbar, A11y, Autoplay]}
               className="rts-brand__slider"
               speed={700}
               slidesPerView={1}
-              spaceBetween={0}
               loop={true}
-              autoplay={{
-                delay: 3000,
-              }}
+              autoplay={{ delay: 3000 }}
               effect="fade"
               breakpoints={{
                 1200: { slidesPerView: 1 },
@@ -43,107 +38,57 @@ function BannerOne() {
                 0: { slidesPerView: 1 },
               }}
             >
-              <SwiperSlide>
-                {/* banner single content */}
-                <div
-                  className="banner-one-inner text-start"
-                  style={{ paddingLeft: "20px" }}
-                >
-                  <p className="pre-title">
-                    <span>Welcome to Pinnacle</span>
-                  </p>
+              {/* Slide 1 */}
+              <SwiperSlide className="one">
+                <div className="banner-one-inner text-start" style={{ paddingLeft: "20px" }}>
+                  <p className="pre-title"><span>Welcome to Pinnacle</span></p>
                   <h1 className="title ">
-                    Trusted <span>Multi-Services</span> <br /> For Every
-                    Industry
+                    Trusted <span>Multi-Services</span> <br /> For Every Industry
                   </h1>
                   <p className="disc banner-para">
-                    We specialize in construction, RO & water cooler
-                    installations, AC chiller plant servicing, security &
-                    manpower solutions, and open gym equipment supply—delivering
-                    quality and reliability.
+                    We specialize in construction, RO & water cooler installations, AC chiller plant servicing, security & manpower solutions, and open gym equipment supply—delivering quality and reliability.
                   </p>
-                  <Link
-                    href="/contactus"
-                    className="rts-btn btn-primary color-h-black"
-                  >
+                  <Link href="/contactus" className="rts-btn btn-primary color-h-black">
                     Get In Touch
                   </Link>
-                  <img
-                    className="shape-img one"
-                    src="assets/images/banner/shape/01.png"
-                    alt="pinnacle_banner"
-                  />
                 </div>
-                {/* banner single content end */}
               </SwiperSlide>
 
-              <SwiperSlide>
-                {/* banner single content */}
-                <div
-                  className="banner-one-inner text-start"
-                  style={{ paddingLeft: "20px" }}
-                >
-                  <p className="pre-title">
-                    <span>Our Expertise</span>
-                  </p>
+              {/* Slide 2 */}
+              <SwiperSlide className="two">
+                <div className="banner-one-inner text-start" style={{ paddingLeft: "20px" }}>
+                  <p className="pre-title"><span>Our Expertise</span></p>
                   <h1 className="title ">
-                    End-to-End <span>Reliable Services</span> <br /> Delivered
-                    On Time
+                    End-to-End <span>Reliable Services</span> <br /> Delivered On Time
                   </h1>
                   <p className="disc banner-para">
-                    From large-scale projects to daily operational support, our
-                    team ensures timely execution, safety compliance, and
-                    long-term partnerships with leading organizations across
-                    industries.
+                    From large-scale projects to daily operational support, our team ensures timely execution, safety compliance, and long-term partnerships with leading organizations across industries.
                   </p>
-                  <Link
-                    href="/our-service"
-                    className="rts-btn btn-primary color-h-black"
-                  >
+                  <Link href="/our-service" className="rts-btn btn-primary color-h-black">
                     Explore Services
                   </Link>
-                  <img
-                    className="shape-img one"
-                    src="assets/images/banner/shape/01.png"
-                    alt="pinnacle_services"
-                  />
                 </div>
-                {/* banner single content end */}
               </SwiperSlide>
 
-              <SwiperSlide>
-                {/* banner single content */}
-                <div
-                  className="banner-one-inner text-start"
-                  style={{ paddingLeft: "20px" }}
-                >
-                  <p className="pre-title">
-                    <span>Why Choose Us</span>
-                  </p>
+              {/* Slide 3 */}
+              <SwiperSlide className="three">
+                <div className="banner-one-inner text-start" style={{ paddingLeft: "20px" }}>
+                  <p className="pre-title"><span>Why Choose Us</span></p>
                   <h1 className="title ">
                     Quality <span>Execution</span> <br /> With Integrity
                   </h1>
                   <p className="disc banner-para">
-                    Backed by successful projects for government and corporate
-                    clients, we deliver services with technical expertise,
-                    professionalism, and a strong commitment to excellence.
+                    Backed by successful projects for government and corporate clients, we deliver services with technical expertise, professionalism, and a strong commitment to excellence.
                   </p>
-                  <Link
-                    href="/about-us"
-                    className="rts-btn btn-primary color-h-black"
-                  >
+                  <Link href="/about-us" className="rts-btn btn-primary color-h-black">
                     Learn More
                   </Link>
-                  <img
-                    className="shape-img one"
-                    src="assets/images/banner/shape/01.png"
-                    alt="pinnacle_quality"
-                  />
                 </div>
-                {/* banner single content end */}
               </SwiperSlide>
             </Swiper>
           </div>
+
+          {/* Animated shapes */}
           <div className="animation-img">
             <img
               className="shape-img two"
@@ -157,7 +102,6 @@ function BannerOne() {
             />
           </div>
         </div>
-        {/* banner blank space area end */}
       </div>
     </ErrorBoundary>
   );

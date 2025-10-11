@@ -16525,17 +16525,20 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
 }
 
 .banner-one .swiper-wrapper .swiper-slide {
-  background-image: url(../images/banner/banner-01.jpg);
+  background-image: url("../images/banner/0002.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .banner-one .swiper-wrapper .swiper-slide.two {
-  background-image: url(../images/banner/banner-02.jpg);
+  background-image: url("../images/banner/0003.jpg");
 }
+
 .banner-one .swiper-wrapper .swiper-slide.three {
-  background-image: url(../images/banner/banner-03.jpg);
+  background-image: url("../images/banner/0004.jpg");
 }
+
 
 .offwrap {
   cursor: url(../images/banner/shape/close.png), auto;
