@@ -42,9 +42,9 @@ function BannerOne() {
               <SwiperSlide className="one">
                 <div className="banner-one-inner text-start" style={{ paddingLeft: "20px" }}>
                   <p className="pre-title"><span>Welcome to Pinnacle</span></p>
-                  <h1 className="title ">
+                  <h2 className="title ">
                     Trusted <span>Multi-Services</span> <br /> For Every Industry
-                  </h1>
+                  </h2>
                   <p className="disc banner-para">
                     We specialize in construction, RO & water cooler installations, AC chiller plant servicing, security & manpower solutions, and open gym equipment supply—delivering quality and reliability.
                   </p>
@@ -58,9 +58,9 @@ function BannerOne() {
               <SwiperSlide className="two">
                 <div className="banner-one-inner text-start" style={{ paddingLeft: "20px" }}>
                   <p className="pre-title"><span>Our Expertise</span></p>
-                  <h1 className="title ">
+                  <h2 className="title ">
                     End-to-End <span>Reliable Services</span> <br /> Delivered On Time
-                  </h1>
+                  </h2>
                   <p className="disc banner-para">
                     From large-scale projects to daily operational support, our team ensures timely execution, safety compliance, and long-term partnerships with leading organizations across industries.
                   </p>
@@ -74,9 +74,9 @@ function BannerOne() {
               <SwiperSlide className="three">
                 <div className="banner-one-inner text-start" style={{ paddingLeft: "20px" }}>
                   <p className="pre-title"><span>Why Choose Us</span></p>
-                  <h1 className="title ">
-                    Quality <span>Execution</span> <br /> With Integrity
-                  </h1>
+                  <h2 className="title ">
+                    Best Quality <span>Execution</span> <br /> With Full Integrity
+                  </h2>
                   <p className="disc banner-para">
                     Backed by successful projects for government and corporate clients, we deliver services with technical expertise, professionalism, and a strong commitment to excellence.
                   </p>

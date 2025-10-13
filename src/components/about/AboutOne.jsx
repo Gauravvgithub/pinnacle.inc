@@ -129,7 +129,12 @@ function AboutOne() {
                 <img
                   src=" assets/images/about/main/about-01.png"
                   alt="about-pinnacle"
-                  style={{borderRadius: "30px"}}
+                  style={{
+                    borderRadius: "30px",
+                    width: "400px",       // Set your desired width
+                    height: "300px"       // Set your desired height
+                  }}
+                  
                 />
                 <img
                   className="small-img"
