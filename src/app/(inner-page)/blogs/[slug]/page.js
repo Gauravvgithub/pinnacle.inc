@@ -6,50 +6,170 @@ import Link from "next/link";
 import BackToTop from "@/components/BackToTop";
 
 // Fetch blog data
+// async function fetchBlog(slug) {
+//   try {
+//     const res = await fetch(
+//       `${process.env.NEXT_PUBLIC_API_URL}/api/blogs/${slug}`,
+//       { cache: "no-store" }
+//     );
+//     if (!res.ok) return null;
+//     const data = await res.json();
+//     if (!data.success) return null;
+//     return data.data;
+//   } catch (error) {
+//     console.error("Error fetching blog:", error);
+//     return null;
+//   }
+// }
+
 async function fetchBlog(slug) {
+  console.log("🔍 Fetching blog for slug:", slug);
   try {
     const res = await fetch(
       `${process.env.NEXT_PUBLIC_API_URL}/api/blogs/${slug}`,
       { cache: "no-store" }
     );
-    if (!res.ok) return null;
+    console.log("📦 Blog fetch status:", res.status);
+    if (!res.ok) {
+      console.error("❌ Blog fetch failed with status:", res.status);
+      return null;
+    }
+
     const data = await res.json();
-    if (!data.success) return null;
+    console.log("✅ Blog fetch response:", data);
+
+    if (!data.success) {
+      console.error("❌ Blog fetch returned unsuccessful response:", data);
+      return null;
+    }
+
     return data.data;
   } catch (error) {
-    console.error("Error fetching blog:", error);
+    console.error("💥 Error fetching blog:", error);
     return null;
   }
 }
 
+
+
 // Fetch SEO data
-async function fetchSeo(blogTitle) {
+// async function fetchSeo(blogTitle) {
+//   try {
+//     const res = await fetch(
+//       `${process.env.NEXT_PUBLIC_API_URL}/api/seo/getAllSeos`,
+//       { cache: "no-store" }
+//     );
+//     if (!res.ok) return null;
+//     const data = await res.json();
+//     return data.data?.find((item) => item.page_title === blogTitle) || null;
+//   } catch (error) {
+//     console.error("Error fetching SEO:", error);
+//     return null;
+//   }
+// }
+
+async function fetchSeo(slug) {
   try {
+    console.log("🔍 Fetching SEO for slug:", slug);
     const res = await fetch(
       `${process.env.NEXT_PUBLIC_API_URL}/api/seo/getAllSeos`,
       { cache: "no-store" }
     );
+    // console.log("📦 SEO fetch status:", res.status);
     if (!res.ok) return null;
+
     const data = await res.json();
-    return data.data?.find((item) => item.page_title === blogTitle) || null;
+    // console.log("✅ SEO fetch response:", data);
+
+    const matchedSeo = data.data?.find(
+      (item) => item.page_title === slug // 🔍 Matching by slug
+    );
+
+    if (!matchedSeo) {
+      console.warn("⚠️ No matching SEO entry found for slug:", slug);
+    }
+
+    return matchedSeo || null;
   } catch (error) {
-    console.error("Error fetching SEO:", error);
+    console.error("❌ Error fetching SEO:", error);
     return null;
   }
 }
 
+
+
+
 // ✅ Dynamic metadata for Next.js App Router
+// export async function generateMetadata({ params: rawParams }) {
+//   const params = await rawParams;
+//   const { slug } = params;
+
+//   const blog = await fetchBlog(slug);
+//   if (!blog)
+//     return { title: "Blog Not Found", description: "Blog does not exist" };
+
+//   const seo = await fetchSeo(blog.blogTitle);
+
+//   return {
+//     title: seo?.metaTitle || blog.blogTitle,
+//     description:
+//       seo?.metaDes ||
+//       blog.blogDescription.replace(/(<([^>]+)>)/gi, "").slice(0, 160),
+//     keywords: seo?.metaKeywords?.join(", "),
+//     alternates: {
+//       canonical:
+//         seo?.cannicalUrl ||
+//         `${process.env.NEXT_PUBLIC_FRONTEND_URL}/blog/${slug}`,
+//     },
+//     openGraph: {
+//       type: seo?.OgType || "article",
+//       title: seo?.ogTitle || seo?.metaTitle || blog.blogTitle,
+//       description:
+//         seo?.ogDes ||
+//         seo?.metaDes ||
+//         blog.blogDescription.replace(/(<([^>]+)>)/gi, "").slice(0, 160),
+//       images: seo?.OgImageUrl
+//         ? [
+//             {
+//               url: seo.OgImageUrl,
+//               width: 1200,
+//               height: 630,
+//               alt: blog.blogTitle,
+//             },
+//           ]
+//         : [],
+//     },
+//     twitter: {
+//       card: "summary_large_image",
+//       title: seo?.ogTitle || seo?.metaTitle || blog.blogTitle,
+//       description:
+//         seo?.ogDes ||
+//         seo?.metaDes ||
+//         blog.blogDescription.replace(/(<([^>]+)>)/gi, "").slice(0, 160),
+//       images: seo?.OgImageUrl ? [seo.OgImageUrl] : [],
+//     },
+//   };
+// }
+
 export async function generateMetadata({ params: rawParams }) {
   const params = await rawParams;
   const { slug } = params;
 
+  // console.log("🧠 generateMetadata called with slug:", slug);
+
   const blog = await fetchBlog(slug);
-  if (!blog)
-    return { title: "Blog Not Found", description: "Blog does not exist" };
+  if (!blog) {
+    // console.warn("⚠️ Blog not found for slug:", slug);
+    return {
+      title: "Blog Not Found",
+      description: "Blog does not exist",
+    };
+  }
 
-  const seo = await fetchSeo(blog.blogTitle);
+  // const seo = await fetchSeo(blog.blogTitle);
+  const seo = await fetchSeo(slug);
 
-  return {
+  const metadata = {
     title: seo?.metaTitle || blog.blogTitle,
     description:
       seo?.metaDes ||
@@ -88,12 +208,19 @@ export async function generateMetadata({ params: rawParams }) {
       images: seo?.OgImageUrl ? [seo.OgImageUrl] : [],
     },
   };
+
+  console.log("📝 Generated metadata:", metadata);
+  return metadata;
 }
+
 
 // ✅ Page component with Head meta for SEO fallback
 export default async function BlogDetails({ params: rawParams }) {
   const params = await rawParams;
   const { slug } = params;
+
+
+    console.log("📄 Rendering BlogDetails for slug:", slug);
 
   const blog = await fetchBlog(slug);
   if (!blog) return <p>Blog not found</p>;

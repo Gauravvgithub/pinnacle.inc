@@ -4,7 +4,7 @@ import React from 'react'
 import Link from 'next/link';
 
 const BlogGridMain = (props) => {
-    const { Slug, blogImage, blogTitle, blogCategory, blogPublishedDate } = props;
+    const { Slug, blogImage, blogTitle } = props;
     return (
         <>
             <div className="blog-header">
@@ -14,20 +14,6 @@ const BlogGridMain = (props) => {
                         alt="Business_Blog"
                     />
                 </Link>
-                {/* <div className="blog-info">
-                    <div className="user">
-                        <i className="fal fa-user-circle" />
-                        <span>by Smith</span>
-                    </div>
-                    <div className="user">
-                        <i className="fal fa-tags" />
-                        <span>{blogCategory ? blogCategory : "1"}</span>
-                    </div>
-                </div>
-                <div className="date">
-                    <h6 className="title">15</h6>
-                    <span>Jan</span>
-                </div> */}
             </div>
             <div className="blog-body">
                 <Link href={`/blogs/${Slug}`}>

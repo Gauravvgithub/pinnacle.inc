@@ -46,17 +46,17 @@ export default function Home() {
       <div className="rts-blog-grid-area rts-section-gap">
         <div className="container">
           <div className="row g-5">
-            <div className="col-xl-8 col-md-12 col-sm-12 col-12 pr--40 pr_md--0 pr_sm-controler--0">
+            <div className="col-12">
               <div className="row g-5">
                 {loading ? (
-                  <p>Loading blogs...</p>
+                  <p className="text-center">Loading blogs...</p>
                 ) : (
                   posts
                     .slice(0, 12) // example limit
                     .map((data, index) => (
                       <div
                         key={data._id || index}
-                        className="col-lg-6 col-md-6 col-sm-12 col-12"
+                        className="col-lg-4 col-md-6 col-sm-12"
                       >
                         <div className="blog-grid-inner">
                           <BlogListMain
