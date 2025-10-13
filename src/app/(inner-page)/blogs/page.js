@@ -23,6 +23,7 @@ export default function Home() {
         const res = await axios.get(
           `${process.env.NEXT_PUBLIC_API_URL}/api/blogs`
         );
+        console.log(res, "blogs details");
         if (res.data.success) {
           setPosts(res.data.data);
         }
