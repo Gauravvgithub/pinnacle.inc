@@ -94,12 +94,12 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                 {/* single ENd */}
               </div>
               <div className="social-wrapper-two menu">
-                <Link href="#">
+                {/* <Link href="#">
                   <i className="fab fa-facebook-f" />
-                </Link>
-                <Link href="#">
+                </Link> */}
+                {/* <Link href="#">
                   <i className="fab fa-linkedin" />
-                </Link>
+                </Link> */}
                 <Link
                   href="https://www.instagram.com/pinnaclesellerservices?igsh=dXIwMDl4d2ZucWRk"
                   target="_blank"
