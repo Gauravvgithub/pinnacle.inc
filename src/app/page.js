@@ -11,7 +11,7 @@ import Feature from "@/components/feature/Feature";
 import TestimonialOne from "@/components/testimonials/TestimonialOne";
 // import BlogOne from "@/components/blog/BlogOne";
 import ContactForm from "@/components/contactform/ContactForm";
-import MapOne from "@/components/map/MapOne";
+// import MapOne from "@/components/map/MapOne";
 import FooterOne from "@/components/footer/FooterOne";
 import BackToTop from "@/components/BackToTop";
 import ServiceEleven from "@/components/service/ServiceEleven";
@@ -36,7 +36,7 @@ export default function Home() {
       <TestimonialOne />
       {/* <BlogOne /> */}
       <ContactForm />
-      <MapOne />
+      {/* <MapOne /> */}
       <FooterOne />
       <BackToTop />
 
