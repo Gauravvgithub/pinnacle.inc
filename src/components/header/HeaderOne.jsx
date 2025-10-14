@@ -79,11 +79,11 @@ function HeaderOne() {
                     </li>
                   </ul>
                   <ul className="social-wrapper-one">
-                    <li>
+                    {/* <li>
                       <Link href={"#"}>
                         <i className="fab fa-facebook-f" />
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link href={"https://wa.me/919999653855?text=Hello%20I%20want%20to%20know%20more%20about%20your%20services"} target="_blank">
                         <i className="fab fa-whatsapp" />
@@ -94,11 +94,11 @@ function HeaderOne() {
                         <i className="fab fa-instagram" />
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link className="mr--0" href={"#"}>
                         <i className="fab fa-linkedin-in" />
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

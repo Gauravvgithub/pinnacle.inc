@@ -29,13 +29,13 @@ function FooterOne() {
                   innovation, and customer satisfaction.
                 </p>
                 <div className="social mt-3 gap-3 d-flex">
-                  <Link
+                  {/* <Link
                     href="https://www.facebook.com"
                     target="_blank"
                     className="me-3 text-light"
                   >
                     <i className="fab fa-facebook-f"></i>
-                  </Link>
+                  </Link> */}
                   <Link
                     href="https://wa.me/919999653855?text=Hello%20I%20want%20to%20know%20more%20about%20your%20services"
                     target="_blank"
@@ -43,13 +43,13 @@ function FooterOne() {
                   >
                     <i className="fab fa-whatsapp"></i>
                   </Link>
-                  <Link
+                  {/* <Link
                     href="https://www.linkedin.com"
                     target="_blank"
                     className="me-3 text-light"
                   >
                     <i className="fab fa-linkedin-in"></i>
-                  </Link>
+                  </Link> */}
                   <Link
                     href="https://www.instagram.com/pinnaclesellerservices/?igsh=dXIwMDl4d2ZucWRk#"
                     target="_blank"
