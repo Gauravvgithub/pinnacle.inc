@@ -8,7 +8,7 @@ function FooterOne() {
       {/* rts footer area start */}
       <div className="rts-footer-area footer-one bg-footer-one" id="f-contact">
         <div className="container bg-shape-f1">
-          <div className="row pt--120 pt_sm--80 pb--80 pb_sm--40">
+          <div className="row pt--60 pt_sm--80 pb--20 pb_sm--40">
             {/* Company Logo + About */}
             <div className="col-xl-4 col-md-6 col-sm-12 col-12">
               <div className="footer-one-single-wized">
@@ -28,7 +28,7 @@ function FooterOne() {
                     <span>Pinnacle Inc</span> */}
                   </Link>
                 </div>
-                <p className="text-light small">
+                <p className="text-light small" style={{margin:"0px"}}>
                   We are Pinnacle Inc – delivering excellence in construction,
                   innovation, and customer satisfaction.
                 </p>
@@ -63,7 +63,7 @@ function FooterOne() {
                     </ul>
                   </div>
                 </div>
-                <div className="social mt-3 gap-3 d-flex">
+                <div className="social mt-3 gap-3 d-flex" style={{marginLeft:"35px"}}>
                   {/* <Link
                     href="https://www.facebook.com"
                     target="_blank"
@@ -76,7 +76,7 @@ function FooterOne() {
                     target="_blank"
                     className="me-3 text-light"
                   >
-                    <i className="fab fa-whatsapp"></i>
+                    <i className="fab fa-whatsapp" style={{color:"green", fontSize:"30px"}}></i>
                   </Link>
                   {/* <Link
                     href="https://www.linkedin.com"
@@ -90,7 +90,7 @@ function FooterOne() {
                     target="_blank"
                     className="text-light"
                   >
-                    <i className="fab fa-instagram"></i>
+                    <i className="fab fa-instagram" style={{color:"purple", fontSize:"30px"}}></i>
                   </Link>
                 </div>
               </div>
