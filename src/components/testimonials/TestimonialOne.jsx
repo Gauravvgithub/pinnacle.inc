@@ -14,6 +14,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 import ErrorBoundary from "@/components/ErrorBoundary";
+import ContactForm from "../contactform/ContactForm";
 
 function TestimonialOne() {
   return (
@@ -24,9 +25,9 @@ function TestimonialOne() {
           <div className="container">
             <div className="row">
               {/* start testimonials area */}
-              <div className="col-lg-7">
-                <div className="rts-title-area reviews text-start pl--30 pt--70">
-                  <p className="pre-title">Our Testimonials</p>
+              <div className="col-lg-4">
+                <div className="reviews text-start pl--30" style={{paddingTop:"95px"}}>
+                  <p className="pre-title" style={{color:"#CE1F1B", fontWeight:"bold"}}>Our Testimonials</p>
                   <h2 className="title">Client’s Feedbacks</h2>
                   {/* swiper area start */}
                   <div className="swiper mySwipertestimonial">
@@ -126,21 +127,22 @@ function TestimonialOne() {
                         </div>
                       </SwiperSlide>
                     </Swiper>
-                    <div className="swiper-button-next" />
-                    <div className="swiper-button-prev" />
+                    {/* <div className="swiper-button-next" />
+                    <div className="swiper-button-prev" /> */}
                   </div>
                   {/* swiper area end */}
                 </div>
               </div>
               {/* end testimonials are */}
               {/* images area */}
-              <div className="col-lg-5">
-                <div className="rts-test-one-image-inner">
+              <div className="col-lg-8">
+                {/* <div className="rts-test-one-image-inner">
                   <img
                     src="assets/images/testimonials/01.png"
                     alt="business_testimobials"
                   />
-                </div>
+                </div> */}
+                <ContactForm />
               </div>
               {/* image area end */}
             </div>

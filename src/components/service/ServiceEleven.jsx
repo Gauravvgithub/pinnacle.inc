@@ -13,7 +13,7 @@ function ServiceEleven() {
     <>
       <div>
         {/* rts service post area Start*/}
-        <div className="rts-service-area rts-section-gap">
+        <div className="rts-service-area rts-section-gap" style={{padding:"100px 0"}}>
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -25,8 +25,8 @@ function ServiceEleven() {
             </div>
           </div>
 
-          <div className="container-fluid service-main plr--120-service mt--50 plr_md--0 pl_sm--0 pr_sm--0">
-            <div className="background-service row">
+          <div className="container-fluid service-main plr--120-service mt--5 plr_md--0 pl_sm--0 pr_sm--0">
+            <div className="background-service row" style={{padding:"10px"}}>
               {/* start single Service */}
               <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                 <div className="service-one-inner one">

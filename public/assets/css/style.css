@@ -9427,20 +9427,20 @@ body {
   }
 }
 .rts-title-area.reviews::after {
-  content: "Reviews";
+  /* content: "Reviews";
   left: 32%;
   transform: translateX(-50%);
   z-index: -1;
   height: 109px;
-  top: 2%;
+  top: 2%; */
 }
 .rts-title-area.contact::after {
-  content: "Hello";
+  /* content: "Hello";
   left: 52%;
   transform: translateX(-50%);
   z-index: -1;
   height: 109px;
-  top: -41%;
+  top: -41%; */
 }
 .rts-title-area.contact-appoinment::after {
   position: absolute;
