@@ -72,6 +72,11 @@ function Nav() {
               </li>
             </ul>
           </li>
+          <li>
+            <Link className="" href={"/why-choose-us"}>
+              Why Choose Us
+            </Link>
+          </li>
 
           <li>
             <Link href={"/blogs"}>Blog</Link>
