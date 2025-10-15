@@ -55,7 +55,7 @@ function ContactForm() {
       <div className="rts-contact-area contact-one">
         <div className="container">
           <div className="row align-items-center g-0" 
-            style={{ justifyContent: "end" } }
+            style={{ justifyContent: "space-around" } }
           >
             {/* <div className="col-lg-4 col-md-12 col-sm-12 col-12">
               <div className="contact-image-one">
@@ -64,7 +64,7 @@ function ContactForm() {
             </div> */}
 
             <div className="col-lg-8 col-md-12 col-sm-12 col-12">
-              <div className="contact-form-area-one" style={{padding:"40px 20px", marginLeft: "-50%", background:"none", boxShadow:"none"}}>
+              <div className="contact-form-area-one" style={{padding:"40px 20px", background:"none", boxShadow:"none"}}>
                 <div className="contact text-start">
                   <p className="pre-title" style={{color:"#CE1F1B", fontWeight:"bold"}}>Make An Appointment</p>
                   <h2 className="title">Request a free quote</h2>

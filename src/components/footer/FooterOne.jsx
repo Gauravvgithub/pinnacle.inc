@@ -97,7 +97,7 @@ function FooterOne() {
             </div>
 
             {/* Quick Links */}
-            <div className="col-xl-4 col-md-6 col-sm-12 col-12" style={{width:"25%"}}>
+            <div className="col-xl-4 col-md-6 col-sm-12 col-12">
               <div className="footer-one-single-wized">
                 <div className="wized-title">
                   <h5 className="title">Quick Links</h5>
@@ -148,7 +148,7 @@ function FooterOne() {
             </div>
 
             {/* Get In Touch */}
-            <div className="col-xl-4 col-md-6 col-sm-12 col-12" style={{width:"40%"}}>
+            <div className="col-xl-4 col-md-6 col-sm-12 col-12">
               {/* <div className="footer-one-single-wized">
                 <div className="wized-title">
                   <h5 className="title">Get In Touch</h5>
@@ -189,7 +189,7 @@ function FooterOne() {
               </div> */}
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.9676462340926!2d77.029572!3d28.6007474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1dd61eb460af%3A0xe89377d97456bc5e!2sVegas%20Mall!5e0!3m2!1sen!2sin!4v1758619246139!5m2!1sen!2sin"
-                width={650}
+                width={750}
                 height={300}
                 style={{ borderRadius: "25px" }}
                 allowFullScreen=""
