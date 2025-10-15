@@ -7,10 +7,10 @@ import Carousel from "react-bootstrap/Carousel";
 import { CarouselItem } from "react-bootstrap";
 
 export const metadata = {
-  title: "Pinnacle.Inc - Park Gym Equipment Installation",
+  title: "Pinnacle.Inc - Why Choose Us",
   keywords: "Pinnacle, Park Gym, Outdoor Fitness, Park Equipment",
   description:
-    "Pinnacle installs outdoor gym equipment in parks for healthier communities.",
+    "Pinnacle Inc. is a leading provider of outdoor fitness solutions, specializing in park gym equipment installation.",
 };
 
 export default function ParkGymInstallation() {
