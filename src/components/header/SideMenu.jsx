@@ -202,6 +202,11 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                     </li> */}
                   </ul>
                 </li>
+                <li className="menu-item menu-item">
+                  <Link className="menu-link" href="/why-choose-us">
+                    Why Choose Us
+                  </Link>
+                </li>
                 <li className="has-droupdown menu-item">
                   <Link
                     className="menu-link"
@@ -238,29 +243,29 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                     </li> */}
                   </ul>
                 </li>
-                <li className="has-droupdown menu-item">
+                <li className="menu-item">
                   <Link
                     className="menu-link"
-                    href="#"
+                    href="/blogs"
                     onClick={() => toggleMenu(4)}
                   >
                     Blog
                   </Link>
-                  <ul
+                  {/* <ul
                     className={`submenu ${
                       openMenu === 4 ? "mm-collapse mm-show" : "mm-collapse"
                     }`}
-                  >
+                  > */}
                     {/* <li className="mobile-menu-link">
                       <Link href={"/blog-list"}>Blog List</Link>
                     </li> */}
-                    <li className="mobile-menu-link">
+                    {/* <li className="mobile-menu-link">
                       <Link href={"/blogs"}>Blog Grid</Link>
-                    </li>
+                    </li> */}
                     {/* <li className="mobile-menu-link">
                       <Link href={"/blog-details-default"}>Blog Details</Link>
                     </li> */}
-                  </ul>
+                  {/* </ul> */}
                 </li>
                 <li className="menu-item menu-item">
                   <Link className="menu-link" href="/contactus">
