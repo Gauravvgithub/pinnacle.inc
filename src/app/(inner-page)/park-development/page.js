@@ -1,17 +1,22 @@
+// "use client";
+
 import Link from "next/link";
 import HeaderOne from "@/components/header/HeaderOne";
 import BackToTop from "@/components/BackToTop";
 import Breadcrumb from "@/components/Breadcrumb";
 import FooterOne from "@/components/footer/FooterOne";
+import Carousel from "react-bootstrap/Carousel";
+import { CarouselItem } from "react-bootstrap";
+// import { CarouselCaption } from "react-bootstrap";
 
 export const metadata = {
   title: "Pinnacle.Inc - Park Gym Equipment Installation",
   keywords: "Pinnacle, Park Gym, Outdoor Fitness, Park Equipment",
   description:
     "Pinnacle installs outdoor gym equipment in parks for healthier communities.",
-  icons: {
-    icon: "/assets/images/fav.svg",
-  },
+  // icons: {
+  //   icon: "/assets/images/fav.svg",
+  // },
 };
 
 export default function ParkGymInstallation() {
@@ -33,10 +38,55 @@ export default function ParkGymInstallation() {
             <div className="col-xl-8 col-md-12 col-sm-12 col-12">
               <div className="service-detials-step-1">
                 <div className="thumbnail">
-                  <img
+                  {/* <img
                     src="assets/images/service/01.jpg"
                     alt="Park Gym Equipment"
-                  />
+                  /> */}
+
+                  <Carousel>
+                    <CarouselItem interval={1000}>
+                      {/* <ExampleCarouselImage text="First slide" /> */}
+                      <img
+                        src="assets/images/service/01.jpg"
+                        alt="Park Gym Equipment"
+                      />
+                      {/* <CarouselCaption>
+                        <h3>First slide label</h3>
+                        <p>
+                          Nulla vitae elit libero, a pharetra augue mollis
+                          interdum.
+                        </p>
+                      </CarouselCaption> */}
+                    </CarouselItem>
+                    <CarouselItem interval={500}>
+                      {/* <ExampleCarouselImage text="Second slide" /> */}
+                      <img
+                        src="assets/images/service/slide-02.png"
+                        alt="Park Gym Equipment"
+                      />
+                      {/* <CarouselCaption>
+                        <h3>Second slide label</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit.
+                        </p>
+                      </CarouselCaption> */}
+                    </CarouselItem>
+                    <CarouselItem>
+                      {/* <ExampleCarouselImage text="Third slide" /> */}
+                      <img
+                        src="assets/images/service/slide-03.png"
+                        alt="Park Gym Equipment"
+                      />
+                      {/* <CarouselCaption>
+                        <h3>Third slide label</h3>
+                        <p>
+                          Praesent commodo cursus magna, vel scelerisque nisl
+                          consectetur.
+                        </p>
+                      </CarouselCaption> */}
+                    </CarouselItem>
+                  </Carousel>
                 </div>
 
                 <h4 className="title">Park Development</h4>
@@ -86,10 +136,12 @@ export default function ParkGymInstallation() {
 
                 <h4 className="title">Community Benefits</h4>
                 <p className="disc">
-                  Parks with open gyms encourage active, healthy lifestyles and foster stronger
-                  communities. Our installations bring people together, reduce sedentary habits, and
-                  create attractive public spaces. From morning walkers to young athletes, everyone
-                  benefits from the accessibility and convenience of outdoor gym setups.
+                  Parks with open gyms encourage active, healthy lifestyles and
+                  foster stronger communities. Our installations bring people
+                  together, reduce sedentary habits, and create attractive
+                  public spaces. From morning walkers to young athletes,
+                  everyone benefits from the accessibility and convenience of
+                  outdoor gym setups.
                 </p>
 
                 <div className="row g-5 mt--30 mb--40">
