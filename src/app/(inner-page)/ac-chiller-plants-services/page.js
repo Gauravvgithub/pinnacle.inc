@@ -3,6 +3,8 @@ import HeaderOne from "@/components/header/HeaderOne";
 import BackToTop from "@/components/BackToTop";
 import Breadcrumb from "@/components/Breadcrumb";
 import FooterOne from "@/components/footer/FooterOne";
+import Carousel from "react-bootstrap/Carousel";
+import { CarouselItem } from "react-bootstrap";
 
 export default function Home() {
   const breadcrumbs = [
@@ -22,7 +24,65 @@ export default function Home() {
               {/* service details left area start */}
               <div className="service-detials-step-1">
                 <div className="thumbnail">
-                  <img src="assets/images/service/04.jpg" alt="business-area" />
+                  {/* <img src="assets/images/service/04.jpg" alt="business-area" /> */}
+                  <Carousel>
+                    <CarouselItem interval={3000}>
+                      {/* <ExampleCarouselImage text="First slide" /> */}
+                      <img
+                        src="assets/images/service/ac-1.jpg"
+                        alt="water-cooler-service"
+                      />
+                      {/* <CarouselCaption>
+                        <h3>First slide label</h3>
+                        <p>
+                          Nulla vitae elit libero, a pharetra augue mollis
+                          interdum.
+                        </p>
+                      </CarouselCaption> */}
+                    </CarouselItem>
+                    <CarouselItem interval={1800}>
+                      {/* <ExampleCarouselImage text="Second slide" /> */}
+                      <img
+                        src="assets/images/service/ac-2.jpg"
+                        alt="water-cooler-service"
+                      />
+                      {/* <CarouselCaption>
+                        <h3>Second slide label</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit.
+                        </p>
+                      </CarouselCaption> */}
+                    </CarouselItem>
+                    <CarouselItem interval={1600}>
+                      {/* <ExampleCarouselImage text="Third slide" /> */}
+                      <img
+                        src="assets/images/service/ac-3.jpg"
+                        alt="water-cooler-service"
+                      />
+                      {/* <CarouselCaption>
+                        <h3>Third slide label</h3>
+                        <p>
+                          Praesent commodo cursus magna, vel scelerisque nisl
+                          consectetur.
+                        </p>
+                      </CarouselCaption> */}
+                    </CarouselItem>
+                    <CarouselItem interval={1400}>
+                      {/* <ExampleCarouselImage text="Third slide" /> */}
+                      <img
+                        src="assets/images/service/ac-4.jpg"
+                        alt="water-cooler-service"
+                      />
+                      {/* <CarouselCaption>
+                        <h3>Third slide label</h3>
+                        <p>
+                          Praesent commodo cursus magna, vel scelerisque nisl
+                          consectetur.
+                        </p>
+                      </CarouselCaption> */}
+                    </CarouselItem>
+                  </Carousel>
                 </div>
                 <h4 className="title">
                   AC Chiller Plant Services

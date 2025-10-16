@@ -3,6 +3,8 @@ import HeaderOne from "@/components/header/HeaderOne";
 import BackToTop from "@/components/BackToTop";
 import Breadcrumb from "@/components/Breadcrumb";
 import FooterOne from "@/components/footer/FooterOne";
+import Carousel from "react-bootstrap/Carousel";
+import { CarouselItem } from "react-bootstrap";
 
 export default function Home() {
   const breadcrumbs = [
@@ -13,7 +15,10 @@ export default function Home() {
   return (
     <div className="">
       <HeaderOne />
-      <Breadcrumb title="Security & Manpower Services" breadcrumbs={breadcrumbs} />
+      <Breadcrumb
+        title="Security & Manpower Services"
+        breadcrumbs={breadcrumbs}
+      />
       {/* start service details area */}
       <div className="rts-service-details-area rts-section-gap">
         <div className="container">
@@ -22,38 +27,155 @@ export default function Home() {
               {/* service details left area start */}
               <div className="service-detials-step-1">
                 <div className="thumbnail">
-                  <img src="assets/images/service/03.jpeg" alt="business-area" />
+                  {/* <img src="assets/images/service/03.jpeg" alt="business-area" /> */}
+                  <Carousel>
+                    <CarouselItem interval={3000}>
+                      {/* <ExampleCarouselImage text="First slide" /> */}
+                      <img
+                        src="assets/images/service/guard-1.jpeg"
+                        alt="water-cooler-service"
+                      />
+                      {/* <CarouselCaption>
+                        <h3>First slide label</h3>
+                        <p>
+                          Nulla vitae elit libero, a pharetra augue mollis
+                          interdum.
+                        </p>
+                      </CarouselCaption> */}
+                    </CarouselItem>
+                    <CarouselItem interval={1800}>
+                      {/* <ExampleCarouselImage text="Second slide" /> */}
+                      <img
+                        src="assets/images/service/guard-2.jpeg"
+                        alt="water-cooler-service"
+                      />
+                      {/* <CarouselCaption>
+                        <h3>Second slide label</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit.
+                        </p>
+                      </CarouselCaption> */}
+                    </CarouselItem>
+                    <CarouselItem interval={1600}>
+                      {/* <ExampleCarouselImage text="Third slide" /> */}
+                      <img
+                        src="assets/images/service/guard-3.jpeg"
+                        alt="water-cooler-service"
+                      />
+                      {/* <CarouselCaption>
+                        <h3>Third slide label</h3>
+                        <p>
+                          Praesent commodo cursus magna, vel scelerisque nisl
+                          consectetur.
+                        </p>
+                      </CarouselCaption> */}
+                    </CarouselItem>
+                    <CarouselItem interval={1400}>
+                      {/* <ExampleCarouselImage text="Third slide" /> */}
+                      <img
+                        src="assets/images/service/guard-4.jpeg"
+                        alt="water-cooler-service"
+                      />
+                      {/* <CarouselCaption>
+                        <h3>Third slide label</h3>
+                        <p>
+                          Praesent commodo cursus magna, vel scelerisque nisl
+                          consectetur.
+                        </p>
+                      </CarouselCaption> */}
+                    </CarouselItem>
+                    <CarouselItem interval={1200}>
+                      {/* <ExampleCarouselImage text="Third slide" /> */}
+                      <img
+                        src="assets/images/service/guard-5.jpeg"
+                        alt="water-cooler-service"
+                      />
+                      {/* <CarouselCaption>
+                        <h3>Third slide label</h3>
+                        <p>
+                          Praesent commodo cursus magna, vel scelerisque nisl
+                          consectetur.
+                        </p>
+                      </CarouselCaption> */}
+                    </CarouselItem>
+                    <CarouselItem interval={1000}>
+                      {/* <ExampleCarouselImage text="Third slide" /> */}
+                      <img
+                        src="assets/images/service/guard-6.jpeg"
+                        alt="water-cooler-service"
+                      />
+                      {/* <CarouselCaption>
+                        <h3>Third slide label</h3>
+                        <p>
+                          Praesent commodo cursus magna, vel scelerisque nisl
+                          consectetur.
+                        </p>
+                      </CarouselCaption> */}
+                    </CarouselItem>
+                  </Carousel>
                 </div>
-                <h4 className="title">
-                  Security & Manpower Supply Services
-                </h4>
+                <h4 className="title">Security & Manpower Supply Services</h4>
                 <p className="disc">
-                  We specialize in providing comprehensive security and manpower solutions designed to safeguard premises, ensure smooth operations, and meet the workforce needs of businesses across industries. Our services are trusted by residential complexes, corporate offices, industrial sites, and public institutions.
+                  We specialize in providing comprehensive security and manpower
+                  solutions designed to safeguard premises, ensure smooth
+                  operations, and meet the workforce needs of businesses across
+                  industries. Our services are trusted by residential complexes,
+                  corporate offices, industrial sites, and public institutions.
                 </p>
                 <p className="disc">
-                  With trained security professionals and a reliable manpower supply network, we deliver services that ensure protection, operational efficiency, and long-term value for our clients.                </p>
+                  With trained security professionals and a reliable manpower
+                  supply network, we deliver services that ensure protection,
+                  operational efficiency, and long-term value for our clients.{" "}
+                </p>
 
-                <h4 className="title">
-                  Our Expertise Covers
-                </h4>
+                <h4 className="title">Our Expertise Covers</h4>
                 <div className="disc">
-                 <ul style={{ listStyleType: "disc", paddingLeft: "20px", margin: "10px 0" }}>
-                    <li  style={{listStyle:"disc"}} >Deployment of trained security guards (day & night shifts)</li>
-                    <li  style={{listStyle:"disc"}} >Round-the-clock monitoring and patrolling</li>
-                    <li  style={{listStyle:"disc"}} >Access control and visitor management</li>
-                    <li  style={{listStyle:"disc"}} >Emergency response and risk management</li>
-                    <li  style={{listStyle:"disc"}} >Adherence to industry and statutory compliance standards</li>
-                    <li  style={{listStyle:"disc"}} >Skilled, semi-skilled, and unskilled manpower supply</li>
-                    <li  style={{listStyle:"disc"}} >Office and administrative staff</li>
-                    <li  style={{listStyle:"disc"}} >Technical and operational workforce</li>
-                    <li  style={{listStyle:"disc"}} >Housekeeping and facility management staff</li>
+                  <ul
+                    style={{
+                      listStyleType: "disc",
+                      paddingLeft: "20px",
+                      margin: "10px 0",
+                    }}
+                  >
+                    <li style={{ listStyle: "disc" }}>
+                      Deployment of trained security guards (day & night shifts)
+                    </li>
+                    <li style={{ listStyle: "disc" }}>
+                      Round-the-clock monitoring and patrolling
+                    </li>
+                    <li style={{ listStyle: "disc" }}>
+                      Access control and visitor management
+                    </li>
+                    <li style={{ listStyle: "disc" }}>
+                      Emergency response and risk management
+                    </li>
+                    <li style={{ listStyle: "disc" }}>
+                      Adherence to industry and statutory compliance standards
+                    </li>
+                    <li style={{ listStyle: "disc" }}>
+                      Skilled, semi-skilled, and unskilled manpower supply
+                    </li>
+                    <li style={{ listStyle: "disc" }}>
+                      Office and administrative staff
+                    </li>
+                    <li style={{ listStyle: "disc" }}>
+                      Technical and operational workforce
+                    </li>
+                    <li style={{ listStyle: "disc" }}>
+                      Housekeeping and facility management staff
+                    </li>
                   </ul>
                 </div>
 
-
                 <h4 className="title">Industry-Specific Workforce Solutions</h4>
                 <p className="disc">
-                  Every business has unique requirements. That’s why our manpower and security services are customized to fit specific sectors such as IT, manufacturing, construction, healthcare, and hospitality. Whether it’s short-term staffing for a project or a long-term workforce plan, we ensure businesses get the right people at the right time.
+                  Every business has unique requirements. That’s why our
+                  manpower and security services are customized to fit specific
+                  sectors such as IT, manufacturing, construction, healthcare,
+                  and hospitality. Whether it’s short-term staffing for a
+                  project or a long-term workforce plan, we ensure businesses
+                  get the right people at the right time.
                 </p>
                 {/* <p className="disc">
                   Think solar-powered lamps, Wi-Fi corners, jogging tracks that
@@ -62,13 +184,14 @@ export default function Home() {
                   and tomorrow.
                 </p> */}
 
-                <h4 className="title">
-                  Reliable Security & Risk Management
-                </h4>
+                <h4 className="title">Reliable Security & Risk Management</h4>
                 <p className="disc">
-                  Our trained and licensed security personnel maintain discipline, vigilance, and professionalism at all times. From visitor management to emergency handling, we ensure a safe and secure environment, allowing clients to focus on their core operations without disruption.
+                  Our trained and licensed security personnel maintain
+                  discipline, vigilance, and professionalism at all times. From
+                  visitor management to emergency handling, we ensure a safe and
+                  secure environment, allowing clients to focus on their core
+                  operations without disruption.
                 </p>
-
 
                 <div className="row g-5 mt--30 mb--40">
                   <div className="col-lg-6">
@@ -84,7 +207,8 @@ export default function Home() {
                       <div className="details">
                         <h6 className="title">Trusted Partner</h6>
                         <p className="disc">
-                          Proven expertise in delivering manpower and security services for reputed organizations.
+                          Proven expertise in delivering manpower and security
+                          services for reputed organizations.
                         </p>
                       </div>
                     </div>
@@ -103,7 +227,8 @@ export default function Home() {
                       <div className="details">
                         <h6 className="title">24/7 Quality Service</h6>
                         <p className="disc">
-                          Round-the-clock availability of reliable guards and workforce.
+                          Round-the-clock availability of reliable guards and
+                          workforce.
                         </p>
                       </div>
                     </div>
@@ -141,7 +266,8 @@ export default function Home() {
                       <div className="details">
                         <h6 className="title">Cost-Effective Solutions</h6>
                         <p className="disc">
-                          Affordable and flexible service models tailored to client needs.
+                          Affordable and flexible service models tailored to
+                          client needs.
                         </p>
                       </div>
                     </div>
@@ -149,7 +275,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-
 
               {/* service details left area end */}
               <div className="service-detials-step-3 mt--70 mt_md--50">
@@ -165,36 +290,44 @@ export default function Home() {
                   <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 mb_md--20 mb_sm--20">
                     <h4 className="title">Customer Benefits</h4>
                     <p className="disc">
-                      Our integrated solutions are designed to deliver safety, efficiency, and value:
+                      Our integrated solutions are designed to deliver safety,
+                      efficiency, and value:
                     </p>
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>Safe and secure premises with professional guards</span>
+                      <span>
+                        Safe and secure premises with professional guards
+                      </span>
                     </div>
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>Quick access to skilled and semi-skilled workforce</span>
+                      <span>
+                        Quick access to skilled and semi-skilled workforce
+                      </span>
                     </div>
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>Reduced recruitment challenges with verified staff</span>
+                      <span>
+                        Reduced recruitment challenges with verified staff
+                      </span>
                     </div>
 
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>Long-term savings by optimized manpower solutions</span>
+                      <span>
+                        Long-term savings by optimized manpower solutions
+                      </span>
                     </div>
-                     <div className="single-banifits">
-                       <i className="far fa-check-circle" />
-                    <span>Dedicated after-sales and support service</span>
+                    <div className="single-banifits">
+                      <i className="far fa-check-circle" />
+                      <span>Dedicated after-sales and support service</span>
                     </div>
                   </div>
-               
                 </div>
               </div>
             </div>
             {/*rts blog wizered area */}
-                 {/* Sidebar */}
+            {/* Sidebar */}
             <div className="col-xl-4 col-md-12 col-sm-12 col-12 mt_lg--60 pl--50 pl_md--0 pl-lg-controler pl_sm--0">
               <div className="rts-single-wized Categories service">
                 <div className="wized-header">
