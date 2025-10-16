@@ -197,9 +197,9 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                     <li>
                       <Link href={"/ac-chiller-plants-services"}>AC Chiller Plants Services</Link>
                     </li>
-                    {/* <li className="mobile-menu-link">
-                      <Link href={"/service-details"}>Service Details</Link>
-                    </li> */}
+                    <li>
+                      <Link href={"/roads-and-sewer-lines-services"}>Roads and Sewers Lines Services</Link>
+                    </li>
                   </ul>
                 </li>
                 <li className="menu-item menu-item">
