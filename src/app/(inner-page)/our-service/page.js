@@ -7,11 +7,11 @@ import FooterOne from "@/components/footer/FooterOne";
 // import PricingThree from "@/components/pricing/PricingThree";
 
 export default function Home() {
-  const breadcrumbs = [{ label: "Home", link: "/" }, { label: "Our Service" }];
+  const breadcrumbs = [{ label: "Home", link: "/" }, { label: "Our Services" }];
   return (
     <div className="">
       <HeaderOne />
-      <Breadcrumb title="Our Service" breadcrumbs={breadcrumbs} />
+      <Breadcrumb title="Our Services" breadcrumbs={breadcrumbs} />
       <ServiceEleven />
       <FaqTwo />
       {/* <PricingThree /> */}

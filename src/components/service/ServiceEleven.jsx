@@ -6,14 +6,19 @@ import { GiWaterTank } from "react-icons/gi";
 import { GiGuards } from "react-icons/gi";
 import { TbAirConditioning } from "react-icons/tb";
 import { LiaRoadSolid } from "react-icons/lia";
-
+import { GiSolarPower } from "react-icons/gi";
+import { BsBricks } from "react-icons/bs";
+import { GiPipes } from "react-icons/gi";
 
 function ServiceEleven() {
   return (
     <>
       <div>
         {/* rts service post area Start*/}
-        <div className="rts-service-area rts-section-gap" style={{padding:"100px 0"}}>
+        <div
+          className="rts-service-area rts-section-gap"
+          style={{ padding: "100px 0" }}
+        >
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -26,7 +31,7 @@ function ServiceEleven() {
           </div>
 
           <div className="container-fluid service-main plr--120-service mt--5 plr_md--0 pl_sm--0 pr_sm--0">
-            <div className="background-service row" style={{padding:"10px"}}>
+            <div className="background-service row" style={{ padding: "10px" }}>
               {/* start single Service */}
               <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                 <div className="service-one-inner one">
@@ -158,14 +163,16 @@ function ServiceEleven() {
               </div>
               {/* end single Service */}
 
-              <div className="text-center">
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                 <div className="service-one-inner three">
                   <div className="thumbnail">
                     {/* <img
                     src="assets/images/service/icon/03.svg"
                     alt="security_service"
                   /> */}
-                    <LiaRoadSolid style={{ fontSize: "6rem", color: "#E33434" }} />
+                    <LiaRoadSolid
+                      style={{ fontSize: "6rem", color: "#E33434" }}
+                    />
                   </div>
                   <div className="service-details">
                     <Link href={"/roads-and-sewer-lines-services"}>
@@ -184,6 +191,95 @@ function ServiceEleven() {
                     <Link
                       className="rts-read-more btn-primary"
                       href={"/roads-and-sewer-lines-services"}
+                    >
+                      <i className="far fa-arrow-right" />
+                      Read More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="service-one-inner three">
+                  <div className="thumbnail">
+                    <GiSolarPower
+                      style={{ fontSize: "6rem", color: "#E33434" }}
+                    />
+                  </div>
+                  <div className="service-details">
+                    <Link href={"/solar-light-services"}>
+                      <h5 className="title">Solar Light Services</h5>
+                    </Link>
+                    <p className="disc">
+                      We offer professional solar lighting solutions designed to
+                      deliver sustainable, energy-efficient, and cost-effective
+                      illumination for residential, commercial, and public
+                      spaces. From installation to maintenance, our team ensures
+                      reliable performance, eco-friendly operation, and
+                      long-lasting durability. Perfect for pathways, streets,
+                      and industrial sites.
+                    </p>
+                    <Link
+                      className="rts-read-more btn-primary"
+                      href={"/solar-light-services"}
+                    >
+                      <i className="far fa-arrow-right" />
+                      Read More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="service-one-inner three">
+                  <div className="thumbnail">
+                    <BsBricks style={{ fontSize: "6rem", color: "#E33434" }} />
+                  </div>
+                  <div className="service-details">
+                    <Link href={"/interlocking-brick-work-services"}>
+                      <h5 className="title">
+                        Interlocking Brick Work Services
+                      </h5>
+                    </Link>
+                    <p className="disc">
+                      Our interlocking brick work services provide durable,
+                      aesthetically appealing, and low-maintenance paving
+                      solutions. Ideal for driveways, footpaths, parking areas,
+                      and landscapes, we ensure precise installation with
+                      superior materials and skilled craftsmanship. Built to
+                      withstand heavy loads and harsh weather, our paving
+                      solutions combine strength with style.
+                    </p>
+                    <Link
+                      className="rts-read-more btn-primary"
+                      href={"/interlocking-brick-work-services"}
+                    >
+                      <i className="far fa-arrow-right" />
+                      Read More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="service-one-inner three">
+                  <div className="thumbnail">
+                    <GiPipes style={{ fontSize: "6rem", color: "#E33434" }} />
+                  </div>
+                  <div className="service-details">
+                    <Link href={"/gas-and-water-pipeline-services"}>
+                      <h5 className="title">Gas & Water Pipeline Services</h5>
+                    </Link>
+                    <p className="disc">
+                      We specialize in the installation, maintenance, and repair
+                      of gas and water pipelines for residential, commercial,
+                      and industrial applications. Our team ensures safe,
+                      leak-proof, and efficient pipeline systems that meet all
+                      regulatory standards. From planning to execution, we focus
+                      on reliability, longevity, and operational excellence.
+                    </p>
+                    <Link
+                      className="rts-read-more btn-primary"
+                      href={"/gas-and-water-pipeline-services"}
                     >
                       <i className="far fa-arrow-right" />
                       Read More

@@ -370,6 +370,30 @@ export default function Home() {
                       </Link>
                     </li>
                   </ul>
+                  <ul className="single-categories">
+                    <li>
+                      <Link href={"/solar-light-services"}>
+                        Solar Light Services{" "}
+                        <i className="far fa-long-arrow-right" />
+                      </Link>
+                    </li>
+                  </ul>
+                  <ul className="single-categories">
+                    <li>
+                      <Link href={"/interlocking-brick-work-services"}>
+                        Interlocking Brick Work Service{" "}
+                        <i className="far fa-long-arrow-right" />
+                      </Link>
+                    </li>
+                  </ul>
+                  <ul className="single-categories">
+                    <li>
+                      <Link href={"/gas-and-water-pipeline-services"}>
+                        Gas & Water Pipeline Services{" "}
+                        <i className="far fa-long-arrow-right" />
+                      </Link>
+                    </li>
+                  </ul>
                 </div>
               </div>
 

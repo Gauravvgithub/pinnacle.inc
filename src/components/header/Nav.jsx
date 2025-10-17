@@ -38,7 +38,22 @@ function Nav() {
               </li>
               <li>
                 <Link href="/roads-and-sewer-lines-services">
-                  Roads and Sewers Lines
+                  Roads and Sewers Lines Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/solar-light-services">
+                  Solar Light Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/interlocking-brick-work-services">
+                  Interlocking Brick Work Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/gas-and-water-pipeline-services">
+                  Gas & Water Pipeline Services
                 </Link>
               </li>
             </ul>

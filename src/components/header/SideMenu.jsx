@@ -189,16 +189,39 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                       <Link href={"/park-development"}>Park Development</Link>
                     </li>
                     <li>
-                      <Link href={"/water-cooler-supplier-services"}>Water Cooler Supplier Services</Link>
+                      <Link href={"/water-cooler-supplier-services"}>
+                        Water Cooler Supplier Services
+                      </Link>
                     </li>
                     <li>
-                      <Link href={"/security-manpower-services"}>Security & Manpower Services</Link>
+                      <Link href={"/security-manpower-services"}>
+                        Security & Manpower Services
+                      </Link>
                     </li>
                     <li>
-                      <Link href={"/ac-chiller-plants-services"}>AC Chiller Plants Services</Link>
+                      <Link href={"/ac-chiller-plants-services"}>
+                        AC Chiller Plants Services
+                      </Link>
                     </li>
                     <li>
-                      <Link href={"/roads-and-sewer-lines-services"}>Roads and Sewers Lines Services</Link>
+                      <Link href={"/roads-and-sewer-lines-services"}>
+                        Roads and Sewers Lines Services
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/solar-light-services">
+                        Solar Light Services
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/interlocking-brick-work-services">
+                        Interlocking Brick Work Services
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/gas-and-water-pipeline-services">
+                        Gas & Water Pipeline Services
+                      </Link>
                     </li>
                   </ul>
                 </li>
@@ -256,13 +279,13 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                       openMenu === 4 ? "mm-collapse mm-show" : "mm-collapse"
                     }`}
                   > */}
-                    {/* <li className="mobile-menu-link">
+                  {/* <li className="mobile-menu-link">
                       <Link href={"/blog-list"}>Blog List</Link>
                     </li> */}
-                    {/* <li className="mobile-menu-link">
+                  {/* <li className="mobile-menu-link">
                       <Link href={"/blogs"}>Blog Grid</Link>
                     </li> */}
-                    {/* <li className="mobile-menu-link">
+                  {/* <li className="mobile-menu-link">
                       <Link href={"/blog-details-default"}>Blog Details</Link>
                     </li> */}
                   {/* </ul> */}

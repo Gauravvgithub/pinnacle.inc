@@ -6,17 +6,19 @@ import FooterOne from "@/components/footer/FooterOne";
 import Carousel from "react-bootstrap/Carousel";
 import { CarouselItem } from "react-bootstrap";
 
-export default function WaterCoolerInstallation() {
+export default function Home() {
   const breadcrumbs = [
     { label: "Home", link: "/" },
     { label: "Our Service", link: "/our-service" },
-    { label: "Water Cooler Supplier" },
+    { label: "Interlocking Brick Work Services" },
   ];
   return (
     <div className="">
       <HeaderOne />
-      <Breadcrumb title="Water Cooler Supplier" breadcrumbs={breadcrumbs} />
-
+      <Breadcrumb
+        title="Interlocking Brick Work Services"
+        breadcrumbs={breadcrumbs}
+      />
       {/* start service details area */}
       <div className="rts-service-details-area rts-section-gap">
         <div className="container">
@@ -25,177 +27,110 @@ export default function WaterCoolerInstallation() {
               {/* service details left area start */}
               <div className="service-detials-step-1">
                 <div className="thumbnail">
-                  {/* <img
-                    src="assets/images/service/02.png"
-                    alt="water-cooler-service"
-                  /> */}
-
                   <Carousel>
                     <CarouselItem interval={3000}>
-                      {/* <ExampleCarouselImage text="First slide" /> */}
                       <img
-                        src="assets/images/service/water-slide-1.png"
-                        alt="water-cooler-service"
+                        src="assets/images/service/interlocking-1.jpg"
+                        alt="interlocking-brick-installation"
                       />
-                      {/* <CarouselCaption>
-                        <h3>First slide label</h3>
-                        <p>
-                          Nulla vitae elit libero, a pharetra augue mollis
-                          interdum.
-                        </p>
-                      </CarouselCaption> */}
                     </CarouselItem>
                     <CarouselItem interval={1800}>
-                      {/* <ExampleCarouselImage text="Second slide" /> */}
                       <img
-                        src="assets/images/service/water-slide-2.png"
-                        alt="water-cooler-service"
+                        src="assets/images/service/interlocking-2.jpg"
+                        alt="paver-block-work"
                       />
-                      {/* <CarouselCaption>
-                        <h3>Second slide label</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
-                      </CarouselCaption> */}
                     </CarouselItem>
                     <CarouselItem interval={1600}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
                       <img
-                        src="assets/images/service/water-slide-3.png"
-                        alt="water-cooler-service"
+                        src="assets/images/service/interlocking-3.jpg"
+                        alt="pathway-interlock"
                       />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={1400}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
+                    </CarouselItem>{" "}
+                    <CarouselItem interval={1600}>
                       <img
-                        src="assets/images/service/water-slide-4.png"
-                        alt="water-cooler-service"
+                        src="assets/images/service/interlocking-4.jpg"
+                        alt="pathway-interlock"
                       />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={1200}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-5.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={1000}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-6.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={800}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-7.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={600}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-8.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={400}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-9.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
                     </CarouselItem>
                   </Carousel>
                 </div>
-                <h4 className="title">Water Cooler Supplier Services</h4>
+
+                <h4 className="title">Interlocking Brick Work Services</h4>
                 <p className="disc">
-                  We specialize in the supply and installation of high-quality
-                  water coolers and drinking water systems at various public and
-                  private locations. Our services ensure access to safe, clean,
-                  and chilled drinking water, making us a trusted partner for
-                  organizations that value health, hygiene, and community
-                  welfare.
+                  We specialize in professional interlocking brick work
+                  solutions designed to enhance durability, aesthetics, and
+                  functionality in infrastructure and landscape projects. Our
+                  services ensure long-lasting pavements with strong structural
+                  integrity, ideal for residential, commercial, and industrial
+                  applications.
                 </p>
                 <p className="disc">
-                  Over the years, we have successfully executed projects under
-                  government tenders and corporate contracts with reputed
-                  organizations such as:
+                  Using high-quality paver blocks, precise leveling techniques,
+                  and sustainable construction practices, we create smooth,
+                  uniform, and weather-resistant surfaces that withstand heavy
+                  usage and require minimal maintenance.
                 </p>
-                <ul className="disc" >
-                  <li style={{listStyle:"disc"}} >GAIL (Gas Authority of India Limited)</li>
-                  <li style={{listStyle:"disc"}} >BPCL (Bharat Petroleum Corporation Limited)</li>
-                  <li style={{listStyle:"disc"}} >Other leading institutions and enterprises</li>
-                </ul>
 
                 <h4 className="title">Our Expertise Covers</h4>
-                <ul className="disc">
-                  <li style={{listStyle:"disc"}} >End-to-end installation of water coolers</li>
-                  <li style={{listStyle:"disc"}} >Regular servicing and maintenance support</li>
-                  <li style={{listStyle:"disc"}} >Compliance with safety and quality standards</li>
-                  <li style={{listStyle:"disc"}} >Efficient project execution within timelines</li>
-                </ul>
+                <div className="disc">
+                  <ul
+                    style={{
+                      listStyleType: "disc",
+                      paddingLeft: "40px",
+                      margin: "10px 0",
+                    }}
+                  >
+                    <li style={{ listStyleType: "disc" }}>
+                      Interlocking brick and paver block installation
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Driveway, parking lot, and footpath paving
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Walkway, garden, and landscape paving solutions
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Pattern design and customized paving layouts
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Edge finishing and drainage solutions
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Paver repair, replacement, and maintenance
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Heavy-duty paving for industrial and commercial zones
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Installation using premium-grade pavers and sand bedding
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Compliance with ISI and construction standards
+                    </li>
+                  </ul>
+                </div>
 
+                <h4 className="title">Strong, Durable & Aesthetic Paving</h4>
                 <p className="disc">
-                  By combining technical know-how with reliable execution, we
-                  continue to build long-term partnerships with organizations
-                  across industries.
+                  Our interlocking brick work solutions combine strength with
+                  design flexibility. Whether it’s a residential driveway, a
+                  commercial walkway, or large-scale infrastructure, our team
+                  ensures precision installation for a clean and durable finish.
                 </p>
 
-                {/* service highlights */}
+                <h4 className="title">
+                  Quality Materials & Skilled Craftsmanship
+                </h4>
+                <p className="disc">
+                  We use weather-resistant, high-compression strength pavers
+                  along with skilled laying techniques to ensure durability and
+                  uniformity. Every project is executed with careful attention
+                  to detail, ensuring both functionality and visual appeal.
+                </p>
+
                 <div className="row g-5 mt--30 mb--40">
                   <div className="col-lg-6">
+                    {/* single service details card */}
                     <div className="service-details-card">
                       <div className="thumbnail">
                         <img
@@ -205,15 +140,17 @@ export default function WaterCoolerInstallation() {
                         />
                       </div>
                       <div className="details">
-                        <h6 className="title">Trusted Partner</h6>
+                        <h6 className="title">Proven Expertise</h6>
                         <p className="disc">
-                          Successfully executed multiple government and
-                          corporate water cooler projects.
+                          Years of experience in high-quality interlocking brick
+                          installation and paving projects.
                         </p>
                       </div>
                     </div>
+                    {/* single service details card End */}
                   </div>
                   <div className="col-lg-6">
+                    {/* single service details card */}
                     <div className="service-details-card">
                       <div className="thumbnail">
                         <img
@@ -223,15 +160,16 @@ export default function WaterCoolerInstallation() {
                         />
                       </div>
                       <div className="details">
-                        <h6 className="title">Quality Service</h6>
+                        <h6 className="title">On-Time Delivery</h6>
                         <p className="disc">
-                          Delivering safe, hygienic, and durable installations
-                          with ongoing maintenance support.
+                          Fast and precise installation with minimal downtime.
                         </p>
                       </div>
                     </div>
+                    {/* single service details card End */}
                   </div>
                   <div className="col-lg-6">
+                    {/* single service details card */}
                     <div className="service-details-card">
                       <div className="thumbnail">
                         <img
@@ -241,15 +179,17 @@ export default function WaterCoolerInstallation() {
                         />
                       </div>
                       <div className="details">
-                        <h6 className="title">Customer Support</h6>
+                        <h6 className="title">Technical Support</h6>
                         <p className="disc">
-                          Prompt servicing and maintenance for continuous
-                          performance and client satisfaction.
+                          Expert on-site supervision and post-installation
+                          assistance.
                         </p>
                       </div>
                     </div>
+                    {/* single service details card End */}
                   </div>
                   <div className="col-lg-6">
+                    {/* single service details card */}
                     <div className="service-details-card">
                       <div className="thumbnail">
                         <img
@@ -259,18 +199,19 @@ export default function WaterCoolerInstallation() {
                         />
                       </div>
                       <div className="details">
-                        <h6 className="title">Cost-Effective</h6>
+                        <h6 className="title">Cost-Effective Solutions</h6>
                         <p className="disc">
-                          Affordable solutions with long-term value and reduced
-                          maintenance costs.
+                          Long-lasting paving that minimizes maintenance and
+                          maximizes value.
                         </p>
                       </div>
                     </div>
+                    {/* single service details card End */}
                   </div>
                 </div>
               </div>
 
-              {/* customer benefits */}
+              {/* service details left area end */}
               <div className="service-detials-step-3 mt--70 mt_md--50">
                 <div className="row g-5 align-items-center">
                   <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -284,27 +225,40 @@ export default function WaterCoolerInstallation() {
                   <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 mb_md--20 mb_sm--20">
                     <h4 className="title">Customer Benefits</h4>
                     <p className="disc">
-                      Our water cooler solutions are designed to provide maximum
-                      convenience, health benefits, and long-term cost savings.
+                      Our interlocking brick work services are tailored to
+                      deliver strength, design flexibility, and long-term value:
                     </p>
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>Safe and clean drinking water access</span>
+                      <span>Durable, weather-resistant paving solutions</span>
                     </div>
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>Energy-efficient and eco-friendly systems</span>
+                      <span>
+                        Custom designs for any infrastructure requirement
+                      </span>
                     </div>
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>Dedicated after-sales support</span>
+                      <span>Expert installation and finishing</span>
+                    </div>
+                    <div className="single-banifits">
+                      <i className="far fa-check-circle" />
+                      <span>
+                        Timely project completion with professional support
+                      </span>
+                    </div>
+                    <div className="single-banifits">
+                      <i className="far fa-check-circle" />
+                      <span>Low maintenance and long-term cost savings</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* sidebar area */}
+            {/*rts blog wizered area */}
+            {/* Sidebar */}
             <div className="col-xl-4 col-md-12 col-sm-12 col-12 mt_lg--60 pl--50 pl_md--0 pl-lg-controler pl_sm--0">
               <div className="rts-single-wized Categories service">
                 <div className="wized-header">
@@ -402,7 +356,7 @@ export default function WaterCoolerInstallation() {
                 </div>
               </div>
             </div>
-            {/* end sidebar */}
+            {/* rts- blog wizered end area */}
           </div>
         </div>
       </div>

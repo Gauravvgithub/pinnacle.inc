@@ -6,17 +6,19 @@ import FooterOne from "@/components/footer/FooterOne";
 import Carousel from "react-bootstrap/Carousel";
 import { CarouselItem } from "react-bootstrap";
 
-export default function WaterCoolerInstallation() {
+export default function Home() {
   const breadcrumbs = [
     { label: "Home", link: "/" },
     { label: "Our Service", link: "/our-service" },
-    { label: "Water Cooler Supplier" },
+    { label: "Gas & Water Pipeline Services" },
   ];
   return (
     <div className="">
       <HeaderOne />
-      <Breadcrumb title="Water Cooler Supplier" breadcrumbs={breadcrumbs} />
-
+      <Breadcrumb
+        title="Gas & Water Pipeline Services"
+        breadcrumbs={breadcrumbs}
+      />
       {/* start service details area */}
       <div className="rts-service-details-area rts-section-gap">
         <div className="container">
@@ -25,177 +27,114 @@ export default function WaterCoolerInstallation() {
               {/* service details left area start */}
               <div className="service-detials-step-1">
                 <div className="thumbnail">
-                  {/* <img
-                    src="assets/images/service/02.png"
-                    alt="water-cooler-service"
-                  /> */}
-
                   <Carousel>
                     <CarouselItem interval={3000}>
-                      {/* <ExampleCarouselImage text="First slide" /> */}
                       <img
-                        src="assets/images/service/water-slide-1.png"
-                        alt="water-cooler-service"
+                        src="assets/images/service/pipeline-1.jpg"
+                        alt="gas-and-water-pipeline-installation"
                       />
-                      {/* <CarouselCaption>
-                        <h3>First slide label</h3>
-                        <p>
-                          Nulla vitae elit libero, a pharetra augue mollis
-                          interdum.
-                        </p>
-                      </CarouselCaption> */}
                     </CarouselItem>
                     <CarouselItem interval={1800}>
-                      {/* <ExampleCarouselImage text="Second slide" /> */}
                       <img
-                        src="assets/images/service/water-slide-2.png"
-                        alt="water-cooler-service"
+                        src="assets/images/service/pipeline-3.jpg"
+                        alt="underground-pipeline-work"
                       />
-                      {/* <CarouselCaption>
-                        <h3>Second slide label</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
-                      </CarouselCaption> */}
                     </CarouselItem>
                     <CarouselItem interval={1600}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
                       <img
-                        src="assets/images/service/water-slide-3.png"
-                        alt="water-cooler-service"
+                        src="assets/images/service/pipeline-4.jpg"
+                        alt="pipeline-jointing-work"
                       />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
                     </CarouselItem>
-                    <CarouselItem interval={1400}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
+                    <CarouselItem interval={1600}>
                       <img
-                        src="assets/images/service/water-slide-4.png"
-                        alt="water-cooler-service"
+                        src="assets/images/service/pipeline-2.jpg"
+                        alt="pipeline-network-infrastructure"
                       />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={1200}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-5.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={1000}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-6.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={800}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-7.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={600}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-8.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={400}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-9.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
                     </CarouselItem>
                   </Carousel>
                 </div>
-                <h4 className="title">Water Cooler Supplier Services</h4>
+
+                <h4 className="title">Gas & Water Pipeline Services</h4>
                 <p className="disc">
-                  We specialize in the supply and installation of high-quality
-                  water coolers and drinking water systems at various public and
-                  private locations. Our services ensure access to safe, clean,
-                  and chilled drinking water, making us a trusted partner for
-                  organizations that value health, hygiene, and community
-                  welfare.
+                  We provide reliable and professionally managed gas and water
+                  pipeline installation services designed to meet the highest
+                  industry standards. From underground network construction to
+                  advanced utility connections, our solutions ensure safe,
+                  efficient, and long-lasting pipeline systems for residential,
+                  commercial, and industrial applications.
                 </p>
                 <p className="disc">
-                  Over the years, we have successfully executed projects under
-                  government tenders and corporate contracts with reputed
-                  organizations such as:
+                  With advanced installation techniques, quality materials, and
+                  experienced engineers, we deliver pipeline infrastructure that
+                  guarantees seamless flow, leak-proof performance, and
+                  long-term durability while meeting all safety and compliance
+                  requirements.
                 </p>
-                <ul className="disc" >
-                  <li style={{listStyle:"disc"}} >GAIL (Gas Authority of India Limited)</li>
-                  <li style={{listStyle:"disc"}} >BPCL (Bharat Petroleum Corporation Limited)</li>
-                  <li style={{listStyle:"disc"}} >Other leading institutions and enterprises</li>
-                </ul>
 
                 <h4 className="title">Our Expertise Covers</h4>
-                <ul className="disc">
-                  <li style={{listStyle:"disc"}} >End-to-end installation of water coolers</li>
-                  <li style={{listStyle:"disc"}} >Regular servicing and maintenance support</li>
-                  <li style={{listStyle:"disc"}} >Compliance with safety and quality standards</li>
-                  <li style={{listStyle:"disc"}} >Efficient project execution within timelines</li>
-                </ul>
+                <div className="disc">
+                  <ul
+                    style={{
+                      listStyleType: "disc",
+                      paddingLeft: "40px",
+                      margin: "10px 0",
+                    }}
+                  >
+                    <li style={{ listStyleType: "disc" }}>
+                      Installation of gas and water supply pipelines
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      HDPE, GI, DI, and PVC pipeline laying
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Underground utility trenching and excavation
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Jointing, welding, and pressure testing of pipelines
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Residential, commercial, and industrial pipeline networks
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Valve chambers, meter installation, and fittings
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Leak detection and preventive maintenance
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Compliance with safety and regulatory standards
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      End-to-end commissioning and handover support
+                    </li>
+                  </ul>
+                </div>
 
+                <h4 className="title">
+                  Safe, Efficient & Reliable Pipeline Systems
+                </h4>
                 <p className="disc">
-                  By combining technical know-how with reliable execution, we
-                  continue to build long-term partnerships with organizations
-                  across industries.
+                  Our gas and water pipeline services are engineered for
+                  precision, reliability, and performance. Whether it's a small
+                  residential network or a large-scale industrial project, we
+                  ensure seamless integration and safe operation of every system
+                  we install.
                 </p>
 
-                {/* service highlights */}
+                <h4 className="title">
+                  Quality Materials & Expert Engineering
+                </h4>
+                <p className="disc">
+                  We use top-grade piping materials, advanced jointing methods,
+                  and modern equipment to ensure system integrity. Each project
+                  is executed with meticulous planning and skilled workmanship
+                  to guarantee leak-proof and efficient performance.
+                </p>
+
                 <div className="row g-5 mt--30 mb--40">
                   <div className="col-lg-6">
+                    {/* single service details card */}
                     <div className="service-details-card">
                       <div className="thumbnail">
                         <img
@@ -205,15 +144,17 @@ export default function WaterCoolerInstallation() {
                         />
                       </div>
                       <div className="details">
-                        <h6 className="title">Trusted Partner</h6>
+                        <h6 className="title">Proven Expertise</h6>
                         <p className="disc">
-                          Successfully executed multiple government and
-                          corporate water cooler projects.
+                          Extensive experience in gas and water pipeline
+                          installations across multiple industries and terrains.
                         </p>
                       </div>
                     </div>
+                    {/* single service details card End */}
                   </div>
                   <div className="col-lg-6">
+                    {/* single service details card */}
                     <div className="service-details-card">
                       <div className="thumbnail">
                         <img
@@ -223,15 +164,17 @@ export default function WaterCoolerInstallation() {
                         />
                       </div>
                       <div className="details">
-                        <h6 className="title">Quality Service</h6>
+                        <h6 className="title">On-Time Delivery</h6>
                         <p className="disc">
-                          Delivering safe, hygienic, and durable installations
-                          with ongoing maintenance support.
+                          Timely execution with minimal disruption to existing
+                          infrastructure.
                         </p>
                       </div>
                     </div>
+                    {/* single service details card End */}
                   </div>
                   <div className="col-lg-6">
+                    {/* single service details card */}
                     <div className="service-details-card">
                       <div className="thumbnail">
                         <img
@@ -241,15 +184,17 @@ export default function WaterCoolerInstallation() {
                         />
                       </div>
                       <div className="details">
-                        <h6 className="title">Customer Support</h6>
+                        <h6 className="title">Technical Support</h6>
                         <p className="disc">
-                          Prompt servicing and maintenance for continuous
-                          performance and client satisfaction.
+                          Continuous inspection, testing, and technical
+                          assistance throughout the project lifecycle.
                         </p>
                       </div>
                     </div>
+                    {/* single service details card End */}
                   </div>
                   <div className="col-lg-6">
+                    {/* single service details card */}
                     <div className="service-details-card">
                       <div className="thumbnail">
                         <img
@@ -259,18 +204,19 @@ export default function WaterCoolerInstallation() {
                         />
                       </div>
                       <div className="details">
-                        <h6 className="title">Cost-Effective</h6>
+                        <h6 className="title">Cost-Effective Solutions</h6>
                         <p className="disc">
-                          Affordable solutions with long-term value and reduced
-                          maintenance costs.
+                          Optimized design and installation methods for
+                          long-term savings and reliable operation.
                         </p>
                       </div>
                     </div>
+                    {/* single service details card End */}
                   </div>
                 </div>
               </div>
 
-              {/* customer benefits */}
+              {/* service details left area end */}
               <div className="service-detials-step-3 mt--70 mt_md--50">
                 <div className="row g-5 align-items-center">
                   <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -284,27 +230,40 @@ export default function WaterCoolerInstallation() {
                   <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 mb_md--20 mb_sm--20">
                     <h4 className="title">Customer Benefits</h4>
                     <p className="disc">
-                      Our water cooler solutions are designed to provide maximum
-                      convenience, health benefits, and long-term cost savings.
+                      Our gas and water pipeline installation services are built
+                      to deliver safety, efficiency, and long-term reliability:
                     </p>
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>Safe and clean drinking water access</span>
+                      <span>
+                        Leak-proof, high-performance pipeline networks
+                      </span>
                     </div>
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>Energy-efficient and eco-friendly systems</span>
+                      <span>Safe and efficient installation methods</span>
                     </div>
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>Dedicated after-sales support</span>
+                      <span>Regulatory compliance and safety assurance</span>
+                    </div>
+                    <div className="single-banifits">
+                      <i className="far fa-check-circle" />
+                      <span>Expert supervision and technical support</span>
+                    </div>
+                    <div className="single-banifits">
+                      <i className="far fa-check-circle" />
+                      <span>
+                        Cost-effective solutions with minimal maintenance needs
+                      </span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* sidebar area */}
+            {/*rts blog wizered area */}
+            {/* Sidebar */}
             <div className="col-xl-4 col-md-12 col-sm-12 col-12 mt_lg--60 pl--50 pl_md--0 pl-lg-controler pl_sm--0">
               <div className="rts-single-wized Categories service">
                 <div className="wized-header">
@@ -402,7 +361,7 @@ export default function WaterCoolerInstallation() {
                 </div>
               </div>
             </div>
-            {/* end sidebar */}
+            {/* rts- blog wizered end area */}
           </div>
         </div>
       </div>

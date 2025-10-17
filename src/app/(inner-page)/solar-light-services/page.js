@@ -6,17 +6,19 @@ import FooterOne from "@/components/footer/FooterOne";
 import Carousel from "react-bootstrap/Carousel";
 import { CarouselItem } from "react-bootstrap";
 
-export default function WaterCoolerInstallation() {
+export default function Home() {
   const breadcrumbs = [
     { label: "Home", link: "/" },
     { label: "Our Service", link: "/our-service" },
-    { label: "Water Cooler Supplier" },
+    { label: "Solar Light Services" },
   ];
   return (
     <div className="">
       <HeaderOne />
-      <Breadcrumb title="Water Cooler Supplier" breadcrumbs={breadcrumbs} />
-
+      <Breadcrumb
+        title="Solar Light Services"
+        breadcrumbs={breadcrumbs}
+      />
       {/* start service details area */}
       <div className="rts-service-details-area rts-section-gap">
         <div className="container">
@@ -25,177 +27,109 @@ export default function WaterCoolerInstallation() {
               {/* service details left area start */}
               <div className="service-detials-step-1">
                 <div className="thumbnail">
-                  {/* <img
-                    src="assets/images/service/02.png"
-                    alt="water-cooler-service"
-                  /> */}
-
                   <Carousel>
                     <CarouselItem interval={3000}>
-                      {/* <ExampleCarouselImage text="First slide" /> */}
                       <img
-                        src="assets/images/service/water-slide-1.png"
-                        alt="water-cooler-service"
+                        src="assets/images/service/solar-1.jpg"
+                        alt="solar-light-installation"
                       />
-                      {/* <CarouselCaption>
-                        <h3>First slide label</h3>
-                        <p>
-                          Nulla vitae elit libero, a pharetra augue mollis
-                          interdum.
-                        </p>
-                      </CarouselCaption> */}
                     </CarouselItem>
                     <CarouselItem interval={1800}>
-                      {/* <ExampleCarouselImage text="Second slide" /> */}
                       <img
-                        src="assets/images/service/water-slide-2.png"
-                        alt="water-cooler-service"
+                        src="assets/images/service/solar-2.jpg"
+                        alt="solar-street-light"
                       />
-                      {/* <CarouselCaption>
-                        <h3>Second slide label</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
-                      </CarouselCaption> */}
                     </CarouselItem>
                     <CarouselItem interval={1600}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
                       <img
-                        src="assets/images/service/water-slide-3.png"
-                        alt="water-cooler-service"
+                        src="assets/images/service/solar-3.jpg"
+                        alt="solar-light-maintenance"
                       />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={1400}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-4.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={1200}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-5.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={1000}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-6.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={800}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-7.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={600}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-8.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={400}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-9.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
                     </CarouselItem>
                   </Carousel>
                 </div>
-                <h4 className="title">Water Cooler Supplier Services</h4>
+
+                <h4 className="title">Solar Light Services</h4>
                 <p className="disc">
-                  We specialize in the supply and installation of high-quality
-                  water coolers and drinking water systems at various public and
-                  private locations. Our services ensure access to safe, clean,
-                  and chilled drinking water, making us a trusted partner for
-                  organizations that value health, hygiene, and community
-                  welfare.
+                  We provide end-to-end solar lighting solutions designed to
+                  deliver sustainable, cost-efficient, and eco-friendly
+                  illumination for residential, commercial, and industrial
+                  applications. Our expertise covers everything from design and
+                  installation to long-term maintenance, ensuring reliable
+                  lighting performance even in remote or off-grid areas.
                 </p>
                 <p className="disc">
-                  Over the years, we have successfully executed projects under
-                  government tenders and corporate contracts with reputed
-                  organizations such as:
+                  With a strong focus on energy efficiency and durability, our
+                  solar lighting systems reduce operational costs while
+                  contributing to a greener future. Each project is executed
+                  with precision, compliance, and advanced technology for
+                  maximum impact.
                 </p>
-                <ul className="disc" >
-                  <li style={{listStyle:"disc"}} >GAIL (Gas Authority of India Limited)</li>
-                  <li style={{listStyle:"disc"}} >BPCL (Bharat Petroleum Corporation Limited)</li>
-                  <li style={{listStyle:"disc"}} >Other leading institutions and enterprises</li>
-                </ul>
 
                 <h4 className="title">Our Expertise Covers</h4>
-                <ul className="disc">
-                  <li style={{listStyle:"disc"}} >End-to-end installation of water coolers</li>
-                  <li style={{listStyle:"disc"}} >Regular servicing and maintenance support</li>
-                  <li style={{listStyle:"disc"}} >Compliance with safety and quality standards</li>
-                  <li style={{listStyle:"disc"}} >Efficient project execution within timelines</li>
-                </ul>
+                <div className="disc">
+                  <ul
+                    style={{
+                      listStyleType: "disc",
+                      paddingLeft: "40px",
+                      margin: "10px 0",
+                    }}
+                  >
+                    <li style={{ listStyleType: "disc" }}>
+                      Solar street light installation and maintenance
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Solar-powered pathway and garden lighting
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Smart solar lighting with motion sensors and timers
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Solar energy system design and integration
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Off-grid and hybrid lighting solutions
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Solar panel mounting and wiring works
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      LED lighting with energy-saving technology
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Compliance with energy and environmental standards
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Post-installation inspection and quality assurance
+                    </li>
+                  </ul>
+                </div>
 
+                <h4 className="title">
+                  Sustainable & Smart Lighting Solutions
+                </h4>
                 <p className="disc">
-                  By combining technical know-how with reliable execution, we
-                  continue to build long-term partnerships with organizations
-                  across industries.
+                  Our solar lighting solutions are ideal for roads, parks,
+                  residential colonies, commercial complexes, industrial zones,
+                  and government projects. We customize each project to maximize
+                  efficiency, reduce energy bills, and minimize carbon
+                  footprint.
                 </p>
 
-                {/* service highlights */}
+                <h4 className="title">
+                  Reliable Technology & Quality Assurance
+                </h4>
+                <p className="disc">
+                  We use advanced photovoltaic technology, weather-resistant
+                  materials, and smart control systems to deliver lighting
+                  solutions that are built to last. Our team adheres to strict
+                  quality standards and ensures every installation meets
+                  performance and safety requirements.
+                </p>
+
                 <div className="row g-5 mt--30 mb--40">
                   <div className="col-lg-6">
+                    {/* single service details card */}
                     <div className="service-details-card">
                       <div className="thumbnail">
                         <img
@@ -205,15 +139,17 @@ export default function WaterCoolerInstallation() {
                         />
                       </div>
                       <div className="details">
-                        <h6 className="title">Trusted Partner</h6>
+                        <h6 className="title">Proven Expertise</h6>
                         <p className="disc">
-                          Successfully executed multiple government and
-                          corporate water cooler projects.
+                          Years of experience in providing sustainable and
+                          reliable solar lighting systems.
                         </p>
                       </div>
                     </div>
+                    {/* single service details card End */}
                   </div>
                   <div className="col-lg-6">
+                    {/* single service details card */}
                     <div className="service-details-card">
                       <div className="thumbnail">
                         <img
@@ -223,15 +159,17 @@ export default function WaterCoolerInstallation() {
                         />
                       </div>
                       <div className="details">
-                        <h6 className="title">Quality Service</h6>
+                        <h6 className="title">On-Time Delivery</h6>
                         <p className="disc">
-                          Delivering safe, hygienic, and durable installations
-                          with ongoing maintenance support.
+                          Quick and efficient installation with minimal
+                          disruption.
                         </p>
                       </div>
                     </div>
+                    {/* single service details card End */}
                   </div>
                   <div className="col-lg-6">
+                    {/* single service details card */}
                     <div className="service-details-card">
                       <div className="thumbnail">
                         <img
@@ -241,15 +179,17 @@ export default function WaterCoolerInstallation() {
                         />
                       </div>
                       <div className="details">
-                        <h6 className="title">Customer Support</h6>
+                        <h6 className="title">Technical Support</h6>
                         <p className="disc">
-                          Prompt servicing and maintenance for continuous
-                          performance and client satisfaction.
+                          Comprehensive after-sales service and expert technical
+                          assistance.
                         </p>
                       </div>
                     </div>
+                    {/* single service details card End */}
                   </div>
                   <div className="col-lg-6">
+                    {/* single service details card */}
                     <div className="service-details-card">
                       <div className="thumbnail">
                         <img
@@ -259,18 +199,19 @@ export default function WaterCoolerInstallation() {
                         />
                       </div>
                       <div className="details">
-                        <h6 className="title">Cost-Effective</h6>
+                        <h6 className="title">Cost-Effective Solutions</h6>
                         <p className="disc">
-                          Affordable solutions with long-term value and reduced
-                          maintenance costs.
+                          Energy-saving technology that reduces long-term
+                          operational costs.
                         </p>
                       </div>
                     </div>
+                    {/* single service details card End */}
                   </div>
                 </div>
               </div>
 
-              {/* customer benefits */}
+              {/* service details left area end */}
               <div className="service-detials-step-3 mt--70 mt_md--50">
                 <div className="row g-5 align-items-center">
                   <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -284,27 +225,44 @@ export default function WaterCoolerInstallation() {
                   <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 mb_md--20 mb_sm--20">
                     <h4 className="title">Customer Benefits</h4>
                     <p className="disc">
-                      Our water cooler solutions are designed to provide maximum
-                      convenience, health benefits, and long-term cost savings.
+                      Our solar lighting services are tailored to provide
+                      efficiency, reliability, and long-term savings:
                     </p>
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>Safe and clean drinking water access</span>
+                      <span>
+                        Sustainable and energy-efficient lighting solutions
+                      </span>
                     </div>
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>Energy-efficient and eco-friendly systems</span>
+                      <span>Expert supervision and technical precision</span>
                     </div>
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>Dedicated after-sales support</span>
+                      <span>
+                        Compliance with renewable energy and safety standards
+                      </span>
+                    </div>
+                    <div className="single-banifits">
+                      <i className="far fa-check-circle" />
+                      <span>
+                        Timely project delivery with transparent communication
+                      </span>
+                    </div>
+                    <div className="single-banifits">
+                      <i className="far fa-check-circle" />
+                      <span>
+                        Long-term cost savings with minimal maintenance
+                      </span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* sidebar area */}
+            {/*rts blog wizered area */}
+            {/* Sidebar */}
             <div className="col-xl-4 col-md-12 col-sm-12 col-12 mt_lg--60 pl--50 pl_md--0 pl-lg-controler pl_sm--0">
               <div className="rts-single-wized Categories service">
                 <div className="wized-header">
@@ -402,7 +360,7 @@ export default function WaterCoolerInstallation() {
                 </div>
               </div>
             </div>
-            {/* end sidebar */}
+            {/* rts- blog wizered end area */}
           </div>
         </div>
       </div>
