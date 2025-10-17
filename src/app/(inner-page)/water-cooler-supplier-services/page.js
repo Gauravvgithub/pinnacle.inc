@@ -24,139 +24,80 @@ export default function WaterCoolerInstallation() {
             <div className="col-xl-8 col-md-12 col-sm-12 col-12">
               {/* service details left area start */}
               <div className="service-detials-step-1">
-                <div className="thumbnail">
+                <div className="thumbnail text-center">
                   {/* <img
                     src="assets/images/service/02.png"
                     alt="water-cooler-service"
                   /> */}
 
                   <Carousel>
-                    <CarouselItem interval={3000}>
-                      {/* <ExampleCarouselImage text="First slide" /> */}
+                    <CarouselItem interval={1000}>
                       <img
-                        src="assets/images/service/water-slide-1.png"
+                        src="assets/images/service/water-1.jpeg"
                         alt="water-cooler-service"
                       />
-                      {/* <CarouselCaption>
-                        <h3>First slide label</h3>
-                        <p>
-                          Nulla vitae elit libero, a pharetra augue mollis
-                          interdum.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={1800}>
-                      {/* <ExampleCarouselImage text="Second slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-2.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Second slide label</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={1600}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-3.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={1400}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-4.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
-                    <CarouselItem interval={1200}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/water-slide-5.png"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
                     </CarouselItem>
                     <CarouselItem interval={1000}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
                       <img
-                        src="assets/images/service/water-slide-6.png"
+                        src="assets/images/service/water-2.jpeg"
                         alt="water-cooler-service"
                       />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
                     </CarouselItem>
-                    <CarouselItem interval={800}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
+                    <CarouselItem interval={1000}>
                       <img
-                        src="assets/images/service/water-slide-7.png"
+                        src="assets/images/service/water-3.jpeg"
                         alt="water-cooler-service"
                       />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
                     </CarouselItem>
-                    <CarouselItem interval={600}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
+                    <CarouselItem interval={1000}>
                       <img
-                        src="assets/images/service/water-slide-8.png"
+                        src="assets/images/service/water-4.jpeg"
                         alt="water-cooler-service"
                       />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
                     </CarouselItem>
-                    <CarouselItem interval={400}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
+                    <CarouselItem interval={1000}>
                       <img
-                        src="assets/images/service/water-slide-9.png"
+                        src="assets/images/service/water-5.jpeg"
                         alt="water-cooler-service"
                       />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
                     </CarouselItem>
+                    <CarouselItem interval={1000}>
+                      <img
+                        src="assets/images/service/water-6.jpeg"
+                        alt="water-cooler-service"
+                      />
+                    </CarouselItem>
+                    <CarouselItem interval={1000}>
+                      <img
+                        src="assets/images/service/water-7.jpeg"
+                        alt="water-cooler-service"
+                      />
+                    </CarouselItem>
+                    <CarouselItem interval={1000}>
+                      <img
+                        src="assets/images/service/water-8.jpeg"
+                        alt="water-cooler-service"
+                      />
+                    </CarouselItem>
+                    <CarouselItem interval={1000}>
+                      <img
+                        src="assets/images/service/water-9.jpeg"
+                        alt="water-cooler-service"
+                      />
+                    </CarouselItem>
+                    <CarouselItem interval={1000}>
+                      <img
+                        src="assets/images/service/water-10.jpeg"
+                        alt="water-cooler-service"
+                      />
+                    </CarouselItem>
+                    <CarouselItem interval={1000}>
+                      <img
+                        src="assets/images/service/water-11.jpeg"
+                        alt="water-cooler-service"
+                      />
+                    </CarouselItem>
+                    
                   </Carousel>
                 </div>
                 <h4 className="title">Water Cooler Supplier Services</h4>
@@ -173,18 +114,32 @@ export default function WaterCoolerInstallation() {
                   government tenders and corporate contracts with reputed
                   organizations such as:
                 </p>
-                <ul className="disc" >
-                  <li style={{listStyle:"disc"}} >GAIL (Gas Authority of India Limited)</li>
-                  <li style={{listStyle:"disc"}} >BPCL (Bharat Petroleum Corporation Limited)</li>
-                  <li style={{listStyle:"disc"}} >Other leading institutions and enterprises</li>
+                <ul className="disc">
+                  <li style={{ listStyle: "disc" }}>
+                    GAIL (Gas Authority of India Limited)
+                  </li>
+                  <li style={{ listStyle: "disc" }}>
+                    BPCL (Bharat Petroleum Corporation Limited)
+                  </li>
+                  <li style={{ listStyle: "disc" }}>
+                    Other leading institutions and enterprises
+                  </li>
                 </ul>
 
                 <h4 className="title">Our Expertise Covers</h4>
                 <ul className="disc">
-                  <li style={{listStyle:"disc"}} >End-to-end installation of water coolers</li>
-                  <li style={{listStyle:"disc"}} >Regular servicing and maintenance support</li>
-                  <li style={{listStyle:"disc"}} >Compliance with safety and quality standards</li>
-                  <li style={{listStyle:"disc"}} >Efficient project execution within timelines</li>
+                  <li style={{ listStyle: "disc" }}>
+                    End-to-end installation of water coolers
+                  </li>
+                  <li style={{ listStyle: "disc" }}>
+                    Regular servicing and maintenance support
+                  </li>
+                  <li style={{ listStyle: "disc" }}>
+                    Compliance with safety and quality standards
+                  </li>
+                  <li style={{ listStyle: "disc" }}>
+                    Efficient project execution within timelines
+                  </li>
                 </ul>
 
                 <p className="disc">

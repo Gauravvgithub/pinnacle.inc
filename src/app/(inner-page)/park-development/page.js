@@ -45,51 +45,53 @@ export default function ParkGymInstallation() {
 
                   <Carousel>
                     <CarouselItem interval={1000}>
-                      {/* <ExampleCarouselImage text="First slide" /> */}
                       <img
-                        src="assets/images/service/01.jpg"
+                        src="assets/images/service/gym-06.png"
                         alt="Park Gym Equipment"
                       />
-                      {/* <CarouselCaption>
-                        <h3>First slide label</h3>
-                        <p>
-                          Nulla vitae elit libero, a pharetra augue mollis
-                          interdum.
-                        </p>
-                      </CarouselCaption> */}
                     </CarouselItem>
-                    <CarouselItem interval={500}>
-                      {/* <ExampleCarouselImage text="Second slide" /> */}
+                    <CarouselItem interval={1000}>
                       <img
-                        src="assets/images/service/slide-02.png"
+                        src="assets/images/service/gym-05.png"
                         alt="Park Gym Equipment"
                       />
-                      {/* <CarouselCaption>
-                        <h3>Second slide label</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
-                      </CarouselCaption> */}
                     </CarouselItem>
-                    <CarouselItem>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
+                    <CarouselItem interval={1000}>
                       <img
-                        src="assets/images/service/slide-03.png"
+                        src="assets/images/service/gym-04.png"
                         alt="Park Gym Equipment"
                       />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
+                    </CarouselItem>
+                    <CarouselItem interval={1000}>
+                      <img
+                        src="assets/images/service/gym-03.png"
+                        alt="Park Gym Equipment"
+                      />
+                    </CarouselItem>
+                    <CarouselItem interval={1000}>
+                      <img
+                        src="assets/images/service/gym-02.png"
+                        alt="Park Gym Equipment"
+                      />
+                    </CarouselItem>
+                    <CarouselItem interval={1000}>
+                      <img
+                        src="assets/images/service/gym-01.png"
+                        alt="Park Gym Equipment"
+                      />
+                    </CarouselItem>
+                    <CarouselItem interval={1000}>
+                      <img
+                        src="assets/images/service/gym-06.png"
+                        alt="Park Gym Equipment"
+                      />
                     </CarouselItem>
                   </Carousel>
                 </div>
 
-                <h4 className="title">Park Development</h4>
+                <h4 className="title">
+                  <span>Open Gym</span> Park Development{" "}
+                </h4>
                 <p className="disc">
                   At Pinnacle, we transform public spaces into vibrant community
                   hubs by equipping parks with high-quality open gym machines.
