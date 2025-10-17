@@ -29,7 +29,7 @@ export default function ParkGymInstallation() {
   return (
     <div>
       <HeaderOne />
-      <Breadcrumb title="Park Development" breadcrumbs={breadcrumbs} />
+      <Breadcrumb title="Park Development" breadcrumbs={breadcrumbs} backgroundImage="assets/images/banner-services/gym-banner.jpg" />
 
       {/* Service Details Area */}
       <div className="rts-service-details-area rts-section-gap">

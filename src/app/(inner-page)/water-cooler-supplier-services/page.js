@@ -15,7 +15,7 @@ export default function WaterCoolerInstallation() {
   return (
     <div className="">
       <HeaderOne />
-      <Breadcrumb title="Water Cooler Supplier" breadcrumbs={breadcrumbs} />
+      <Breadcrumb title="Water Cooler Supplier" breadcrumbs={breadcrumbs} backgroundImage="assets/images/banner-services/water-banner.jpg" />
 
       {/* start service details area */}
       <div className="rts-service-details-area rts-section-gap">

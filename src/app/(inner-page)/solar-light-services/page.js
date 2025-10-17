@@ -18,6 +18,7 @@ export default function Home() {
       <Breadcrumb
         title="Solar Light Services"
         breadcrumbs={breadcrumbs}
+        backgroundImage="assets/images/banner-services/solar-banner.jpg"
       />
       {/* start service details area */}
       <div className="rts-service-details-area rts-section-gap">

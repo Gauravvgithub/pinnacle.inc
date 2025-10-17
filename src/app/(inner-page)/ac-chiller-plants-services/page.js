@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className="">
       <HeaderOne />
-      <Breadcrumb title="AC Chiller Plants Services" breadcrumbs={breadcrumbs} />
+      <Breadcrumb title="AC Chiller Plants Services" breadcrumbs={breadcrumbs} backgroundImage="assets/images/banner-services/ac-banner.jpg" />
       {/* start service details area */}
       <div className="rts-service-details-area rts-section-gap">
         <div className="container">
