@@ -28,7 +28,7 @@ function FooterOne() {
                     <span>Pinnacle Inc</span> */}
                   </Link>
                 </div>
-                <p className="text-light small" style={{margin:"0px"}}>
+                <p className="text-light small" style={{ margin: "0px" }}>
                   We are Pinnacle Inc – delivering excellence in construction,
                   innovation, and customer satisfaction.
                 </p>
@@ -63,7 +63,10 @@ function FooterOne() {
                     </ul>
                   </div>
                 </div>
-                <div className="social mt-3 gap-3 d-flex" style={{marginLeft:"35px"}}>
+                <div
+                  className="social mt-3 gap-3 d-flex"
+                  style={{ marginLeft: "35px" }}
+                >
                   {/* <Link
                     href="https://www.facebook.com"
                     target="_blank"
@@ -76,7 +79,15 @@ function FooterOne() {
                     target="_blank"
                     className="me-3 text-light"
                   >
-                    <i className="fab fa-whatsapp" style={{color:"green", fontSize:"30px"}}></i>
+                    <i
+                      className="fab fa-whatsapp"
+                      style={{
+                        fontSize: "30px",
+                        background: "linear-gradient(45deg, #25D366, #128C7E)", // WhatsApp green shades
+                        WebkitBackgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                      }}
+                    ></i>
                   </Link>
                   {/* <Link
                     href="https://www.linkedin.com"
@@ -90,7 +101,16 @@ function FooterOne() {
                     target="_blank"
                     className="text-light"
                   >
-                    <i className="fab fa-instagram" style={{color:"purple", fontSize:"30px"}}></i>
+                    <i
+                      className="fab fa-instagram"
+                      style={{
+                        fontSize: "30px",
+                        background:
+                          "linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5)",
+                        WebkitBackgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                      }}
+                    ></i>
                   </Link>
                 </div>
               </div>
@@ -124,10 +144,10 @@ function FooterOne() {
                         <i className="far fa-arrow-right" /> Our Services
                       </Link>
                     </li>
-                    
-                  {/* </ul>
+
+                    {/* </ul>
                   <ul className="links margin-left-70"> */}
-                  <li>
+                    <li>
                       <Link href="/team">
                         <i className="far fa-arrow-right" /> Our Team
                       </Link>
@@ -207,14 +227,18 @@ function FooterOne() {
               <div className="col-md-6 col-12 text-center text-md-start mb-2 mb-md-0">
                 <p className="text-sm text-gray-600">
                   Pinnacle Inc - Copyright {new Date().getFullYear()}. All
-                  rights reserved. Managed and Developed By{" "}
+                  rights reserved.
+                  <br />
+                  Managed and Developed By{" "}
                   <a
                     href="https://nationalmarketingprojects.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-semibold hover:underline color-white"
+                    className="color-red font-semibold hover:underline color-red"
                   >
-                    National Marketing Projects
+                    <span style={{ color: "red" }}>
+                      National Marketing Projects
+                    </span>
                   </a>
                 </p>
               </div>
