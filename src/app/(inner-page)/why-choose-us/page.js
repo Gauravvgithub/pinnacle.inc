@@ -34,22 +34,58 @@ export default function ParkGymInstallation() {
                   <Carousel>
                     <CarouselItem interval={1000}>
                       <img
-                        src="assets/images/service/slide-02.png"
+                        src="assets/images/service/ac-1.jpg"
+                        alt="Why Choose Us - Our Services"
+                      />
+                    </CarouselItem>
+                    {/* <CarouselItem interval={500}>
+                      <img
+                        src="assets/images/service/guard-6.jpeg"
+                        alt="Quality Services"
+                      />
+                    </CarouselItem> */}
+                    <CarouselItem>
+                      <img
+                        src="assets/images/service/gym-03.png"
+                        alt="Trusted Service Provider"
+                      />
+                    </CarouselItem>
+                    <CarouselItem>
+                      <img
+                        src="assets/images/service/interlocking-1.jpg"
+                        alt="Trusted Service Provider"
+                      />
+                    </CarouselItem>
+                    <CarouselItem interval={1000}>
+                      <img
+                        src="assets/images/service/pipeline-1.jpg"
                         alt="Why Choose Us - Our Services"
                       />
                     </CarouselItem>
                     <CarouselItem interval={500}>
                       <img
-                        src="assets/images/service/water-slide-1.png"
+                        src="assets/images/service/pipeline-2.jpg"
                         alt="Quality Services"
                       />
                     </CarouselItem>
                     <CarouselItem>
                       <img
-                        src="assets/images/service/slide-03.png"
+                        src="assets/images/service/road-5.jpg"
                         alt="Trusted Service Provider"
                       />
                     </CarouselItem>
+                    <CarouselItem>
+                      <img
+                        src="assets/images/service/solar-3.jpg"
+                        alt="Trusted Service Provider"
+                      />
+                    </CarouselItem>
+                    {/* <CarouselItem>
+                      <img
+                        src="assets/images/service/water-6.jpeg"
+                        alt="Trusted Service Provider"
+                      />
+                    </CarouselItem> */}
                   </Carousel>
                 </div>
 
@@ -73,30 +109,45 @@ export default function ParkGymInstallation() {
                   specialized service segments:
                 </p>
                 <ul className="disc-list">
-                  <li style={{listStyle:"disc"}}>
-                    <strong>Open Gym Equipments Development</strong> – Complete planning and
-                    installation of modern park infrastructure and outdoor
-                    fitness zones.
+                  <li style={{ listStyle: "disc" }}>
+                    <strong>Open Gym Equipments Development</strong> – Complete
+                    planning and installation of modern park infrastructure and
+                    outdoor fitness zones.
                   </li>
-                  <li style={{listStyle:"disc"}}>
+                  <li style={{ listStyle: "disc" }}>
                     <strong>Water Cooler Supplier Services</strong> – Direct
                     supply of energy-efficient water cooling systems at the best
                     market rates.
                   </li>
-                  <li style={{listStyle:"disc"}}>
+                  <li style={{ listStyle: "disc" }}>
                     <strong>Security & Manpower Services</strong> – Trained,
                     verified, and professional manpower for residential,
                     commercial, and industrial needs.
                   </li>
-                  <li style={{listStyle:"disc"}}>
+                  <li style={{ listStyle: "disc" }}>
                     <strong>AC Chiller Plants Services</strong> – Installation
                     and maintenance of advanced AC chiller systems for optimal
                     cooling performance.
                   </li>
-                  <li style={{listStyle:"disc"}}>
+                  <li style={{ listStyle: "disc" }}>
                     <strong>Roads and Sewer Lines</strong> – High-quality
                     infrastructure development ensuring strength, safety, and
                     longevity.
+                  </li>
+                  <li style={{ listStyle: "disc" }}>
+                    <strong>Solar Light Services</strong> – Installation and
+                    maintenance of solar-powered lighting systems for
+                    energy-efficient outdoor and street illumination.
+                  </li>
+                  <li style={{ listStyle: "disc" }}>
+                    <strong>Interlocking Brick Work Services</strong> – Durable
+                    and aesthetically pleasing interlocking brick solutions for
+                    pathways, parking areas, and open spaces.
+                  </li>
+                  <li style={{ listStyle: "disc" }}>
+                    <strong>Gas & Water Pipeline Services</strong> – Safe,
+                    efficient, and professional pipeline installation and
+                    maintenance for residential and commercial projects.
                   </li>
                 </ul>
 
@@ -294,6 +345,30 @@ export default function ParkGymInstallation() {
                     <li>
                       <Link href={"/roads-and-sewer-lines-services"}>
                         Roads and Sewers Lines{" "}
+                        <i className="far fa-long-arrow-right" />
+                      </Link>
+                    </li>
+                  </ul>
+                  <ul className="single-categories">
+                    <li>
+                      <Link href={"/solar-light-services"}>
+                        Solar Light Services{" "}
+                        <i className="far fa-long-arrow-right" />
+                      </Link>
+                    </li>
+                  </ul>
+                  <ul className="single-categories">
+                    <li>
+                      <Link href={"/interlocking-brick-work-services"}>
+                        Interlocking Brick Work Service{" "}
+                        <i className="far fa-long-arrow-right" />
+                      </Link>
+                    </li>
+                  </ul>
+                  <ul className="single-categories">
+                    <li>
+                      <Link href={"/gas-and-water-pipeline-services"}>
+                        Gas & Water Pipeline Services{" "}
                         <i className="far fa-long-arrow-right" />
                       </Link>
                     </li>
