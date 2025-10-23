@@ -13,7 +13,7 @@ function TeamOne() {
     {
       id: 1,
       name: "Mr. Shivanand Pandey",
-      position: "Founder & MD",
+      position: "Founder & Director",
       image: "assets/images/team/tm/01.jpeg",
     },
     {

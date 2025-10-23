@@ -96,7 +96,7 @@ function AboutOne() {
                             Mr. Shivanand Pandey
                           </h6>
                         </a>
-                        <span>Founder &amp; MD</span>
+                        <span>Founder &amp; Director</span>
                       </div>
                     </div>
                   </div>
