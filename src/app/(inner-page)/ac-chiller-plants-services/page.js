@@ -15,7 +15,11 @@ export default function Home() {
   return (
     <div className="">
       <HeaderOne />
-      <Breadcrumb title="AC Chiller Plants Services" breadcrumbs={breadcrumbs} backgroundImage="assets/images/banner-services/ac-banner.jpg" />
+      <Breadcrumb
+        title="AC Chiller Plants Services"
+        breadcrumbs={breadcrumbs}
+        backgroundImage="assets/images/banner-services/ac-banner.jpg"
+      />
       {/* start service details area */}
       <div className="rts-service-details-area rts-section-gap">
         <div className="container">
@@ -82,38 +86,86 @@ export default function Home() {
                         </p>
                       </CarouselCaption> */}
                     </CarouselItem>
+                    <CarouselItem interval={1400}>
+                      {/* <ExampleCarouselImage text="Third slide" /> */}
+                      <img
+                        src="assets/images/service/ac-5.jpg"
+                        alt="water-cooler-service"
+                      />
+                      {/* <CarouselCaption>
+                        <h3>Third slide label</h3>
+                        <p>
+                          Praesent commodo cursus magna, vel scelerisque nisl
+                          consectetur.
+                        </p>
+                      </CarouselCaption> */}
+                    </CarouselItem>
+                    <CarouselItem interval={1400}>
+                      {/* <ExampleCarouselImage text="Third slide" /> */}
+                      <img
+                        src="assets/images/service/ac-6.jpg"
+                        alt="water-cooler-service"
+                      />
+                      {/* <CarouselCaption>
+                        <h3>Third slide label</h3>
+                        <p>
+                          Praesent commodo cursus magna, vel scelerisque nisl
+                          consectetur.
+                        </p>
+                      </CarouselCaption> */}
+                    </CarouselItem>
                   </Carousel>
                 </div>
-                <h4 className="title">
-                  AC Chiller Plant Services
-                </h4>
+                <h4 className="title">AC Chiller Plant Services</h4>
                 <p className="disc">
-                  We provide specialized AC chiller plant services designed to ensure optimum performance, efficiency, and longevity of large-scale cooling systems. Our expert team is equipped with the technical know-how and modern tools required to manage installation, descaling, preventive maintenance, and comprehensive servicing of chiller plants across industrial, commercial, and institutional facilities.
+                  We provide specialized AC chiller plant services designed to
+                  ensure optimum performance, efficiency, and longevity of
+                  large-scale cooling systems. Our expert team is equipped with
+                  the technical know-how and modern tools required to manage
+                  installation, descaling, preventive maintenance, and
+                  comprehensive servicing of chiller plants across industrial,
+                  commercial, and institutional facilities.
                 </p>
-            
 
-               <div>
-                 <h4 className="title">
-                    Our Expertise Covers
-                </h4>
-                <ul style={{ listStyleType: "disc", paddingLeft: "20px", margin: "10px 0" }}>
-                    <li  style={{listStyle:"disc"}} >Complete descaling and chemical cleaning of chiller systems</li>
-                    <li  style={{listStyle:"disc"}} >Preventive and corrective maintenance programs</li>
-                    <li  style={{listStyle:"disc"}} >Performance optimization for maximum energy efficiency</li>
-                    <li  style={{listStyle:"disc"}} >Repair, replacement, and servicing of chiller plant components</li>
-                    <li  style={{listStyle:"disc"}} >Annual Maintenance Contracts (AMC) for uninterrupted operations</li>
-                    
+                <div>
+                  <h4 className="title">Our Expertise Covers</h4>
+                  <ul
+                    style={{
+                      listStyleType: "disc",
+                      paddingLeft: "20px",
+                      margin: "10px 0",
+                    }}
+                  >
+                    <li style={{ listStyle: "disc" }}>
+                      Complete descaling and chemical cleaning of chiller
+                      systems
+                    </li>
+                    <li style={{ listStyle: "disc" }}>
+                      Preventive and corrective maintenance programs
+                    </li>
+                    <li style={{ listStyle: "disc" }}>
+                      Performance optimization for maximum energy efficiency
+                    </li>
+                    <li style={{ listStyle: "disc" }}>
+                      Repair, replacement, and servicing of chiller plant
+                      components
+                    </li>
+                    <li style={{ listStyle: "disc" }}>
+                      Annual Maintenance Contracts (AMC) for uninterrupted
+                      operations
+                    </li>
                   </ul>
-               </div>
+                </div>
 
-               <div>
-                   <h4 className="title">
-                  Recent Project Highlight
-                </h4>
-                <p>
-                  We successfully executed a complete AC chiller plant service at Shri Kashi Vishwanath Mandir, Varanasi. The project included thorough descaling and critical servicing to ensure seamless cooling operations at this prestigious site.
-                </p>
-               </div>
+                <div>
+                  <h4 className="title">Recent Project Highlight</h4>
+                  <p>
+                    We successfully executed a complete AC chiller plant service
+                    at Shri Kashi Vishwanath Mandir, Varanasi. The project
+                    included thorough descaling and critical servicing to ensure
+                    seamless cooling operations at this prestigious site.
+                  </p>
+                </div>
                 <div className="row g-5 mt--30 mb--40">
                   <div className="col-lg-6">
                     {/* single service details card */}
@@ -128,7 +180,8 @@ export default function Home() {
                       <div className="details">
                         <h6 className="title">Instant Business Growth</h6>
                         <p className="disc">
-                        Proven expertise in handling large-scale chiller plant projects.
+                          Proven expertise in handling large-scale chiller plant
+                          projects.
                         </p>
                       </div>
                     </div>
@@ -147,7 +200,8 @@ export default function Home() {
                       <div className="details">
                         <h6 className="title">24/7 Quality Service</h6>
                         <p className="disc">
-                        Advanced tools, skilled technicians, and reliable execution.
+                          Advanced tools, skilled technicians, and reliable
+                          execution.
                         </p>
                       </div>
                     </div>
@@ -166,7 +220,8 @@ export default function Home() {
                       <div className="details">
                         <h6 className="title">Customer Support</h6>
                         <p className="disc">
-                         Dedicated servicing with quick response for client satisfaction.
+                          Dedicated servicing with quick response for client
+                          satisfaction.
                         </p>
                       </div>
                     </div>
@@ -185,7 +240,8 @@ export default function Home() {
                       <div className="details">
                         <h6 className="title">Cost-Effective</h6>
                         <p className="disc">
-                        Optimized solutions to ensure long-term  efficiency and reduced downtime.
+                          Optimized solutions to ensure long-term efficiency and
+                          reduced downtime.
                         </p>
                       </div>
                     </div>
@@ -193,7 +249,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-
 
               {/* service details left area end */}
               <div className="service-detials-step-3 mt--70 mt_md--50">
@@ -208,10 +263,12 @@ export default function Home() {
                   </div>
                   <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 mb_md--20 mb_sm--20">
                     <h4 className="title">Customer Benefits</h4>
-                  
+
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>Improved efficiency and longer lifespan of chiller</span>
+                      <span>
+                        Improved efficiency and longer lifespan of chiller
+                      </span>
                     </div>
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
@@ -219,21 +276,27 @@ export default function Home() {
                     </div>
                     <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>Cost savings through optimized energy performance</span>
+                      <span>
+                        Cost savings through optimized energy performance
+                      </span>
                     </div>
-                     <div className="single-banifits">
+                    <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>Trusted service  ensuring uninterrupted operations</span>
+                      <span>
+                        Trusted service ensuring uninterrupted operations
+                      </span>
                     </div>
-                     <div className="single-banifits">
+                    <div className="single-banifits">
                       <i className="far fa-check-circle" />
-                      <span>Trusted expertise in critical projects across industries</span>
+                      <span>
+                        Trusted expertise in critical projects across industries
+                      </span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-                 {/* Sidebar */}
+            {/* Sidebar */}
             <div className="col-xl-4 col-md-12 col-sm-12 col-12 mt_lg--60 pl--50 pl_md--0 pl-lg-controler pl_sm--0">
               <div className="rts-single-wized Categories service">
                 <div className="wized-header">

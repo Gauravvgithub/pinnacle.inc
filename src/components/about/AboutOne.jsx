@@ -55,6 +55,12 @@ function AboutOne() {
                         Expert Team for Installation & Maintenance
                       </p>
                     </div>
+                    <div className="single">
+                      <i className="far fa-check" />
+                      <p className="details">
+                        Solar Light and Interlocking Brick Work Services
+                      </p>
+                    </div>
                   </div>
                   {/* left wrapper end */}
                   <div className="col-lg-6 col-md-6">
@@ -66,12 +72,18 @@ function AboutOne() {
                     </div>
                     <div className="single">
                       <i className="far fa-check" />
-                      <p className="details">RO & Water Cooler Installations</p>
+                      <p className="details">RO & Water Cooler Installation & Supplier</p>
                     </div>
                     <div className="single">
                       <i className="far fa-check" />
                       <p className="details">
                         AC Chiller Plant & Gym Equipment Services
+                      </p>
+                    </div>
+                    <div className="single">
+                      <i className="far fa-check" />
+                      <p className="details">
+                        Gas & Water Pipeline Services
                       </p>
                     </div>
                   </div>
