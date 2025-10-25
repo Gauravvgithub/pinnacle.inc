@@ -1,132 +1,14 @@
-// "use client";
-// import React from "react";
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import { Navigation, Scrollbar, A11y, Autoplay } from "swiper/modules";
-// import "swiper/swiper-bundle.css";
-// import "swiper/css";
-// import "swiper/css/navigation";
-// import "swiper/css/scrollbar";
-
-// function TeamOne() {
-//   // Team Data Array
-//   const teamMembers = [
-//     {
-//       id: 1,
-//       name: "Mr. Shivanand Pandey",
-//       position: "Founder & Director",
-//       image: "assets/images/team/tm/01.jpeg",
-//     },
-//     {
-//       id: 2,
-//       name: "Ms. Saloni Ahuja",
-//       position: "Vice President",
-//       image: "assets/images/team/tm/02.jpeg",
-//     },
-//     {
-//       id: 3,
-//       name: "Mr. Chhotelal Gupta",
-//       position: "Manager",
-//       image: "assets/images/team/tm/03.jpeg",
-//     },
-//     {
-//       id: 4,
-//       name: "Mr. Vikas Singh",
-//       position: "Supervison Head",
-//       image: "assets/images/team/tm/04.jpeg",
-//     },
-//     {
-//       id: 5,
-//       name: "Mr. Anurag Singh",
-//       position: "Supervisor",
-//       image: "assets/images/team/tm/05.jpeg",
-//     },
-//     {
-//       id: 6,
-//       name: "Mr. Rahul Yadav",
-//       position: "Mechanical Engineer",
-//       image: "assets/images/team/tm/06.jpeg",
-//     },
-//     {
-//       id: 7,
-//       name: "Mr. Rohit Yadav",
-//       position: "Electrical Engineer",
-//       image: "assets/images/team/tm/07.jpeg",
-//     },
-//   ];
-
-//   return (
-//     <div className="rts-team-area rts-section-gap bg-team">
-//       <div className="container">
-//         <div className="rts-title-area team text-center">
-//           <h2 className="title">Professionals Team</h2>
-//         </div>
-
-//         <div className="row g-5 mt--0">
-//           <Swiper
-//             modules={[Navigation, Scrollbar, A11y, Autoplay]}
-//             className="mySwiperh1_team"
-//             speed={1500}
-//             slidesPerView={4}
-//             spaceBetween={30}
-//             loop={true}
-//             autoplay={{
-//               delay: 2000,
-//               disableOnInteraction: false,
-//             }}
-//             navigation={{
-//               nextEl: ".rts-next",
-//               prevEl: ".rts-prev",
-//             }}
-//             breakpoints={{
-//               1200: { slidesPerView: 4 },
-//               900: { slidesPerView: 3 },
-//               768: { slidesPerView: 2 },
-//               580: { slidesPerView: 2 },
-//               450: { slidesPerView: 1 },
-//               0: { slidesPerView: 1 },
-//             }}
-//           >
-//             {teamMembers.map((member) => (
-//               <SwiperSlide key={member.id}>
-//                 <div className="team-single-one-start">
-//                   <div className="team-image-area">
-//                       <img
-//                         src={member.image}
-//                         alt={member.name}
-//                         className="img-fluid"
-//                       />
-//                   </div>
-//                   <div className="single-details" style={{height:"150px"}}>
-//                     {/* <Link href="/team-details"> */}
-//                       <h5 className="title">{member.name}</h5>
-//                     {/* </Link> */}
-//                     <p>{member.position}</p>
-//                   </div>
-//                 </div>
-//               </SwiperSlide>
-//             ))}
-//           </Swiper>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default TeamOne;
-
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Scrollbar, A11y, Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 function TeamOne() {
-  const [openPdf, setOpenPdf] = useState(null);
-
+  // Team Data Array
   const teamMembers = [
     {
       id: 1,
@@ -158,26 +40,12 @@ function TeamOne() {
       position: "Supervisor",
       image: "assets/images/team/tm/05.jpeg",
     },
-    {
-      id: 6,
-      name: "Mr. Rahul Yadav",
-      position: "Mechanical Engineer",
-      image: "assets/images/team/tm/07.jpeg",
-      degree: "assets/images/team/tm/rahul_yadav_degree.pdf",
-    },
-    {
-      id: 7,
-      name: "Mr. Rohit Yadav",
-      position: "Electrical Engineer",
-      image: "assets/images/team/tm/06.jpeg",
-      degree: "assets/images/team/tm/rohit_yadav_degree.pdf",
-    },
   ];
 
   return (
-    <div className="rts-team-area rts-section-gap bg-team position-relative">
+    <div className="rts-team-area rts-section-gap bg-team">
       <div className="container">
-        <div className="rts-title-area team text-center mb-4">
+        <div className="rts-title-area team text-center">
           <h2 className="title">Professionals Team</h2>
         </div>
 
@@ -208,26 +76,19 @@ function TeamOne() {
           >
             {teamMembers.map((member) => (
               <SwiperSlide key={member.id}>
-                <div className="team-single-one-start text-center">
+                <div className="team-single-one-start">
                   <div className="team-image-area">
-                    <img
-                      src={member.image}
-                      alt={member.name}
-                      className="img-fluid"
-                    />
+                      <img
+                        src={member.image}
+                        alt={member.name}
+                        className="img-fluid"
+                      />
                   </div>
-                  <div className="single-details" style={{ height: "180px" }}>
-                    <h5 className="title">{member.name}</h5>
+                  <div className="single-details" style={{height:"150px"}}>
+                    {/* <Link href="/team-details"> */}
+                      <h5 className="title">{member.name}</h5>
+                    {/* </Link> */}
                     <p>{member.position}</p>
-
-                    {member.degree && (
-                      <button
-                        onClick={() => setOpenPdf(member.degree)}
-                        className="btn btn-sm btn-primary mt-2"
-                      >
-                        See Proof
-                      </button>
-                    )}
                   </div>
                 </div>
               </SwiperSlide>
@@ -235,70 +96,8 @@ function TeamOne() {
           </Swiper>
         </div>
       </div>
-
-      {/* PDF POPUP */}
-      {openPdf && (
-        <div
-          className="modal fade show d-block"
-          tabIndex="-1"
-          role="dialog"
-          style={{
-            backgroundColor: "rgba(0,0,0,0.8)",
-            zIndex: 9999,
-          }}
-          onClick={() => setOpenPdf(null)}
-        >
-          <div
-            className="modal-dialog modal-l modal-dialog-centered"
-            role="document"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="modal-content border-0 shadow-lg">
-              <div className="modal-header">
-                <h5 className="modal-title">Degree Certificate</h5>
-                <button
-                  type="button"
-                  className="btn-close"
-                  onClick={() => setOpenPdf(null)}
-                ></button>
-              </div>
-
-              <div className="modal-body p-0">
-                <iframe
-                  src={openPdf}
-                  title="Degree PDF"
-                  style={{
-                    width: "100%",
-                    height: "80vh",
-                    border: "none",
-                    borderRadius: "4px",
-                  }}
-                ></iframe>
-              </div>
-
-              <div className="modal-footer">
-                <button
-                  type="button"
-                  className="btn btn-secondary"
-                  onClick={() => setOpenPdf(null)}
-                >
-                  Close
-                </button>
-                <a
-                  href={openPdf}
-                  download
-                  className="btn btn-primary"
-                >
-                  Download Degree
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 }
 
 export default TeamOne;
-
