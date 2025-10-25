@@ -114,20 +114,6 @@ export default function Home() {
                         </p>
                       </CarouselCaption> */}
                     </CarouselItem>
-                    <CarouselItem interval={1400}>
-                      {/* <ExampleCarouselImage text="Third slide" /> */}
-                      <img
-                        src="assets/images/service/ac-7.jpg"
-                        alt="water-cooler-service"
-                      />
-                      {/* <CarouselCaption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </CarouselCaption> */}
-                    </CarouselItem>
                   </Carousel>
                 </div>
                 <h4 className="title">AC Chiller Plant Services</h4>
