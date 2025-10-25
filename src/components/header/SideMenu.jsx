@@ -252,6 +252,9 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                     <li className="mobile-menu-link">
                       <Link href={"/team"}>Team</Link>
                     </li>
+                    <li className="mobile-menu-link">
+                      <Link href={"/gallery"}>Gallery</Link>
+                    </li>
                     {/* <li className="mobile-menu-link">
                       <Link href={"/team-details"}>Team Details</Link>
                     </li> */}
