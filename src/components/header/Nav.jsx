@@ -81,6 +81,9 @@ function Nav() {
                     <Link href={"/team"}>Teams</Link>
                   </li>
                   <li>
+                    <Link href={"/gallery"}>Gallery</Link>
+                  </li>
+                  <li>
                     <Link href={"/project"}>Projects</Link>
                   </li>
                 </ul>
