@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Scrollbar, A11y, Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
@@ -8,7 +8,8 @@ import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 
 function TeamOne() {
-  // Team Data Array
+  const [openPdf, setOpenPdf] = useState(null);
+
   const teamMembers = [
     {
       id: 1,
@@ -40,12 +41,26 @@ function TeamOne() {
       position: "Supervisor",
       image: "assets/images/team/tm/05.jpeg",
     },
+    {
+      id: 6,
+      name: "Mr. Rahul Yadav",
+      position: "Mechanical Engineer",
+      image: "assets/images/team/tm/07.jpeg",
+      degree: "assets/images/team/tm/rahul_yadav_degree.pdf",
+    },
+    {
+      id: 7,
+      name: "Mr. Rohit Yadav",
+      position: "Electrical Engineer",
+      image: "assets/images/team/tm/06.jpeg",
+      degree: "assets/images/team/tm/rohit_yadav_degree.pdf",
+    },
   ];
 
   return (
-    <div className="rts-team-area rts-section-gap bg-team">
+    <div className="rts-team-area rts-section-gap bg-team position-relative">
       <div className="container">
-        <div className="rts-title-area team text-center">
+        <div className="rts-title-area team text-center mb-4">
           <h2 className="title">Professionals Team</h2>
         </div>
 
@@ -76,19 +91,26 @@ function TeamOne() {
           >
             {teamMembers.map((member) => (
               <SwiperSlide key={member.id}>
-                <div className="team-single-one-start">
+                <div className="team-single-one-start text-center">
                   <div className="team-image-area">
-                      <img
-                        src={member.image}
-                        alt={member.name}
-                        className="img-fluid"
-                      />
+                    <img
+                      src={member.image}
+                      alt={member.name}
+                      className="img-fluid"
+                    />
                   </div>
-                  <div className="single-details" style={{height:"150px"}}>
-                    {/* <Link href="/team-details"> */}
-                      <h5 className="title">{member.name}</h5>
-                    {/* </Link> */}
+                  <div className="single-details" style={{ height: "180px" }}>
+                    <h5 className="title">{member.name}</h5>
                     <p>{member.position}</p>
+
+                    {member.degree && (
+                      <button
+                        onClick={() => setOpenPdf(member.degree)}
+                        className="btn btn-sm btn-primary mt-2"
+                      >
+                        See Proof
+                      </button>
+                    )}
                   </div>
                 </div>
               </SwiperSlide>
@@ -96,6 +118,67 @@ function TeamOne() {
           </Swiper>
         </div>
       </div>
+
+      {/* PDF POPUP */}
+      {openPdf && (
+        <div
+          className="modal fade show d-block"
+          tabIndex="-1"
+          role="dialog"
+          style={{
+            backgroundColor: "rgba(0,0,0,0.8)",
+            zIndex: 9999,
+          }}
+          onClick={() => setOpenPdf(null)}
+        >
+          <div
+            className="modal-dialog modal-l modal-dialog-centered"
+            role="document"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="modal-content border-0 shadow-lg">
+              <div className="modal-header">
+                <h5 className="modal-title">Degree Certificate</h5>
+                <button
+                  type="button"
+                  className="btn-close"
+                  onClick={() => setOpenPdf(null)}
+                ></button>
+              </div>
+
+              <div className="modal-body p-0">
+                <iframe
+                  src={openPdf}
+                  title="Degree PDF"
+                  style={{
+                    width: "100%",
+                    height: "80vh",
+                    border: "none",
+                    borderRadius: "4px",
+                  }}
+                ></iframe>
+              </div>
+
+              <div className="modal-footer">
+                <button
+                  type="button"
+                  className="btn btn-secondary"
+                  onClick={() => setOpenPdf(null)}
+                >
+                  Close
+                </button>
+                <a
+                  href={openPdf}
+                  download
+                  className="btn btn-primary"
+                >
+                  Download Degree
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
